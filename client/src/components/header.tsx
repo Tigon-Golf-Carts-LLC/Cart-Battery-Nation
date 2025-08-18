@@ -47,7 +47,7 @@ export default function Header() {
                 <img 
                   src="/attached_assets/tigon-logo.png" 
                   alt="TIGON Batteries Logo" 
-                  className="h-12 w-auto mr-3"
+                  className="h-16 w-auto mr-3"
                 />
                 <div className="text-2xl font-bold text-tigon-red">
                   TIGON <span className="text-tigon-green">Batteries</span>
