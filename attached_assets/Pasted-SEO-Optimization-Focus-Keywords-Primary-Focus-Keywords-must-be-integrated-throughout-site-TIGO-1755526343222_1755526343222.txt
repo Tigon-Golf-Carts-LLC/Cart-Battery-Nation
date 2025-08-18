@@ -1,0 +1,76 @@
+SEO Optimization & Focus Keywords
+Primary Focus Keywords (must be integrated throughout site):
+
+TIGON Batteries (primary brand keyword)
+Golf Cart Batteries (main product focus)
+Low Speed Vehicles (LSV) Batteries
+Neighborhood Electric Vehicle (NEV) Batteries
+Medium Speed Vehicles (MSV) Batteries
+
+SEO Implementation Requirements:
+
+Product schema markup with focus keywords
+Local business optimization
+Technical content for authority using focus keywords
+Fast loading times
+Mobile optimization
+Title tags must include focus keywords
+Meta descriptions must incorporate focus keywords naturally
+Header tags (H1, H2, H3) must strategically use focus keywords
+Alt text for images must include relevant focus keywords
+URL structure should include focus keywords where appropriate
+
+Content Keyword Density Guidelines:
+
+Focus keywords should appear naturally in content (1-3% density)
+Use variations and long-tail keywords
+Include focus keywords in first 100 words of pages
+Use focus keywords in internal linking anchor text
+
+Content Tone and Messaging
+
+Professional but approachable
+Technical accuracy with clear explanations
+Emphasis on reliability and performance
+Educational approach to build trust
+Solution-focused for different vehicle needs
+
+Sample SEO-Optimized Page Titles & Meta Descriptions
+Homepage:
+
+Title: "TIGON Batteries - Golf Cart Batteries, LSV, NEV & MSV Battery Experts"
+Meta: "TIGON Batteries specializes in Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, Neighborhood Electric Vehicle (NEV) Batteries, and Medium Speed Vehicle (MSV) Batteries. Call 1-844-844-6638"
+
+Golf Cart Category:
+
+Title: "Golf Cart Batteries by TIGON - 6V, 8V, 12V Deep Cycle Battery Solutions"
+Meta: "Premium Golf Cart Batteries from TIGON Batteries. Flooded, AGM, Gel & Lithium options. Expert support for all golf cart battery needs. Call 1-844-844-6638"
+
+LSV Category:
+
+Title: "Low Speed Vehicle (LSV) Batteries - TIGON Battery Solutions"
+Meta: "TIGON Batteries offers specialized Low Speed Vehicle (LSV) Batteries for optimal performance. All voltages and technologies available. Call 1-844-844-6638"
+
+NEV Category:
+
+Title: "Neighborhood Electric Vehicle (NEV) Batteries by TIGON"
+Meta: "Reliable Neighborhood Electric Vehicle (NEV) Batteries from TIGON Batteries. Professional installation and support. Call 1-844-844-6638"
+
+MSV Category:
+
+Title: "Medium Speed Vehicle (MSV) Batteries - TIGON Battery Experts"
+Meta: "High-performance Medium Speed Vehicle (MSV) Batteries by TIGON Batteries. Expert advice and professional support. Call 1-844-844-6638"
+Primary Phone Number: 1-844-844-6638
+Phone Link: <a href="tel:1-844-844-6638">1-844-844-6638</a>
+
+Sample SEO-Optimized Headlines/CTAs (All include focus keywords + phone)
+
+"Power Your Golf Cart with TIGON Batteries Reliability - Call 1-844-844-6638"
+"TIGON Batteries: Find Your Perfect Golf Cart Battery Match - Expert Help: 1-844-844-6638"
+"TIGON Batteries: Expert LSV, NEV & MSV Battery Solutions - Call 1-844-844-6638 Today"
+"Golf Cart Batteries Installation by TIGON Batteries - Call 1-844-844-6638"
+"Compare TIGON Batteries Technologies for Golf Carts - Call 1-844-844-6638"
+"Need Help Choosing Golf Cart Batteries? Call TIGON Battery Experts: 1-844-844-6638"
+"LSV Battery Compatibility Questions? Call TIGON Batteries: 1-844-844-6638"
+"Professional NEV Battery Installation by TIGON Batteries - Call 1-844-844-6638"
+"MSV Battery Solutions from TIGON Batteries - Call 1-844-844-6638"

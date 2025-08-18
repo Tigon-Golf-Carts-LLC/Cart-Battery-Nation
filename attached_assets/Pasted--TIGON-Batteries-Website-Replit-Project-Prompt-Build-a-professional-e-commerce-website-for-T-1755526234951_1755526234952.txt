@@ -1,0 +1,357 @@
+# TIGON Batteries Website - Replit Project Prompt
+
+Build a professional e-commerce website for **TIGON Batteries** (tigonbatteries.com) - a specialized battery company focusing exclusively on electric vehicle batteries.
+
+## Company Overview
+**TIGON Batteries** specializes in batteries for:
+- Golf Cart Batteries (PRIMARY FOCUS)
+- Low Speed Vehicles (LSV) Batteries  
+- Neighborhood Electric Vehicle (NEV) Batteries
+- Medium Speed Vehicles (MSV) Batteries
+
+## Technical Requirements
+
+### Frontend Framework
+- Use **React with TypeScript** or **Next.js**
+- Responsive design with **Tailwind CSS**
+- Modern, professional UI/UX
+- Mobile-first approach
+
+### Key Features to Implement
+1. **Product Catalog System** with filtering and search
+2. **Shopping Cart** functionality
+3. **Product Comparison** tool
+4. **Battery Selector Quiz** (voltage/vehicle type)
+5. **Contact Forms** and **Quote Requests**
+6. **Educational Content** section
+7. **Dealer Locator** (placeholder data)
+
+## Complete Battery Product Lineup
+
+Create products for each battery configuration across ALL 4 vehicle categories:
+
+### 6-Volt Battery Series
+**TIGON 6V-225** (225Ah capacity)
+- Golf Cart Battery
+- LSV Battery  
+- NEV Battery
+- MSV Battery
+
+**TIGON 6V-305** (305Ah capacity)
+- Golf Cart Battery
+- LSV Battery
+- NEV Battery  
+- MSV Battery
+
+### 8-Volt Battery Series
+**TIGON 8V-170** (170Ah capacity)
+- Golf Cart Battery
+- LSV Battery
+- NEV Battery
+- MSV Battery
+
+**TIGON 8V-225** (225Ah capacity)
+- Golf Cart Battery
+- LSV Battery
+- NEV Battery
+- MSV Battery
+
+### 12-Volt Battery Series
+**TIGON 12V-100** (100Ah capacity)
+- Golf Cart Battery
+- LSV Battery
+- NEV Battery
+- MSV Battery
+
+**TIGON 12V-150** (150Ah capacity)
+- Golf Cart Battery
+- LSV Battery
+- NEV Battery
+- MSV Battery
+
+### Battery Technologies (for each voltage/capacity)
+1. **Flooded Lead-Acid** - Traditional, economical
+2. **AGM** - Sealed, maintenance-free
+3. **Gel** - Deep-cycle performance
+4. **Lithium-Ion (LiFePO4)** - Premium, long-lasting
+
+## Website Structure
+
+### Navigation Menu
+```
+HOME
+├── PRODUCTS
+│   ├── Golf Cart Batteries
+│   ├── LSV Batteries
+│   ├── NEV Batteries
+│   └── MSV Batteries
+├── BATTERY GUIDE
+│   ├── Voltage Guide
+│   ├── Technology Comparison
+│   ├── Maintenance Tips
+│   └── Installation Guide
+├── TOOLS
+│   ├── Battery Selector
+│   ├── Compatibility Checker
+│   └── Product Comparison
+├── SUPPORT
+│   ├── Technical Support
+│   ├── Warranty Info
+│   └── FAQ
+└── CONTACT
+```
+
+### Homepage Sections
+1. **Hero Section** - Brand introduction, main CTA with phone number
+2. **Product Categories** - 4 main vehicle types with images
+3. **Battery Selector Tool** - Interactive quiz
+4. **Why Choose TIGON** - Key benefits/features
+5. **Popular Products** - Best sellers carousel
+6. **Educational Content** - Battery guides preview
+7. **Testimonials** - Customer reviews
+8. **Contact Information** - Prominent phone: 1-844-844-6638 (linked to tel:1-844-844-6638), email, locations
+
+### CTA Requirements for All Pages
+**Every Call-to-Action must include the phone number 1-844-844-6638 linked as:**
+```html
+<a href="tel:1-844-844-6638">1-844-844-6638</a>
+```
+
+**CTA Placement Requirements:**
+- Header/Navigation: Prominent phone number button
+- Hero section: Primary CTA with phone
+- Product pages: "Call for Expert Advice" with phone number
+- Footer: Large phone number display
+- Sticky contact bar: Mobile phone button
+- Quote forms: "Or call us directly at 1-844-844-6638"
+- 404/Error pages: "Need help? Call 1-844-844-6638"
+
+### Product Page Features
+Each product should display:
+- High-quality battery images
+- Technical specifications table
+- Voltage system compatibility
+- Vehicle type applications
+- Pricing (or "Request Quote")
+- **"Questions? Call Battery Experts: 1-844-844-6638"** CTA button
+- Related products
+- Installation guide links
+- Warranty information
+- **"Need Installation Help? Call 1-844-844-6638"** support link
+
+## Sample Product Data Structure
+
+```javascript
+const productExample = {
+  id: "tigon-6v-225-gc-flooded",
+  name: "TIGON 6V-225 Golf Cart Battery", // Focus keyword integration
+  series: "6V-225",
+  category: "Golf Cart Batteries", // Focus keyword
+  technology: "Flooded Lead-Acid",
+  seoTitle: "TIGON 6V-225 Golf Cart Battery - Deep Cycle Flooded Lead-Acid",
+  metaDescription: "TIGON Batteries 6V-225 Golf Cart Battery with 225Ah capacity. Professional Golf Cart Batteries for reliable performance. Call 1-844-844-6638",
+  specifications: {
+    voltage: 6,
+    ampHours: 225,
+    terminalType: "L1",
+    dimensions: "10.24 x 7.06 x 10.75 inches",
+    weight: "62 lbs",
+    lifespan: "3-5 years",
+    cycleLife: "500-800 cycles"
+  },
+  systemCompatibility: ["36V (6 batteries)", "48V (8 batteries)"],
+  applications: ["Golf Carts", "Utility Vehicles", "Club Cars"],
+  features: [
+    "Deep-cycle design for Golf Cart Batteries",
+    "Maintenance required TIGON Batteries standard",
+    "Cost-effective Golf Cart Battery solution",
+    "Proven TIGON Batteries reliability"
+  ],
+  price: 189.99,
+  inStock: true,
+  images: ["tigon-golf-cart-battery-1.jpg", "tigon-golf-cart-battery-2.jpg"],
+  relatedProducts: ["tigon-6v-225-lsv-flooded", "tigon-6v-305-gc-flooded"],
+  focusKeywords: ["TIGON Batteries", "Golf Cart Batteries", "6V Golf Cart Battery"],
+  altText: "TIGON 6V-225 Golf Cart Battery - Deep Cycle Lead Acid by TIGON Batteries"
+}
+```
+
+## Educational Content Requirements
+
+### Battery Guide Articles
+1. **"Complete Golf Cart Battery Guide 2024"**
+   - Voltage configurations (36V vs 48V vs 72V)
+   - Battery type comparisons
+   - Maintenance tips
+   - Installation guidelines
+
+2. **"Understanding Battery Technologies"**
+   - Flooded Lead-Acid vs AGM vs Gel vs Lithium
+   - Pros/cons of each type
+   - Cost-benefit analysis
+   - Lifespan expectations
+
+3. **"Vehicle-Specific Battery Requirements"**
+   - Golf cart specifications
+   - LSV power needs
+   - NEV regulations
+   - MSV performance requirements
+
+### Interactive Tools
+1. **Battery Selector Quiz**
+   - Vehicle type selection
+   - Voltage system identification  
+   - Usage pattern questions
+   - Budget considerations
+   - Recommended products output
+
+2. **Compatibility Checker**
+   - Vehicle make/model/year input
+   - Compatible battery display
+   - Installation requirements
+
+## Design Guidelines
+
+### Color Scheme
+- Primary: Deep blue (#1e40af) - trust, reliability
+- Secondary: Electric green (#10b981) - energy, eco-friendly  
+- Accent: Orange (#f59e0b) - action, attention
+- Neutral: Grays for text and backgrounds
+
+### Typography
+- Headers: Modern sans-serif (Inter, Poppins)
+- Body: Clean, readable font
+- Technical specs: Monospace for data tables
+
+### Visual Elements
+- Professional battery photography
+- Clean product grids
+- Interactive voltage/system diagrams
+- Vehicle type icons
+- Trust badges and certifications
+
+## Functional Requirements
+
+### E-commerce Features
+- Product search and filtering
+- Shopping cart with quantity updates
+- Guest checkout option
+- Quote request system
+- Bulk pricing display
+- Shipping calculator
+
+### Customer Support
+- Live chat widget
+- Technical support contact forms
+- **Prominent phone support: 1-844-844-6638** (linked to tel:1-844-844-6638)
+- Installation guide downloads
+- Video tutorials embedded
+- FAQ search functionality
+
+### Header/Navigation Requirements
+**Top header must include:**
+```html
+<div class="top-bar">
+  <span>Expert Battery Support:</span>
+  <a href="tel:1-844-844-6638" class="phone-cta">📞 1-844-844-6638</a>
+</div>
+```
+
+### Footer Requirements  
+**Footer must prominently display:**
+```html
+<div class="footer-contact">
+  <h3>Need Help? Call Our Battery Experts</h3>
+  <a href="tel:1-844-844-6638" class="large-phone">1-844-844-6638</a>
+  <p>Monday - Friday: 8AM - 6PM EST</p>
+</div>
+```
+
+### SEO Optimization & Focus Keywords
+**Primary Focus Keywords (must be integrated throughout site):**
+- **TIGON Batteries** (primary brand keyword)
+- **Golf Cart Batteries** (main product focus)
+- **Low Speed Vehicles (LSV) Batteries**
+- **Neighborhood Electric Vehicle (NEV) Batteries** 
+- **Medium Speed Vehicles (MSV) Batteries**
+
+**SEO Implementation Requirements:**
+- Product schema markup with focus keywords
+- Local business optimization
+- Technical content for authority using focus keywords
+- Fast loading times
+- Mobile optimization
+- **Title tags must include focus keywords**
+- **Meta descriptions must incorporate focus keywords naturally**
+- **Header tags (H1, H2, H3) must strategically use focus keywords**
+- **Alt text for images must include relevant focus keywords**
+- **URL structure should include focus keywords where appropriate**
+
+**Content Keyword Density Guidelines:**
+- Focus keywords should appear naturally in content (1-3% density)
+- Use variations and long-tail keywords
+- Include focus keywords in first 100 words of pages
+- Use focus keywords in internal linking anchor text
+
+## Content Tone and Messaging
+- **Professional but approachable**
+- **Technical accuracy** with clear explanations
+- **Emphasis on reliability** and performance
+- **Educational approach** to build trust
+- **Solution-focused** for different vehicle needs
+
+## Sample SEO-Optimized Page Titles & Meta Descriptions
+
+**Homepage:**
+- Title: "TIGON Batteries - Golf Cart Batteries, LSV, NEV & MSV Battery Experts"
+- Meta: "TIGON Batteries specializes in Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, Neighborhood Electric Vehicle (NEV) Batteries, and Medium Speed Vehicle (MSV) Batteries. Call 1-844-844-6638"
+
+**Golf Cart Category:**
+- Title: "Golf Cart Batteries by TIGON - 6V, 8V, 12V Deep Cycle Battery Solutions"
+- Meta: "Premium Golf Cart Batteries from TIGON Batteries. Flooded, AGM, Gel & Lithium options. Expert support for all golf cart battery needs. Call 1-844-844-6638"
+
+**LSV Category:**
+- Title: "Low Speed Vehicle (LSV) Batteries - TIGON Battery Solutions"
+- Meta: "TIGON Batteries offers specialized Low Speed Vehicle (LSV) Batteries for optimal performance. All voltages and technologies available. Call 1-844-844-6638"
+
+**NEV Category:**
+- Title: "Neighborhood Electric Vehicle (NEV) Batteries by TIGON"
+- Meta: "Reliable Neighborhood Electric Vehicle (NEV) Batteries from TIGON Batteries. Professional installation and support. Call 1-844-844-6638"
+
+**MSV Category:**
+- Title: "Medium Speed Vehicle (MSV) Batteries - TIGON Battery Experts"
+- Meta: "High-performance Medium Speed Vehicle (MSV) Batteries by TIGON Batteries. Expert advice and professional support. Call 1-844-844-6638"
+**Primary Phone Number**: 1-844-844-6638
+**Phone Link**: `<a href="tel:1-844-844-6638">1-844-844-6638</a>`
+
+## Sample SEO-Optimized Headlines/CTAs (All include focus keywords + phone)
+- "Power Your Golf Cart with TIGON Batteries Reliability - Call 1-844-844-6638"
+- "TIGON Batteries: Find Your Perfect Golf Cart Battery Match - Expert Help: 1-844-844-6638"
+- "TIGON Batteries: Expert LSV, NEV & MSV Battery Solutions - Call 1-844-844-6638 Today"
+- "Golf Cart Batteries Installation by TIGON Batteries - Call 1-844-844-6638"
+- "Compare TIGON Batteries Technologies for Golf Carts - Call 1-844-844-6638"
+- "Need Help Choosing Golf Cart Batteries? Call TIGON Battery Experts: 1-844-844-6638"
+- "LSV Battery Compatibility Questions? Call TIGON Batteries: 1-844-844-6638"
+- "Professional NEV Battery Installation by TIGON Batteries - Call 1-844-844-6638"
+- "MSV Battery Solutions from TIGON Batteries - Call 1-844-844-6638"
+
+## Contact Information
+
+## Integration Considerations
+- Placeholder for payment processing (Stripe/PayPal)
+- Email marketing signup (newsletter)
+- Google Analytics setup
+- Social media integration
+- Review system integration
+
+## Deliverables Expected
+1. Fully functional responsive website
+2. Complete product catalog with all battery variants
+3. Interactive battery selector tool
+4. Educational content sections
+5. Contact and quote request forms
+6. Admin panel for content management (basic)
+7. SEO-optimized structure
+8. Mobile-responsive design
+
+**Primary Goal**: Create a professional, trustworthy e-commerce platform that positions TIGON as the go-to expert for golf cart and electric vehicle batteries, with comprehensive product information and educational resources that help customers make informed decisions.
