@@ -104,14 +104,14 @@ export default function ProductCard({ product, showBestSeller = false }: Product
           </Button>
           <div className="flex gap-2">
             <Link href={`/product/${product.id}`} className="flex-1">
-              <Button variant="outline" className="w-full">
+              <Button variant="outline" className="w-full px-3 py-2">
                 View Details
               </Button>
             </Link>
             <a href="tel:1-844-844-6638" className="flex-1">
               <Button 
                 variant="outline" 
-                className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white"
+                className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white px-3 py-2"
               >
                 <Phone className="h-4 w-4 mr-1" />
                 Call Expert
