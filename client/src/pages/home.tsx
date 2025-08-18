@@ -408,12 +408,12 @@ export default function Home() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-16 bg-tigon-red text-white">
+      <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-gray-900">
             Ready to Power Up with TIGON Batteries?
           </h2>
-          <p className="text-xl mb-8 text-blue-100 max-w-3xl mx-auto">
+          <p className="text-xl mb-8 text-gray-600 max-w-3xl mx-auto">
             Get expert advice on Golf Cart Batteries, LSV, NEV & MSV solutions. Our battery specialists are standing by to help you choose from our complete lineup of 96+ configurations.
           </p>
           
@@ -429,28 +429,28 @@ export default function Home() {
               </div>
             </a>
             
-            <div className="text-blue-100">
-              <div className="text-lg font-semibold">Monday - Friday</div>
-              <div>8AM - 6PM EST</div>
+            <div className="text-gray-600">
+              <div className="text-lg font-semibold">Monday - Saturday</div>
+              <div>8AM - 5PM EST</div>
             </div>
           </div>
 
           <div className="grid md:grid-cols-4 gap-6 text-center">
             <div>
               <div className="text-2xl font-bold text-tigon-green">96+</div>
-              <div className="text-blue-100">Battery Configurations</div>
+              <div className="text-gray-600">Battery Configurations</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-tigon-green">10,000+</div>
-              <div className="text-blue-100">Happy Customers</div>
+              <div className="text-gray-600">Happy Customers</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-tigon-green">24/7</div>
-              <div className="text-blue-100">Online Shopping</div>
+              <div className="text-gray-600">Online Shopping</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-tigon-green">Fast</div>
-              <div className="text-blue-100">Nationwide Shipping</div>
+              <div className="text-gray-600">Nationwide Shipping</div>
             </div>
           </div>
         </div>
