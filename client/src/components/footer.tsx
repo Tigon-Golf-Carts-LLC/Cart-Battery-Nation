@@ -16,7 +16,7 @@ export default function Footer() {
                 className="h-10 w-auto mr-3"
               />
               <div className="text-2xl font-bold text-tigon-red">
-                TIGON<span className="text-tigon-green">Batteries</span>
+                TIGON <span className="text-tigon-green">Batteries</span>
               </div>
             </div>
             <p className="text-gray-300 mb-6">
