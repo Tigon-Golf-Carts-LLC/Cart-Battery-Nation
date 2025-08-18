@@ -119,7 +119,7 @@ export default function Home() {
 
   const educationalContent = [
     {
-      title: "Complete Golf Cart Battery Guide 2024",
+      title: "Complete Golf Cart Battery Guide 2025",
       description: "Everything you need to know about Golf Cart Batteries: voltage configurations, TIGON Batteries options, maintenance tips and installation.",
       readTime: "5 min read",
       category: "GUIDE",
