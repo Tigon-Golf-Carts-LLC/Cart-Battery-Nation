@@ -80,6 +80,7 @@ export class MemStorage implements IStorage {
         slug: "gel", 
         description: "Deep-cycle performance", 
         priceMultiplier: 1.7,
+        callForPricing: true,
         lifespan: "5-7 years",
         cycleLife: "800-1200 cycles"
       },
