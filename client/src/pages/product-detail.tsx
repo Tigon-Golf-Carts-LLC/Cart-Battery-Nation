@@ -15,6 +15,7 @@ import { type Product } from "@shared/schema";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { useCart } from "@/hooks/use-cart";
+import { useDocumentHead } from "@/hooks/use-document-head";
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -27,6 +28,29 @@ export default function ProductDetail() {
     queryKey: ["/api/products", id],
     enabled: !!id,
   });
+
+  // Set SEO metadata when product is loaded
+  if (product) {
+    const specs = typeof product.specifications === 'object' ? product.specifications : {};
+    const title = product.name;
+    const description = `${product.name} - Premium ${product.technology} battery from TIGON. ${product.shortDescription || 'Professional grade battery solution.'} Call 1-844-844-6638.`;
+    
+    useDocumentHead({
+      title,
+      description,
+      ogImage: "/og/logo.png",
+      ogImageWidth: 512,
+      ogImageHeight: 512
+    });
+  } else if (error) {
+    useDocumentHead({
+      title: "Product Not Found",
+      description: "The battery you're looking for doesn't exist or may have been discontinued. Browse our complete catalog of TIGON batteries. Call 1-844-844-6638.",
+      ogImage: "/og/logo.png",
+      ogImageWidth: 512,
+      ogImageHeight: 512
+    });
+  }
 
   const { data: relatedProducts = [] } = useQuery<Product[]>({
     queryKey: ["/api/products"],

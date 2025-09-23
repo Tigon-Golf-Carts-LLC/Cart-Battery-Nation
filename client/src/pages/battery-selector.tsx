@@ -11,8 +11,18 @@ import { Badge } from "@/components/ui/badge";
 import { Phone, Zap, CheckCircle, ArrowRight, RotateCcw } from "lucide-react";
 import { type Product } from "@shared/schema";
 import { type BatteryQuizState } from "@/types";
+import { useDocumentHead } from "@/hooks/use-document-head";
 
 export default function BatterySelector() {
+  // Set SEO metadata
+  useDocumentHead({
+    title: "Find Your Perfect TIGON Battery Match",
+    description: "Use our Battery Selector Quiz to choose the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV battery configurations. Call 1-844-844-6638.",
+    ogImage: "/og/logo.png",
+    ogImageWidth: 512,
+    ogImageHeight: 512
+  });
+
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [quizResults, setQuizResults] = useState<BatteryQuizState | null>(null);
   const [recommendedProducts, setRecommendedProducts] = useState<Product[]>([]);

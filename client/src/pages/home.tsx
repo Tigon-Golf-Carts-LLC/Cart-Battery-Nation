@@ -10,8 +10,18 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Phone, Settings, Shield, Truck, GraduationCap, Wrench, Star, CheckCircle } from "lucide-react";
 import { type Product } from "@shared/schema";
+import { useDocumentHead } from "@/hooks/use-document-head";
 
 export default function Home() {
+  // Set SEO metadata
+  useDocumentHead({
+    title: "Power Your Golf Cart with TIGON Batteries Reliability",
+    description: "Premium Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON. 96+ professional-grade battery configurations with expert support. Call 1-844-844-6638.",
+    ogImage: "/hero-background.jpg",
+    ogImageWidth: 1200,
+    ogImageHeight: 630
+  });
+
   const { data: products = [] } = useQuery<Product[]>({
     queryKey: ["/api/products"],
   });

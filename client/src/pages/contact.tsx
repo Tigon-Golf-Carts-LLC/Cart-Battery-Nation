@@ -15,6 +15,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
+import { useDocumentHead } from "@/hooks/use-document-head";
 
 const quoteFormSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -30,6 +31,15 @@ const quoteFormSchema = z.object({
 type QuoteFormData = z.infer<typeof quoteFormSchema>;
 
 export default function Contact() {
+  // Set SEO metadata
+  useDocumentHead({
+    title: "Contact TIGON Battery Experts",
+    description: "Get expert guidance on Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON specialists. Our team is ready to help you choose from 96+ battery configurations. Call 1-844-844-6638.",
+    ogImage: "/og/logo.png",
+    ogImageWidth: 512,
+    ogImageHeight: 512
+  });
+
   const { toast } = useToast();
   const [formSubmitted, setFormSubmitted] = useState(false);
 

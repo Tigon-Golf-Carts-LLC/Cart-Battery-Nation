@@ -6,8 +6,17 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Phone, Battery, Zap, Settings, Shield, AlertTriangle, CheckCircle, BookOpen } from "lucide-react";
+import { useDocumentHead } from "@/hooks/use-document-head";
 
 export default function BatteryGuide() {
+  // Set SEO metadata
+  useDocumentHead({
+    title: "Complete TIGON Batteries Guide 2025",
+    description: "Everything you need to know about Golf Cart Batteries, voltage configurations, technology options, and maintenance from TIGON Batteries experts. Call 1-844-844-6638.",
+    ogImage: "/og/logo.png",
+    ogImageWidth: 512,
+    ogImageHeight: 512
+  });
   const voltageGuide = [
     {
       voltage: "6V",

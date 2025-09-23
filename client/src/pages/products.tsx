@@ -13,6 +13,7 @@ import { Separator } from "@/components/ui/separator";
 import { Phone, Search, Filter, Grid, List, ArrowUpDown } from "lucide-react";
 import { type Product } from "@shared/schema";
 import { type ProductFilter } from "@/types";
+import { useDocumentHead } from "@/hooks/use-document-head";
 
 export default function Products() {
   const [location] = useLocation();
@@ -111,6 +112,19 @@ export default function Products() {
   const pageDescription = category
     ? `Premium ${categoryMap[category]} from TIGON Batteries. Flooded, AGM, Gel & Lithium options. Expert support for all battery needs. Call 1-844-844-6638`
     : "Browse TIGON Batteries complete catalog of Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ configurations available. Call 1-844-844-6638";
+
+  const displayTitle = category 
+    ? categoryMap[category] 
+    : "TIGON Batteries Complete Catalog";
+
+  // Set SEO metadata
+  useDocumentHead({
+    title: displayTitle,
+    description: pageDescription,
+    ogImage: "/og/logo.png",
+    ogImageWidth: 512,
+    ogImageHeight: 512
+  });
 
   if (isLoading) {
     return (
