@@ -11,7 +11,7 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Phone, ShoppingCart, ArrowLeft, CheckCircle, Truck, Shield, Wrench, Star } from "lucide-react";
-import { type Product } from "@shared/schema";
+import { type Product, safeGetSpecs } from "@shared/schema";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { useCart } from "@/hooks/use-cart";
@@ -31,9 +31,8 @@ export default function ProductDetail() {
 
   // Set SEO metadata when product is loaded
   if (product) {
-    const specs = typeof product.specifications === 'object' ? product.specifications : {};
     const title = product.name;
-    const description = `${product.name} - Premium ${product.technology} battery from TIGON. ${product.shortDescription || 'Professional grade battery solution.'} Call 1-844-844-6638.`;
+    const description = `${product.name} - Premium ${product.technology} battery from TIGON. Professional grade battery solution for ${product.category}. Call 1-844-844-6638.`;
     
     useDocumentHead({
       title,
@@ -77,7 +76,7 @@ export default function ProductDetail() {
         description: `${product?.name} has been added to your cart.`,
       });
       queryClient.invalidateQueries({ queryKey: ["/api/cart"] });
-      if (cartItems) {
+      if (cartItems && Array.isArray(cartItems)) {
         setItemCount(cartItems.length + 1);
       }
     },
@@ -137,7 +136,7 @@ export default function ProductDetail() {
     );
   }
 
-  const specs = typeof product.specifications === 'object' ? product.specifications : {};
+  const specs = safeGetSpecs(product);
 
   return (
     <div className="min-h-screen bg-gray-50">

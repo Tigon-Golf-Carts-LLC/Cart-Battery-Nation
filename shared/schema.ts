@@ -3,6 +3,32 @@ import { pgTable, text, varchar, integer, decimal, boolean, timestamp, jsonb } f
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
+// Product specifications interface
+export interface ProductSpecifications {
+  voltage?: number;
+  ampHours?: number;
+  lifespan?: string;
+  cycleLife?: string;
+  terminalType?: string;
+  dimensions?: string;
+  weight?: string;
+  temperature?: string;
+  [key: string]: any; // Allow additional properties
+}
+
+// Type guard for ProductSpecifications
+export function isProductSpecifications(value: unknown): value is ProductSpecifications {
+  return value !== null && typeof value === 'object';
+}
+
+// Helper to safely get specifications
+export function safeGetSpecs(product: { specifications: unknown }): ProductSpecifications {
+  if (isProductSpecifications(product.specifications)) {
+    return product.specifications;
+  }
+  return {};
+}
+
 export const users = pgTable("users", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
   username: text("username").notNull().unique(),
@@ -17,7 +43,7 @@ export const products = pgTable("products", {
   technology: text("technology").notNull(), // Flooded, AGM, Gel, Lithium
   seoTitle: text("seo_title").notNull(),
   metaDescription: text("meta_description").notNull(),
-  specifications: jsonb("specifications").notNull(), // voltage, ampHours, etc.
+  specifications: jsonb("specifications").notNull().$type<ProductSpecifications>(), // voltage, ampHours, etc.
   systemCompatibility: text("system_compatibility").array().notNull(),
   applications: text("applications").array().notNull(),
   features: text("features").array().notNull(),

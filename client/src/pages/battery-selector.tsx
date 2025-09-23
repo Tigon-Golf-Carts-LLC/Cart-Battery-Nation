@@ -9,7 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Phone, Zap, CheckCircle, ArrowRight, RotateCcw } from "lucide-react";
-import { type Product } from "@shared/schema";
+import { type Product, safeGetSpecs } from "@shared/schema";
 import { type BatteryQuizState } from "@/types";
 import { useDocumentHead } from "@/hooks/use-document-head";
 
@@ -52,11 +52,11 @@ export default function BatterySelector() {
 
       // Filter by voltage system if specified
       if (results.voltageSystem && results.voltageSystem !== "not-sure") {
-        const specs = typeof product.specifications === 'object' ? product.specifications : {};
+        const specs = safeGetSpecs(product);
         const voltage = specs.voltage;
         
         if (results.voltageSystem === "36v" && voltage !== 6) matches = false;
-        if (results.voltageSystem === "48v" && ![6, 8].includes(voltage)) matches = false;
+        if (results.voltageSystem === "48v" && voltage && ![6, 8].includes(voltage)) matches = false;
         if (results.voltageSystem === "72v" && voltage !== 12) matches = false;
       }
 

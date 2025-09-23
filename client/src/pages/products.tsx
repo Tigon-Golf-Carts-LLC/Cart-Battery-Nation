@@ -11,7 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Phone, Search, Filter, Grid, List, ArrowUpDown } from "lucide-react";
-import { type Product } from "@shared/schema";
+import { type Product, safeGetSpecs } from "@shared/schema";
 import { type ProductFilter } from "@/types";
 import { useDocumentHead } from "@/hooks/use-document-head";
 
@@ -49,7 +49,7 @@ export default function Products() {
     // Apply filters
     if (filters.voltage) {
       products = products.filter(p => {
-        const specs = typeof p.specifications === 'object' ? p.specifications : {};
+        const specs = safeGetSpecs(p);
         return specs.voltage?.toString() === filters.voltage;
       });
     }
@@ -89,7 +89,7 @@ export default function Products() {
   const uniqueVoltages = useMemo(() => {
     const voltages = new Set<string>();
     allProducts.forEach(p => {
-      const specs = typeof p.specifications === 'object' ? p.specifications : {};
+      const specs = safeGetSpecs(p);
       if (specs.voltage) voltages.add(specs.voltage.toString());
     });
     return Array.from(voltages).sort((a, b) => parseInt(a) - parseInt(b));
