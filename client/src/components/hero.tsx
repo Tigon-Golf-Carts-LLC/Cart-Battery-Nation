@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6 text-evbd-orange">
-              Buy Electric Vehicle Batteries <span className="text-white">Direct</span> & Save
+              Buy Electric Vehicle Batteries <span className="text-evbd-green">Direct</span> & Save
             </h1>
             <p className="text-xl mb-8 text-blue-100">
               EV Battery Direct - Shop premium Electric Vehicle Batteries for Golf Carts, LSV, NEV & MSV. 
