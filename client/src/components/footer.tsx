@@ -30,11 +30,11 @@ export default function Footer() {
             <div className="bg-tigon-orange p-4 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Need Help? Call Our Battery Experts</h3>
               <a 
-                href="tel:1-844-844-6638" 
+                href="tel:1-844-888-7732" 
                 className="text-2xl font-bold hover:text-yellow-200 transition-colors flex items-center"
               >
                 <Phone className="h-6 w-6 mr-2" />
-                1-844-844-6638
+                1-844-888-7732
               </a>
               <p className="text-sm text-orange-100 mt-1">Monday - Saturday: 8AM - 5PM EST</p>
             </div>
@@ -151,11 +151,11 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li>
                 <a 
-                  href="tel:1-844-844-6638" 
+                  href="tel:1-844-888-7732" 
                   className="hover:text-tigon-orange transition-colors font-semibold flex items-center"
                 >
                   <Phone className="h-4 w-4 mr-1" />
-                  1-844-844-6638
+                  1-844-888-7732
                 </a>
               </li>
               <li>
@@ -227,11 +227,11 @@ export default function Footer() {
       {/* Sticky Mobile Contact Bar */}
       <div className="fixed bottom-0 left-0 right-0 bg-tigon-orange p-4 shadow-lg md:hidden z-50">
         <a 
-          href="tel:1-844-844-6638" 
+          href="tel:1-844-888-7732" 
           className="flex items-center justify-center text-white font-bold text-lg"
         >
           <Phone className="h-5 w-5 mr-2" />
-          Call TIGON Experts: 1-844-844-6638
+          Call TIGON Experts: 1-844-888-7732
         </a>
       </div>
     </footer>

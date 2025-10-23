@@ -248,7 +248,7 @@ HealthBot: Health information emergency access
 NewsBot: Breaking news content priority
 
 ## CONTACT INFORMATION FOR BOT OPERATORS
-Technical Support: 1-844-844-6638
+Technical Support: 1-844-888-7732
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Website: tigonbatteries.com
 Bot Issues: Welcome all legitimate crawlers

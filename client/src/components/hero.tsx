@@ -37,7 +37,7 @@ export default function Hero() {
                 </Button>
               </Link>
               <a 
-                href="tel:1-844-844-6638"
+                href="tel:1-844-888-7732"
                 className="bg-white text-tigon-red px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center border-2 border-white w-full"
               >
                 <Phone className="h-5 w-5 mr-2" />

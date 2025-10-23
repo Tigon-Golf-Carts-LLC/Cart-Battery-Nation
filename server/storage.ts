@@ -108,7 +108,7 @@ export class MemStorage implements IStorage {
             category: category.description,
             technology: technology.name,
             seoTitle: `TIGON ${voltageSeries.series} ${category.description} - ${technology.description}`,
-            metaDescription: `TIGON Batteries ${voltageSeries.series} ${category.description} with ${voltageSeries.ampHours}Ah capacity. Professional ${category.description} for reliable performance. Call 1-844-844-6638`,
+            metaDescription: `TIGON Batteries ${voltageSeries.series} ${category.description} with ${voltageSeries.ampHours}Ah capacity. Professional ${category.description} for reliable performance. Call 1-844-888-7732`,
             specifications: {
               voltage: voltageSeries.voltage,
               ampHours: voltageSeries.ampHours,
@@ -159,7 +159,7 @@ export class MemStorage implements IStorage {
         category: "Services",
         technology: "Professional Service",
         seoTitle: "TIGON Battery Installation Service - Expert Professional Installation",
-        metaDescription: "Professional battery installation service by TIGON Batteries experts. Safe, reliable installation for all battery types. Call 1-844-844-6638",
+        metaDescription: "Professional battery installation service by TIGON Batteries experts. Safe, reliable installation for all battery types. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -192,7 +192,7 @@ export class MemStorage implements IStorage {
         category: "Core Charges",
         technology: "Core Exchange",
         seoTitle: "TIGON 6V 8V Battery Core Charge - Recycling Fee",
-        metaDescription: "6V and 8V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-844-6638",
+        metaDescription: "6V and 8V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -225,7 +225,7 @@ export class MemStorage implements IStorage {
         category: "Core Charges",
         technology: "Core Exchange",
         seoTitle: "TIGON 12V Battery Core Charge - Recycling Fee",
-        metaDescription: "12V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-844-6638",
+        metaDescription: "12V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -258,7 +258,7 @@ export class MemStorage implements IStorage {
         category: "Cables & Accessories",
         technology: "Heavy-Duty Cable",
         seoTitle: "TIGON Battery Cable - Professional Grade Connection Cable",
-        metaDescription: "Professional grade battery cables by TIGON Batteries. Reliable connections for all battery systems. $10 per cable. Call 1-844-844-6638",
+        metaDescription: "Professional grade battery cables by TIGON Batteries. Reliable connections for all battery systems. $10 per cable. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,

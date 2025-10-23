@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Phone, ShoppingCart, Battery } from "lucide-react";
-import { type Product } from "@shared/schema";
+import { type Product, safeGetSpecs } from "@shared/schema";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
@@ -34,7 +34,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
       });
       queryClient.invalidateQueries({ queryKey: ["/api/cart"] });
       // Update cart count
-      if (cartItems) {
+      if (cartItems && Array.isArray(cartItems)) {
         setItemCount(cartItems.length + 1);
       }
     },
@@ -47,7 +47,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
     },
   });
 
-  const specs = typeof product.specifications === 'object' ? product.specifications : {};
+  const specs = safeGetSpecs(product);
 
   return (
     <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-tigon-red">
@@ -115,7 +115,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
                 View Details
               </Button>
             </Link>
-            <a href="tel:1-844-844-6638" className="flex-1">
+            <a href="tel:1-844-888-7732" className="flex-1">
               <Button 
                 variant="outline" 
                 className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white px-3 py-2"

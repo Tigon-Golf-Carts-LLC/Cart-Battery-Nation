@@ -236,11 +236,11 @@ export default function BatterySelectorQuiz({ onComplete }: BatterySelectorQuizP
           <div className="text-center">
             <div className="text-sm text-gray-600 mb-2">Or get instant help:</div>
             <a 
-              href="tel:1-844-844-6638" 
+              href="tel:1-844-888-7732" 
               className="text-tigon-red font-semibold hover:underline flex items-center"
             >
               <Phone className="h-4 w-4 mr-1" />
-              Call 1-844-844-6638
+              Call 1-844-888-7732
             </a>
           </div>
           

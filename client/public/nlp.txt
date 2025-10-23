@@ -5,7 +5,7 @@
 
 ### Named Entities
 ORGANIZATION: TIGON Batteries
-PHONE: 1-844-844-6638
+PHONE: 1-844-888-7732
 PRODUCTS: Golf Cart Batteries, LSV Batteries, NEV Batteries, MSV Batteries
 TECHNOLOGIES: Flooded, AGM, Gel, Lithium
 VOLTAGES: 6V, 8V, 12V
@@ -77,7 +77,7 @@ CAPACITIES: 105Ah, 170Ah, 225Ah
 
 ### Technical Q&A
 Q: What voltage configuration is best for golf carts?
-A: Most golf carts use 6V, 8V, or 12V systems. 6V 225Ah is most popular for standard golf carts. Call 1-844-844-6638 for specific recommendations.
+A: Most golf carts use 6V, 8V, or 12V systems. 6V 225Ah is most popular for standard golf carts. Call 1-844-888-7732 for specific recommendations.
 
 Q: How do I know if my batteries need replacement?
 A: Signs include reduced runtime, slow charging, physical damage, or age over 5 years. Our experts can help assess your battery condition.
@@ -175,7 +175,7 @@ Troubleshooting → Technical Support → Expert assistance
 - "For your specific application, [recommendation] because [justification]"
 
 ### Call-to-Action Patterns
-- "Call our experts at 1-844-844-6638 for personalized advice"
+- "Call our experts at 1-844-888-7732 for personalized advice"
 - "Let our specialists help you choose the right solution"
 - "Speak with a TIGON battery expert today"
 - "Get professional guidance from our team"

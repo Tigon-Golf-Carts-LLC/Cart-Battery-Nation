@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { X, Phone, ShoppingCart, CheckCircle, AlertTriangle, Battery } from "lucide-react";
-import { type Product } from "@shared/schema";
+import { type Product, safeGetSpecs } from "@shared/schema";
 
 interface ProductComparisonProps {
   products: Product[];
@@ -23,7 +23,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
   }
 
   const getSpecValue = (product: Product, specKey: string) => {
-    const specs = typeof product.specifications === 'object' ? product.specifications : {};
+    const specs = safeGetSpecs(product);
     return specs[specKey] || 'N/A';
   };
 
@@ -69,7 +69,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ShoppingCart className="h-3 w-3 mr-1" />
                   Add to Cart
                 </Button>
-                <a href="tel:1-844-844-6638" className="block">
+                <a href="tel:1-844-888-7732" className="block">
                   <Button 
                     size="sm" 
                     variant="outline" 
@@ -277,10 +277,10 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
             vehicle requirements, usage patterns, and budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Call TIGON Experts: 1-844-844-6638
+                Call TIGON Experts: 1-844-888-7732
               </Button>
             </a>
             <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100">

@@ -167,7 +167,7 @@ self.addEventListener('notificationclick', event => {
   if (event.action === 'call') {
     // Open phone dialer
     event.waitUntil(
-      clients.openWindow('tel:1-844-844-6638')
+      clients.openWindow('tel:1-844-888-7732')
     );
   } else {
     // Open website

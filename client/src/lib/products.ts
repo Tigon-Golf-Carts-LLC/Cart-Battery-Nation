@@ -1,4 +1,4 @@
-import { type Product } from "@shared/schema";
+import { type Product, safeGetSpecs } from "@shared/schema";
 
 // Product filtering and organization utilities
 export class ProductCatalog {
@@ -8,7 +8,7 @@ export class ProductCatalog {
 
   static getProductsByVoltage(products: Product[], voltage: number): Product[] {
     return products.filter(product => {
-      const specs = typeof product.specifications === 'object' ? product.specifications : {};
+      const specs = safeGetSpecs(product);
       return specs.voltage === voltage;
     });
   }
@@ -46,14 +46,14 @@ export class ProductCatalog {
         return sorted.sort((a, b) => parseFloat(b.price) - parseFloat(a.price));
       case "voltage":
         return sorted.sort((a, b) => {
-          const aVoltage = typeof a.specifications === 'object' ? a.specifications.voltage || 0 : 0;
-          const bVoltage = typeof b.specifications === 'object' ? b.specifications.voltage || 0 : 0;
+          const aVoltage = safeGetSpecs(a).voltage || 0;
+          const bVoltage = safeGetSpecs(b).voltage || 0;
           return aVoltage - bVoltage;
         });
       case "capacity":
         return sorted.sort((a, b) => {
-          const aCapacity = typeof a.specifications === 'object' ? a.specifications.ampHours || 0 : 0;
-          const bCapacity = typeof b.specifications === 'object' ? b.specifications.ampHours || 0 : 0;
+          const aCapacity = safeGetSpecs(a).ampHours || 0;
+          const bCapacity = safeGetSpecs(b).ampHours || 0;
           return bCapacity - aCapacity;
         });
       case "name":
@@ -103,7 +103,7 @@ export class ProductCatalog {
     const categories = new Set<string>();
 
     products.forEach(product => {
-      const specs = typeof product.specifications === 'object' ? product.specifications : {};
+      const specs = safeGetSpecs(product);
       if (specs.voltage) voltages.add(specs.voltage);
       technologies.add(product.technology);
       series.add(product.series);
@@ -419,7 +419,7 @@ export const PRODUCT_CONSTANTS = {
     { series: "12V-150", voltage: 12, ampHours: 150 }
   ],
 
-  PHONE_NUMBER: "1-844-844-6638",
+  PHONE_NUMBER: "1-844-888-7732",
   
   SEO_KEYWORDS: [
     "TIGON Batteries",

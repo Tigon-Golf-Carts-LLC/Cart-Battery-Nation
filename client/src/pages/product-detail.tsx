@@ -32,7 +32,7 @@ export default function ProductDetail() {
   // Set SEO metadata when product is loaded
   if (product) {
     const title = product.name;
-    const description = `${product.name} - Premium ${product.technology} battery from TIGON. Professional grade battery solution for ${product.category}. Call 1-844-844-6638.`;
+    const description = `${product.name} - Premium ${product.technology} battery from TIGON. Professional grade battery solution for ${product.category}. Call 1-844-888-7732.`;
     
     useDocumentHead({
       title,
@@ -44,7 +44,7 @@ export default function ProductDetail() {
   } else if (error) {
     useDocumentHead({
       title: "Product Not Found",
-      description: "The battery you're looking for doesn't exist or may have been discontinued. Browse our complete catalog of TIGON batteries. Call 1-844-844-6638.",
+      description: "The battery you're looking for doesn't exist or may have been discontinued. Browse our complete catalog of TIGON batteries. Call 1-844-888-7732.",
       ogImage: "/og/logo.png",
       ogImageWidth: 512,
       ogImageHeight: 512
@@ -122,10 +122,10 @@ export default function ProductDetail() {
               <Link href="/products">
                 <Button>View All Products</Button>
               </Link>
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-888-7732">
                 <Button className="bg-tigon-orange text-white hover:bg-orange-600">
                   <Phone className="h-4 w-4 mr-2" />
-                  Call 1-844-844-6638
+                  Call 1-844-888-7732
                 </Button>
               </a>
             </div>
@@ -258,13 +258,13 @@ export default function ProductDetail() {
                   {product.price === "Call for Pricing" ? "Call for Quote" : 
                    addToCartMutation.isPending ? "Adding..." : "Add to Cart"}
                 </Button>
-                <a href="tel:1-844-844-6638" className="flex-1">
+                <a href="tel:1-844-888-7732" className="flex-1">
                   <Button 
                     variant="outline" 
                     className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white"
                   >
                     <Phone className="h-4 w-4 mr-2" />
-                    Call Expert: 1-844-844-6638
+                    Call Expert: 1-844-888-7732
                   </Button>
                 </a>
               </div>
@@ -413,9 +413,9 @@ export default function ProductDetail() {
                         <p className="text-sm text-gray-600 mb-3">
                           Get professional guidance for battery installation and setup.
                         </p>
-                        <a href="tel:1-844-844-6638">
+                        <a href="tel:1-844-888-7732">
                           <Button size="sm" className="bg-tigon-orange text-white hover:bg-orange-600">
-                            Call 1-844-844-6638
+                            Call 1-844-888-7732
                           </Button>
                         </a>
                       </div>
@@ -426,7 +426,7 @@ export default function ProductDetail() {
                         <p className="text-sm text-gray-600 mb-3">
                           Connect with certified installers in your area.
                         </p>
-                        <a href="tel:1-844-844-6638">
+                        <a href="tel:1-844-888-7732">
                           <Button size="sm" variant="outline" className="border-tigon-red text-tigon-red">
                             Find Installer
                           </Button>
@@ -472,10 +472,10 @@ export default function ProductDetail() {
               Our battery experts are standing by to help you with installation, compatibility, 
               and technical questions about {product.name}.
             </p>
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Call TIGON Experts: 1-844-844-6638
+                Call TIGON Experts: 1-844-888-7732
               </Button>
             </a>
           </Card>

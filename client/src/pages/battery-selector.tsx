@@ -17,7 +17,7 @@ export default function BatterySelector() {
   // Set SEO metadata
   useDocumentHead({
     title: "Find Your Perfect TIGON Battery Match",
-    description: "Use our Battery Selector Quiz to choose the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV battery configurations. Call 1-844-844-6638.",
+    description: "Use our Battery Selector Quiz to choose the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV battery configurations. Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -160,10 +160,10 @@ export default function BatterySelector() {
             </p>
             {!quizCompleted && (
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:1-844-844-6638">
+                <a href="tel:1-844-888-7732">
                   <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                     <Phone className="h-5 w-5 mr-2" />
-                    Skip Quiz - Call Expert: 1-844-844-6638
+                    Skip Quiz - Call Expert: 1-844-888-7732
                   </Button>
                 </a>
                 <Button size="lg" variant="outline">
@@ -208,10 +208,10 @@ export default function BatterySelector() {
                   We found {recommendedProducts.length} TIGON battery configurations that match your needs.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="tel:1-844-844-6638">
+                  <a href="tel:1-844-888-7732">
                     <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
                       <Phone className="h-5 w-5 mr-2" />
-                      Discuss Results: 1-844-844-6638
+                      Discuss Results: 1-844-888-7732
                     </Button>
                   </a>
                   <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100" onClick={resetQuiz}>
@@ -304,10 +304,10 @@ export default function BatterySelector() {
                   to recommend the best TIGON battery configuration for your vehicle.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="tel:1-844-844-6638">
+                  <a href="tel:1-844-888-7732">
                     <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
                       <Phone className="h-5 w-5 mr-2" />
-                      Call TIGON Experts: 1-844-844-6638
+                      Call TIGON Experts: 1-844-888-7732
                     </Button>
                   </a>
                   <Button size="lg" variant="outline" onClick={resetQuiz}>
@@ -334,9 +334,9 @@ export default function BatterySelector() {
                       <p className="text-sm text-gray-600 mb-3">
                         Discuss your recommendations with our TIGON battery specialists for personalized advice.
                       </p>
-                      <a href="tel:1-844-844-6638">
+                      <a href="tel:1-844-888-7732">
                         <Button size="sm" variant="outline" className="border-tigon-red text-tigon-red">
-                          Call 1-844-844-6638
+                          Call 1-844-888-7732
                         </Button>
                       </a>
                     </div>
@@ -364,7 +364,7 @@ export default function BatterySelector() {
                       <p className="text-sm text-gray-600 mb-3">
                         Place your order and schedule professional installation for optimal performance.
                       </p>
-                      <a href="tel:1-844-844-6638">
+                      <a href="tel:1-844-888-7732">
                         <Button size="sm" variant="outline" className="border-tigon-orange text-tigon-orange">
                           Get Quote
                         </Button>
@@ -388,10 +388,10 @@ export default function BatterySelector() {
               Golf Cart, LSV, NEV, or MSV application.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call TIGON Experts: 1-844-844-6638
+                  Call TIGON Experts: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100" asChild>

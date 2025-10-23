@@ -110,8 +110,8 @@ export default function Products() {
     : "TIGON Batteries - Complete Golf Cart, LSV, NEV & MSV Battery Catalog";
 
   const pageDescription = category
-    ? `Premium ${categoryMap[category]} from TIGON Batteries. Flooded, AGM, Gel & Lithium options. Expert support for all battery needs. Call 1-844-844-6638`
-    : "Browse TIGON Batteries complete catalog of Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ configurations available. Call 1-844-844-6638";
+    ? `Premium ${categoryMap[category]} from TIGON Batteries. Flooded, AGM, Gel & Lithium options. Expert support for all battery needs. Call 1-844-888-7732`
+    : "Browse TIGON Batteries complete catalog of Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ configurations available. Call 1-844-888-7732";
 
   const displayTitle = category 
     ? categoryMap[category] 
@@ -163,10 +163,10 @@ export default function Products() {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
               {pageDescription}
             </p>
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-888-7732">
               <Button className="bg-tigon-orange text-white px-6 py-3 hover:bg-orange-600">
                 <Phone className="h-4 w-4 mr-2" />
-                Call Battery Experts: 1-844-844-6638
+                Call Battery Experts: 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -274,10 +274,10 @@ export default function Products() {
                   <p className="text-sm text-gray-600 mb-3">
                     Talk to our TIGON battery specialists for personalized recommendations.
                   </p>
-                  <a href="tel:1-844-844-6638">
+                  <a href="tel:1-844-888-7732">
                     <Button size="sm" className="bg-tigon-red text-white hover:bg-blue-700 w-full text-xs px-3">
                       <Phone className="h-4 w-4 mr-1" />
-                      Call 1-844-844-6638
+                      Call 1-844-888-7732
                     </Button>
                   </a>
                 </div>
@@ -358,10 +358,10 @@ export default function Products() {
                   >
                     Clear All Filters
                   </Button>
-                  <a href="tel:1-844-844-6638">
+                  <a href="tel:1-844-888-7732">
                     <Button className="bg-tigon-orange text-white hover:bg-orange-600">
                       <Phone className="h-4 w-4 mr-2" />
-                      Call Expert: 1-844-844-6638
+                      Call Expert: 1-844-888-7732
                     </Button>
                   </a>
                 </div>
@@ -385,10 +385,10 @@ export default function Products() {
                   <p className="text-gray-600 mb-4">
                     Our TIGON battery experts can help you find the perfect match for your vehicle.
                   </p>
-                  <a href="tel:1-844-844-6638">
+                  <a href="tel:1-844-888-7732">
                     <Button className="bg-tigon-red text-white hover:bg-blue-700">
                       <Phone className="h-4 w-4 mr-2" />
-                      Call TIGON Experts: 1-844-844-6638
+                      Call TIGON Experts: 1-844-888-7732
                     </Button>
                   </a>
                 </Card>

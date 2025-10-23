@@ -12,7 +12,7 @@ export default function BatteryGuide() {
   // Set SEO metadata
   useDocumentHead({
     title: "Complete TIGON Batteries Guide 2025",
-    description: "Everything you need to know about Golf Cart Batteries, voltage configurations, technology options, and maintenance from TIGON Batteries experts. Call 1-844-844-6638.",
+    description: "Everything you need to know about Golf Cart Batteries, voltage configurations, technology options, and maintenance from TIGON Batteries experts. Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -171,10 +171,10 @@ export default function BatteryGuide() {
               technology options, and maintenance from TIGON Batteries experts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call TIGON Experts: 1-844-844-6638
+                  Call TIGON Experts: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline" asChild>
@@ -287,10 +287,10 @@ export default function BatteryGuide() {
                 Our TIGON battery experts can help you determine the optimal voltage system 
                 for your specific golf cart or electric vehicle application.
               </p>
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-888-7732">
                 <Button className="bg-tigon-orange text-white hover:bg-orange-600">
                   <Phone className="h-4 w-4 mr-2" />
-                  Call TIGON Specialists: 1-844-844-6638
+                  Call TIGON Specialists: 1-844-888-7732
                 </Button>
               </a>
             </Card>
@@ -530,9 +530,9 @@ export default function BatteryGuide() {
                       For safety and warranty compliance, we recommend professional 
                       installation by certified technicians.
                     </p>
-                    <a href="tel:1-844-844-6638">
+                    <a href="tel:1-844-888-7732">
                       <Button className="bg-tigon-orange text-white hover:bg-orange-600">
-                        Find Installer: 1-844-844-6638
+                        Find Installer: 1-844-888-7732
                       </Button>
                     </a>
                   </CardContent>
@@ -553,10 +553,10 @@ export default function BatteryGuide() {
               technology, and installation plan for your specific needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call TIGON Experts: 1-844-844-6638
+                  Call TIGON Experts: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100" asChild>

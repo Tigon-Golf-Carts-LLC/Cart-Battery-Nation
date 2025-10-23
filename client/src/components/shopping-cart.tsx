@@ -178,10 +178,10 @@ export default function ShoppingCartComponent() {
                   <Button className="w-full bg-tigon-orange text-white hover:bg-orange-600">
                     Request Quote
                   </Button>
-                  <a href="tel:1-844-844-6638" className="block">
+                  <a href="tel:1-844-888-7732" className="block">
                     <Button variant="outline" className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white">
                       <Phone className="h-4 w-4 mr-2" />
-                      Call for Pricing: 1-844-844-6638
+                      Call for Pricing: 1-844-888-7732
                     </Button>
                   </a>
                   <Button 
@@ -195,7 +195,7 @@ export default function ShoppingCartComponent() {
                 </div>
 
                 <div className="text-xs text-gray-500 text-center">
-                  Call <a href="tel:1-844-844-6638" className="text-tigon-red">1-844-844-6638</a> for 
+                  Call <a href="tel:1-844-888-7732" className="text-tigon-red">1-844-888-7732</a> for 
                   bulk pricing and installation services
                 </div>
               </div>

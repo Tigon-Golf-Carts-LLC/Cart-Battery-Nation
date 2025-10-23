@@ -14,7 +14,7 @@ Platform: Modern React-based e-commerce solution
 Company: TIGON Batteries
 Focus: Premium electric vehicle battery solutions
 Expertise: 96+ battery configurations across all technologies
-Customer Service: 1-844-844-6638
+Customer Service: 1-844-888-7732
 Support Hours: Monday - Saturday, 8AM - 5PM EST
 
 ### Development Team Credits
@@ -118,7 +118,7 @@ Content: Fresh content and product information
 User Feedback: Continuous user experience improvements
 
 ## BUSINESS CONTACT INFORMATION
-Primary Phone: 1-844-844-6638
+Primary Phone: 1-844-888-7732
 Website: tigonbatteries.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Service Area: Nationwide United States
@@ -159,7 +159,7 @@ Scalability: Built for growth and expansion
 Maintainability: Clean code and documentation
 
 ## CONTACT FOR TECHNICAL ISSUES
-Customer Support: 1-844-844-6638
+Customer Support: 1-844-888-7732
 Technical Support: Available during business hours
 Website Issues: Customer service team coordination
 Accessibility Support: Full assistance for assistive technology users

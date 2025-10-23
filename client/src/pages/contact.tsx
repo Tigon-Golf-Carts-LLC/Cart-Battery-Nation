@@ -34,7 +34,7 @@ export default function Contact() {
   // Set SEO metadata
   useDocumentHead({
     title: "Contact TIGON Battery Experts",
-    description: "Get expert guidance on Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON specialists. Our team is ready to help you choose from 96+ battery configurations. Call 1-844-844-6638.",
+    description: "Get expert guidance on Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON specialists. Our team is ready to help you choose from 96+ battery configurations. Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -86,8 +86,8 @@ export default function Contact() {
       icon: Phone,
       title: "Call Our Battery Experts",
       description: "Speak directly with TIGON battery specialists for immediate assistance",
-      contact: "1-844-844-6638",
-      link: "tel:1-844-844-6638",
+      contact: "1-844-888-7732",
+      link: "tel:1-844-888-7732",
       hours: "Monday - Friday: 8AM - 6PM EST",
       primary: true
     },
@@ -146,10 +146,10 @@ export default function Contact() {
               are here to help you choose from our complete lineup of 96+ battery configurations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call Now: 1-844-844-6638
+                  Call Now: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline">
@@ -236,12 +236,12 @@ export default function Contact() {
               <Card className="mt-8 p-4 bg-tigon-red text-white">
                 <h4 className="font-bold mb-2">Prefer to Talk? Call Us Now!</h4>
                 <p className="text-blue-100 mb-3">
-                  Or call us directly at 1-844-844-6638 for immediate assistance.
+                  Or call us directly at 1-844-888-7732 for immediate assistance.
                 </p>
-                <a href="tel:1-844-844-6638">
+                <a href="tel:1-844-888-7732">
                   <Button className="bg-tigon-orange text-white hover:bg-orange-600">
                     <Phone className="h-4 w-4 mr-2" />
-                    Call 1-844-844-6638
+                    Call 1-844-888-7732
                   </Button>
                 </a>
               </Card>
@@ -265,10 +265,10 @@ export default function Contact() {
                     </div>
                     <div className="pt-4">
                       <p className="text-sm text-gray-600 mb-3">Need immediate assistance?</p>
-                      <a href="tel:1-844-844-6638">
+                      <a href="tel:1-844-888-7732">
                         <Button className="bg-tigon-orange text-white hover:bg-orange-600">
                           <Phone className="h-4 w-4 mr-2" />
-                          Call 1-844-844-6638
+                          Call 1-844-888-7732
                         </Button>
                       </a>
                     </div>
@@ -436,8 +436,8 @@ export default function Contact() {
 
                         <p className="text-center text-sm text-gray-600">
                           Or call us directly at{" "}
-                          <a href="tel:1-844-844-6638" className="text-tigon-red font-semibold">
-                            1-844-844-6638
+                          <a href="tel:1-844-888-7732" className="text-tigon-red font-semibold">
+                            1-844-888-7732
                           </a>
                         </p>
                       </form>
@@ -510,8 +510,8 @@ export default function Contact() {
                   <p className="text-sm text-gray-700">
                     <strong>Emergency Support:</strong> For critical battery failures, 
                     call our emergency line at{" "}
-                    <a href="tel:1-844-844-6638" className="text-tigon-green font-semibold">
-                      1-844-844-6638
+                    <a href="tel:1-844-888-7732" className="text-tigon-green font-semibold">
+                      1-844-888-7732
                     </a>
                   </p>
                 </div>
@@ -565,10 +565,10 @@ export default function Contact() {
               TIGON battery solution for your Golf Cart, LSV, NEV, or MSV needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call TIGON Experts: 1-844-844-6638
+                  Call TIGON Experts: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100">

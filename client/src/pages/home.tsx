@@ -16,7 +16,7 @@ export default function Home() {
   // Set SEO metadata
   useDocumentHead({
     title: "Power Your Golf Cart with TIGON Batteries Reliability",
-    description: "Premium Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON. 96+ professional-grade battery configurations with expert support. Call 1-844-844-6638.",
+    description: "Premium Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON. 96+ professional-grade battery configurations with expert support. Call 1-844-888-7732.",
     ogImage: "/hero-background.jpg",
     ogImageWidth: 1200,
     ogImageHeight: 630
@@ -106,21 +106,21 @@ export default function Home() {
   const testimonials = [
     {
       rating: 5,
-      text: "TIGON Batteries transformed my golf cart performance! The 6V-225 Golf Cart Batteries have been running strong for 3 years. Excellent customer support when I called 1-844-844-6638.",
+      text: "TIGON Batteries transformed my golf cart performance! The 6V-225 Golf Cart Batteries have been running strong for 3 years. Excellent customer support when I called 1-844-888-7732.",
       author: "John Smith",
       title: "Golf Course Manager, Texas",
       initials: "JS"
     },
     {
       rating: 5,
-      text: "Outstanding LSV Batteries from TIGON! Perfect for our neighborhood electric vehicles. The phone support at 1-844-844-6638 helped us choose exactly what we needed.",
+      text: "Outstanding LSV Batteries from TIGON! Perfect for our neighborhood electric vehicles. The phone support at 1-844-888-7732 helped us choose exactly what we needed.",
       author: "Maria Rodriguez",
       title: "Fleet Manager, California",
       initials: "MR"
     },
     {
       rating: 5,
-      text: "TIGON's lithium Golf Cart Batteries are incredible! Extended range and fast charging. The expert advice I received when calling 1-844-844-6638 was invaluable.",
+      text: "TIGON's lithium Golf Cart Batteries are incredible! Extended range and fast charging. The expert advice I received when calling 1-844-888-7732 was invaluable.",
       author: "Bob Kim",
       title: "Golf Enthusiast, Florida",
       initials: "BK"
@@ -199,10 +199,10 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Need Help Choosing? Call TIGON Battery Experts: 1-844-844-6638
+                Need Help Choosing? Call TIGON Battery Experts: 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -253,10 +253,10 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-tigon-red text-white px-8 py-4 text-lg hover:bg-blue-700">
                 <Phone className="h-5 w-5 mr-2" />
-                Experience TIGON Excellence: Call 1-844-844-6638
+                Experience TIGON Excellence: Call 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -292,10 +292,10 @@ export default function Home() {
                 View All 96+ Battery Models
               </Button>
             </Link>
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Questions? Call 1-844-844-6638
+                Questions? Call 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -348,10 +348,10 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Still Have Questions? Call TIGON Experts: 1-844-844-6638
+                Still Have Questions? Call TIGON Experts: 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -405,10 +405,10 @@ export default function Home() {
                 <div className="text-4xl font-bold text-tigon-red mb-2">10,000+</div>
                 <div className="text-xl font-semibold text-gray-900 mb-2">Satisfied Customers</div>
                 <div className="text-gray-600 mb-6">Trust TIGON Batteries for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
-                <a href="tel:1-844-844-6638">
+                <a href="tel:1-844-888-7732">
                   <Button className="bg-tigon-red text-white px-8 py-3 hover:bg-blue-700">
                     <Phone className="h-4 w-4 mr-2" />
-                    Join Our Happy Customers: 1-844-844-6638
+                    Join Our Happy Customers: 1-844-888-7732
                   </Button>
                 </a>
               </CardContent>
@@ -429,13 +429,13 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <a 
-              href="tel:1-844-844-6638"
+              href="tel:1-844-888-7732"
               className="bg-tigon-orange text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-orange-600 transition-colors flex items-center"
             >
               <Phone className="h-6 w-6 mr-3" />
               <div>
                 <div>Call Battery Experts</div>
-                <div className="text-lg font-normal">1-844-844-6638</div>
+                <div className="text-lg font-normal">1-844-888-7732</div>
               </div>
             </a>
             
