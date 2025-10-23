@@ -10,12 +10,11 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <Battery 
-                className="h-16 w-16 text-evbd-blue mr-3"
+              <img 
+                src="/evbd-logo.png" 
+                alt="EV Battery Direct" 
+                className="h-12 w-auto"
               />
-              <div className="text-2xl font-bold text-evbd-blue">
-                EV Battery <span className="text-evbd-electric">Direct</span>
-              </div>
             </div>
             <p className="text-gray-300 mb-6">
               EV Battery Direct specializes in Electric Vehicle Batteries, Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, 

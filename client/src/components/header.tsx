@@ -44,10 +44,11 @@ export default function Header() {
             {/* Logo */}
             <Link href="/">
               <div className="flex items-center cursor-pointer">
-                <Battery className="h-16 w-16 text-evbd-blue mr-3" />
-                <div className="text-2xl font-bold text-evbd-blue">
-                  EV Battery <span className="text-evbd-electric">Direct</span>
-                </div>
+                <img 
+                  src="/evbd-logo.png" 
+                  alt="EV Battery Direct" 
+                  className="h-12 w-auto"
+                />
               </div>
             </Link>
 
