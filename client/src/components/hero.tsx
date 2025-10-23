@@ -19,8 +19,8 @@ export default function Hero() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
-              Buy Electric Vehicle Batteries <span className="text-evbd-electric">Direct</span> & Save
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6 text-evbd-orange">
+              Buy Electric Vehicle Batteries <span className="text-white">Direct</span> & Save
             </h1>
             <p className="text-xl mb-8 text-blue-100">
               EV Battery Direct - Shop premium Electric Vehicle Batteries for Golf Carts, LSV, NEV & MSV. 
@@ -32,7 +32,7 @@ export default function Hero() {
                   size="lg" 
                   className="bg-evbd-orange text-white px-8 py-4 text-lg hover:bg-orange-600 w-full"
                 >
-                  <Search className="h-5 w-5 mr-2" />
+                  <Search className="h-5 w-5 mr-2 text-white" />
                   Shop Electric Vehicle Batteries
                 </Button>
               </Link>
@@ -40,12 +40,12 @@ export default function Hero() {
                 href="tel:1-844-888-7732"
                 className="bg-white text-evbd-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center border-2 border-white w-full"
               >
-                <Phone className="h-5 w-5 mr-2" />
+                <Phone className="h-5 w-5 mr-2 text-evbd-blue" />
                 Buy Now - Call 1-844-888-7732
               </a>
             </div>
             <div className="mt-6 flex items-center text-blue-100">
-              <CheckCircle className="h-5 w-5 mr-2" />
+              <CheckCircle className="h-5 w-5 mr-2 text-white" />
               <span>Free Shipping on Orders Over $500 • 10,000+ Satisfied Customers</span>
             </div>
           </div>
@@ -54,19 +54,19 @@ export default function Hero() {
               <div className="bg-white/20 p-12 rounded-xl">
                 <div className="grid grid-cols-2 gap-6 mb-6">
                   <div className="bg-evbd-blue/20 p-4 rounded-lg">
-                    <Battery className="h-12 w-12 text-evbd-electric mx-auto mb-2" />
+                    <Battery className="h-12 w-12 text-evbd-blue mx-auto mb-2" />
                     <div className="text-white font-semibold">Golf Cart</div>
                   </div>
-                  <div className="bg-evbd-orange/20 p-4 rounded-lg">
-                    <Truck className="h-12 w-12 text-evbd-orange mx-auto mb-2" />
+                  <div className="bg-evbd-blue/20 p-4 rounded-lg">
+                    <Truck className="h-12 w-12 text-evbd-blue mx-auto mb-2" />
                     <div className="text-white font-semibold">LSV/NEV</div>
                   </div>
                   <div className="bg-evbd-blue/20 p-4 rounded-lg">
-                    <Zap className="h-12 w-12 text-evbd-electric mx-auto mb-2" />
+                    <Zap className="h-12 w-12 text-evbd-blue mx-auto mb-2" />
                     <div className="text-white font-semibold">Lithium</div>
                   </div>
-                  <div className="bg-blue-400/20 p-4 rounded-lg">
-                    <Shield className="h-12 w-12 text-blue-300 mx-auto mb-2" />
+                  <div className="bg-evbd-blue/20 p-4 rounded-lg">
+                    <Shield className="h-12 w-12 text-evbd-blue mx-auto mb-2" />
                     <div className="text-white font-semibold">AGM/Gel</div>
                   </div>
                 </div>

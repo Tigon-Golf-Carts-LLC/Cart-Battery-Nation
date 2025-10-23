@@ -26,10 +26,10 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center text-sm">
             <span className="hidden sm:inline mr-2">Expert EV Battery Support:</span>
-            <Phone className="h-4 w-4 mr-2" />
+            <Phone className="h-4 w-4 mr-2 text-white" />
             <a 
               href="tel:1-844-888-7732" 
-              className="font-semibold hover:text-evbd-green transition-colors"
+              className="font-semibold hover:text-evbd-orange transition-colors"
             >
               1-844-888-7732
             </a>
@@ -69,18 +69,18 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               <a 
                 href="tel:1-844-888-7732" 
-                className="hidden sm:flex bg-evbd-green text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors items-center"
+                className="hidden sm:flex bg-evbd-orange text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition-colors items-center"
               >
-                <Phone className="h-4 w-4 mr-2" />
+                <Phone className="h-4 w-4 mr-2 text-white" />
                 1-844-888-7732
               </a>
               
               <Button
                 variant="ghost"
                 onClick={openCart}
-                className="relative p-2 text-gray-600 hover:text-evbd-blue"
+                className="relative p-2 text-evbd-blue hover:text-evbd-blue"
               >
-                <ShoppingCart className="h-6 w-6" />
+                <ShoppingCart className="h-6 w-6 text-evbd-blue" />
                 {itemCount > 0 && (
                   <Badge className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center text-xs bg-evbd-orange">
                     {itemCount}
@@ -92,7 +92,7 @@ export default function Header() {
               <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
                 <SheetTrigger asChild>
                   <Button variant="ghost" className="md:hidden p-2">
-                    <Menu className="h-6 w-6" />
+                    <Menu className="h-6 w-6 text-evbd-blue" />
                   </Button>
                 </SheetTrigger>
                 <SheetContent side="right" className="w-80">
@@ -110,9 +110,9 @@ export default function Header() {
                     <div className="border-t pt-4">
                       <a 
                         href="tel:1-844-888-7732" 
-                        className="flex items-center justify-center bg-evbd-green text-white px-4 py-3 rounded-lg font-semibold"
+                        className="flex items-center justify-center bg-evbd-orange text-white px-4 py-3 rounded-lg font-semibold"
                       >
-                        <Phone className="h-4 w-4 mr-2" />
+                        <Phone className="h-4 w-4 mr-2 text-white" />
                         Call Expert: 1-844-888-7732
                       </a>
                     </div>

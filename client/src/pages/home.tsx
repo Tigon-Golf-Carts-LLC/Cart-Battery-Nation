@@ -75,13 +75,13 @@ export default function Home() {
       icon: Phone,
       title: "Expert Phone Support",
       description: "Talk directly to EV Battery Direct specialists. Get personalized buying advice for your Golf Cart or electric vehicle battery needs.",
-      color: "evbd-green"
+      color: "evbd-blue"
     },
     {
       icon: Truck,
       title: "Fast Nationwide Shipping",
       description: "Quick delivery of Electric Vehicle Batteries across the country. Order today and get your Golf Cart batteries fast!",
-      color: "evbd-orange"
+      color: "evbd-blue"
     },
     {
       icon: Shield,
@@ -93,13 +93,13 @@ export default function Home() {
       icon: GraduationCap,
       title: "Educational Resources",
       description: "Comprehensive buying guides on Electric Vehicle Batteries, voltage systems, maintenance from EV Battery Direct experts.",
-      color: "evbd-green"
+      color: "evbd-blue"
     },
     {
       icon: Wrench,
       title: "Professional Installation",
       description: "Expert installation services ensure optimal performance when you buy electric vehicle batteries from EV Battery Direct.",
-      color: "evbd-orange"
+      color: "evbd-blue"
     }
   ];
 
@@ -161,7 +161,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-evbd-orange mb-4">
               Shop Electric Vehicle Batteries Direct & Save
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -180,7 +180,7 @@ export default function Home() {
                 <CardContent className="p-6">
                   <div className="flex items-center mb-3">
                     <span className="text-2xl mr-3">{category.icon}</span>
-                    <h3 className="text-xl font-bold text-gray-900">{category.name}</h3>
+                    <h3 className="text-xl font-bold text-evbd-orange">{category.name}</h3>
                   </div>
                   <p className="text-gray-600 mb-4">{category.description}</p>
                   <div className="flex justify-between items-center">
@@ -213,7 +213,7 @@ export default function Home() {
       <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-evbd-orange mb-4">
               Shop Smart - Find Your Perfect EV Battery
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -229,7 +229,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-evbd-orange mb-4">
               Why Buy Electric Vehicle Batteries from EV Battery Direct?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -245,7 +245,7 @@ export default function Home() {
                   <div className={`bg-${benefit.color}/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6`}>
                     <Icon className={`text-${benefit.color} h-8 w-8`} />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
+                  <h3 className="text-xl font-bold text-evbd-orange mb-4">{benefit.title}</h3>
                   <p className="text-gray-600">{benefit.description}</p>
                 </div>
               );
@@ -267,7 +267,7 @@ export default function Home() {
       <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-evbd-orange mb-4">
               Best-Selling Electric Vehicle Batteries - Order Today!
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -306,7 +306,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-evbd-orange mb-4">
               EV Battery Direct Buying Guides & Resources
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -335,7 +335,7 @@ export default function Home() {
                     </Badge>
                     <span className="text-gray-500 text-sm">{article.readTime}</span>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{article.title}</h3>
+                  <h3 className="text-xl font-bold text-evbd-orange mb-3">{article.title}</h3>
                   <p className="text-gray-600 mb-4">{article.description}</p>
                   <Link href="/battery-guide">
                     <span className="text-evbd-blue font-semibold hover:underline flex items-center cursor-pointer">
@@ -362,7 +362,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-evbd-orange mb-4">
               Customers Love Buying from EV Battery Direct
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -402,7 +402,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Card className="max-w-2xl mx-auto p-8">
               <CardContent className="p-0 text-center">
-                <div className="text-4xl font-bold text-evbd-blue mb-2">10,000+</div>
+                <div className="text-4xl font-bold text-evbd-orange mb-2">10,000+</div>
                 <div className="text-xl font-semibold text-gray-900 mb-2">Satisfied Customers</div>
                 <div className="text-gray-600 mb-6">Purchased Electric Vehicle Batteries from EV Battery Direct for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
                 <a href="tel:1-844-888-7732">
@@ -447,19 +447,19 @@ export default function Home() {
 
           <div className="grid md:grid-cols-4 gap-6 text-center">
             <div>
-              <div className="text-2xl font-bold text-evbd-green">96+</div>
+              <div className="text-2xl font-bold text-evbd-orange">96+</div>
               <div className="text-gray-600">EV Battery Models</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-evbd-green">10,000+</div>
+              <div className="text-2xl font-bold text-evbd-orange">10,000+</div>
               <div className="text-gray-600">Customers Bought Direct</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-evbd-green">24/7</div>
+              <div className="text-2xl font-bold text-evbd-orange">24/7</div>
               <div className="text-gray-600">Online Shopping</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-evbd-green">Fast</div>
+              <div className="text-2xl font-bold text-evbd-orange">Fast</div>
               <div className="text-gray-600">Nationwide Delivery</div>
             </div>
           </div>

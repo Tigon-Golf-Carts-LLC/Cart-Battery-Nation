@@ -68,7 +68,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
       </div>
       
       <CardContent className="p-6">
-        <h3 className="text-lg font-bold text-gray-900 mb-2">{product.name}</h3>
+        <h3 className="text-lg font-bold text-evbd-orange mb-2">{product.name}</h3>
         <p className="text-gray-600 mb-3">{product.technology}</p>
         
         <div className="mb-4 space-y-1">
@@ -87,7 +87,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
         </div>
 
         <div className="flex items-center justify-between mb-4">
-          <div className="text-2xl font-bold text-evbd-blue">
+          <div className="text-2xl font-bold text-evbd-orange">
             {product.price === "Call for Pricing" ? (
               <span className="text-lg">Call for Pricing</span>
             ) : (

@@ -169,7 +169,7 @@ export default function ShoppingCartComponent() {
               <div className="border-t pt-4 space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="font-semibold">Total:</span>
-                  <span className="text-2xl font-bold text-evbd-blue">${total.toFixed(2)}</span>
+                  <span className="text-2xl font-bold text-evbd-orange">${total.toFixed(2)}</span>
                 </div>
 
                 <Separator />

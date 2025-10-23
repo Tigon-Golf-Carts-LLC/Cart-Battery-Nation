@@ -24,12 +24,12 @@ export default function Footer() {
             
             {/* Footer Phone CTA */}
             <div className="bg-evbd-orange p-4 rounded-lg">
-              <h3 className="font-bold text-lg mb-2">Need Help? Call Our EV Battery Experts</h3>
+              <h3 className="font-bold text-lg text-white mb-2">Need Help? Call Our EV Battery Experts</h3>
               <a 
                 href="tel:1-844-888-7732" 
                 className="text-2xl font-bold hover:text-yellow-200 transition-colors flex items-center"
               >
-                <Phone className="h-6 w-6 mr-2" />
+                <Phone className="h-6 w-6 mr-2 text-white" />
                 1-844-888-7732
               </a>
               <p className="text-sm text-orange-100 mt-1">Monday - Saturday: 8AM - 5PM EST</p>
@@ -42,49 +42,49 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li>
                 <Link href="/products/golf-cart">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Golf Cart Batteries
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products/lsv">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     LSV Batteries
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products/nev">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     NEV Batteries
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products/msv">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     MSV Batteries
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products?voltage=6">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     6V Battery Series
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products?voltage=8">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     8V Battery Series
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products?voltage=12">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     12V Battery Series
                   </span>
                 </Link>
@@ -98,42 +98,42 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li>
                 <Link href="/battery-guide">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Battery Guide
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-guide/voltage">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Voltage Guide
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-guide/technology">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Technology Comparison
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-guide/maintenance">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Maintenance Tips
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-guide/installation">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Installation Guide
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-selector">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Battery Selector
                   </span>
                 </Link>
@@ -150,41 +150,41 @@ export default function Footer() {
                   href="tel:1-844-888-7732" 
                   className="hover:text-evbd-orange transition-colors font-semibold flex items-center"
                 >
-                  <Phone className="h-4 w-4 mr-1" />
+                  <Phone className="h-4 w-4 mr-1 text-evbd-blue" />
                   1-844-888-7732
                 </a>
               </li>
               <li>
                 <Link href="/contact">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Technical Support
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/warranty">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Warranty Info
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/returns">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Returns
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/shipping">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Shipping Info
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-blue transition-colors cursor-pointer">
                     Contact Us
                   </span>
                 </Link>
@@ -201,17 +201,17 @@ export default function Footer() {
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="/privacy">
-                <span className="text-gray-400 hover:text-evbd-green transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-sm cursor-pointer">
                   Privacy Policy
                 </span>
               </Link>
               <Link href="/terms">
-                <span className="text-gray-400 hover:text-evbd-green transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-sm cursor-pointer">
                   Terms of Service
                 </span>
               </Link>
               <Link href="/sitemap">
-                <span className="text-gray-400 hover:text-evbd-green transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-sm cursor-pointer">
                   Sitemap
                 </span>
               </Link>
@@ -226,7 +226,7 @@ export default function Footer() {
           href="tel:1-844-888-7732" 
           className="flex items-center justify-center text-white font-bold text-lg"
         >
-          <Phone className="h-5 w-5 mr-2" />
+          <Phone className="h-5 w-5 mr-2 text-white" />
           Call EV Battery Direct: 1-844-888-7732
         </a>
       </div>

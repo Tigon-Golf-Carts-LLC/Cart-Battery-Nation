@@ -150,7 +150,7 @@ export default function BatterySelector() {
       <section className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-evbd-orange mb-6">
               Find Your Perfect TIGON Battery Match
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
@@ -181,7 +181,7 @@ export default function BatterySelector() {
           /* Quiz Section */
           <div>
             <div className="text-center mb-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl font-bold text-evbd-orange mb-4">
                 Answer a Few Questions to Get Started
               </h2>
               <p className="text-gray-600">
@@ -197,8 +197,8 @@ export default function BatterySelector() {
             {/* Results Header */}
             <Card className="mb-8 bg-gradient-to-r from-evbd-blue to-evbd-green text-white">
               <CardContent className="p-8 text-center">
-                <CheckCircle className="h-16 w-16 mx-auto mb-4 text-evbd-orange" />
-                <h2 className="text-3xl font-bold mb-4">
+                <CheckCircle className="h-16 w-16 mx-auto mb-4 text-evbd-blue" />
+                <h2 className="text-3xl font-bold text-evbd-orange mb-4">
                   Your TIGON Battery Recommendations Are Ready!
                 </h2>
                 <p className="text-xl mb-4 text-blue-100">
@@ -226,7 +226,7 @@ export default function BatterySelector() {
             {recommendedProducts.length > 0 ? (
               <div>
                 <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-2xl font-bold text-gray-900">
+                  <h3 className="text-2xl font-bold text-evbd-orange">
                     Recommended TIGON Batteries for You
                   </h3>
                   <Badge className="bg-evbd-green text-white px-3 py-1">
@@ -251,7 +251,7 @@ export default function BatterySelector() {
                 <Card className="mb-8">
                   <CardHeader>
                     <CardTitle className="flex items-center">
-                      <CheckCircle className="h-5 w-5 mr-2 text-evbd-green" />
+                      <CheckCircle className="h-5 w-5 mr-2 text-evbd-blue" />
                       Why We Recommend These TIGON Batteries
                     </CardTitle>
                   </CardHeader>
@@ -343,14 +343,14 @@ export default function BatterySelector() {
 
                     <div className="text-center">
                       <div className="bg-evbd-green/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <CheckCircle className="h-8 w-8 text-evbd-green" />
+                        <CheckCircle className="h-8 w-8 text-evbd-blue" />
                       </div>
                       <h4 className="font-semibold mb-2">2. Verify Compatibility</h4>
                       <p className="text-sm text-gray-600 mb-3">
                         Confirm the exact specifications and compatibility with your vehicle model.
                       </p>
                       <Link href="/products">
-                        <Button size="sm" variant="outline" className="border-evbd-green text-evbd-green">
+                        <Button size="sm" variant="outline" className="border-evbd-green text-evbd-blue">
                           View Details
                         </Button>
                       </Link>
@@ -358,14 +358,14 @@ export default function BatterySelector() {
 
                     <div className="text-center">
                       <div className="bg-evbd-orange/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <ArrowRight className="h-8 w-8 text-evbd-orange" />
+                        <ArrowRight className="h-8 w-8 text-evbd-blue" />
                       </div>
                       <h4 className="font-semibold mb-2">3. Order & Install</h4>
                       <p className="text-sm text-gray-600 mb-3">
                         Place your order and schedule professional installation for optimal performance.
                       </p>
                       <a href="tel:1-844-888-7732">
-                        <Button size="sm" variant="outline" className="border-evbd-orange text-evbd-orange">
+                        <Button size="sm" variant="outline" className="border-evbd-orange text-evbd-blue">
                           Get Quote
                         </Button>
                       </a>
@@ -380,7 +380,7 @@ export default function BatterySelector() {
         {/* Expert Help CTA */}
         <section className="mt-16">
           <Card className="p-8 text-center bg-evbd-blue text-white">
-            <h3 className="text-2xl font-bold mb-4">
+            <h3 className="text-2xl font-bold text-evbd-orange mb-4">
               Still Have Questions About TIGON Batteries?
             </h3>
             <p className="text-xl mb-6 text-blue-100">

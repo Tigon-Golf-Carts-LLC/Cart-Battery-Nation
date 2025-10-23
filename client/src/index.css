@@ -52,11 +52,11 @@
   --tracking-normal: 0em;
   --spacing: 0.25rem;
   
-  /* EV Battery Direct Brand Colors - Main color is BLUE #2563eb */
-  --evbd-blue: hsl(218, 80%, 40%);
-  --evbd-electric: hsl(218, 90%, 50%);
-  --evbd-green: hsl(157, 69%, 38%);
-  --evbd-orange: hsl(38, 95%, 48%);
+  /* EV Battery Direct Brand Colors - Main color is BLUE #3f4895 */
+  --evbd-blue: hsl(234, 41%, 42%);
+  --evbd-electric: hsl(234, 41%, 42%);
+  --evbd-green: hsl(91, 47%, 49%);
+  --evbd-orange: hsl(20, 80%, 56%);
 }
 
 .dark {
@@ -118,11 +118,11 @@
 
 /* Custom EV Battery Direct Styles */
 .hero-gradient {
-  background: linear-gradient(135deg, var(--evbd-blue) 0%, #3b82f6 50%, var(--evbd-green) 100%);
+  background: linear-gradient(135deg, var(--evbd-blue) 0%, var(--evbd-blue) 50%, var(--evbd-green) 100%);
 }
 
 .battery-selector-active {
-  background: linear-gradient(135deg, var(--evbd-blue) 0%, #3b82f6 100%);
+  background: linear-gradient(135deg, var(--evbd-blue) 0%, var(--evbd-blue) 100%);
   color: white;
 }
 

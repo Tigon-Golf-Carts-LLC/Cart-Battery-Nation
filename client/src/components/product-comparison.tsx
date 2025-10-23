@@ -216,7 +216,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="space-y-1">
                     {product.features.map((feature, index) => (
                       <li key={index} className="flex items-start text-xs">
-                        <CheckCircle className="h-3 w-3 text-evbd-green mr-2 mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="h-3 w-3 text-evbd-blue mr-2 mt-0.5 flex-shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
@@ -243,7 +243,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="text-xs space-y-1">
                     {product.systemCompatibility.map((config, index) => (
                       <li key={index} className="flex items-center">
-                        <CheckCircle className="h-3 w-3 text-evbd-green mr-2" />
+                        <CheckCircle className="h-3 w-3 text-evbd-blue mr-2" />
                         {config}
                       </li>
                     ))}
@@ -254,7 +254,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
                   <ul className="text-xs space-y-1">
                     {product.applications.map((app, index) => (
                       <li key={index} className="flex items-center">
-                        <CheckCircle className="h-3 w-3 text-evbd-green mr-2" />
+                        <CheckCircle className="h-3 w-3 text-evbd-blue mr-2" />
                         {app}
                       </li>
                     ))}
@@ -269,7 +269,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
       {/* Action Section */}
       <Card className="bg-evbd-blue text-white">
         <CardContent className="p-6 text-center">
-          <h3 className="text-xl font-bold mb-4">
+          <h3 className="text-xl font-bold text-evbd-orange mb-4">
             Need Help Choosing Between These TIGON Batteries?
           </h3>
           <p className="mb-6 text-blue-100">

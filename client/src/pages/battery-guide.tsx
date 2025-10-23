@@ -163,7 +163,7 @@ export default function BatteryGuide() {
       <section className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-evbd-orange mb-6">
               Complete TIGON Batteries Guide 2025
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
@@ -200,7 +200,7 @@ export default function BatteryGuide() {
           {/* Voltage Guide Tab */}
           <TabsContent value="voltage" className="mt-8" id="voltage-guide">
             <div className="mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl font-bold text-evbd-orange mb-4">
                 Golf Cart Battery Voltage Guide
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl">
@@ -233,7 +233,7 @@ export default function BatteryGuide() {
                         <ul className="text-sm space-y-1">
                           {voltage.configurations.map((config, idx) => (
                             <li key={idx} className="flex items-center">
-                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
+                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-blue" />
                               {config}
                             </li>
                           ))}
@@ -245,7 +245,7 @@ export default function BatteryGuide() {
                         <ul className="text-sm space-y-1">
                           {voltage.applications.map((app, idx) => (
                             <li key={idx} className="flex items-center">
-                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
+                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-blue" />
                               {app}
                             </li>
                           ))}
@@ -253,11 +253,11 @@ export default function BatteryGuide() {
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2 text-evbd-green">Advantages</h4>
+                        <h4 className="font-semibold mb-2 text-evbd-blue">Advantages</h4>
                         <ul className="text-sm space-y-1">
                           {voltage.pros.map((pro, idx) => (
                             <li key={idx} className="flex items-center">
-                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
+                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-blue" />
                               {pro}
                             </li>
                           ))}
@@ -299,7 +299,7 @@ export default function BatteryGuide() {
           {/* Technology Comparison Tab */}
           <TabsContent value="technology" className="mt-8">
             <div className="mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl font-bold text-evbd-orange mb-4">
                 Understanding Battery Technologies
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl">
@@ -334,11 +334,11 @@ export default function BatteryGuide() {
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2 text-evbd-green">Advantages</h4>
+                        <h4 className="font-semibold mb-2 text-evbd-blue">Advantages</h4>
                         <ul className="text-sm space-y-1">
                           {tech.pros.map((pro, idx) => (
                             <li key={idx} className="flex items-center">
-                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
+                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-blue" />
                               {pro}
                             </li>
                           ))}
@@ -371,7 +371,7 @@ export default function BatteryGuide() {
           {/* Maintenance Tab */}
           <TabsContent value="maintenance" className="mt-8">
             <div className="mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl font-bold text-evbd-orange mb-4">
                 TIGON Battery Maintenance Guide
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl">
@@ -394,7 +394,7 @@ export default function BatteryGuide() {
                     <ul className="space-y-2">
                       {category.tasks.map((task, idx) => (
                         <li key={idx} className="flex items-start">
-                          <CheckCircle className="h-4 w-4 mr-2 text-evbd-green mt-0.5 flex-shrink-0" />
+                          <CheckCircle className="h-4 w-4 mr-2 text-evbd-blue mt-0.5 flex-shrink-0" />
                           <span className="text-sm">{task}</span>
                         </li>
                       ))}
@@ -457,7 +457,7 @@ export default function BatteryGuide() {
           {/* Installation Tab */}
           <TabsContent value="installation" className="mt-8">
             <div className="mb-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl font-bold text-evbd-orange mb-4">
                 Professional Installation Guide
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl">
@@ -502,19 +502,19 @@ export default function BatteryGuide() {
                       <h4 className="font-semibold">Required Safety Equipment:</h4>
                       <ul className="text-sm space-y-1">
                         <li className="flex items-center">
-                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
+                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-blue" />
                           Safety glasses and gloves
                         </li>
                         <li className="flex items-center">
-                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
+                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-blue" />
                           Insulated tools
                         </li>
                         <li className="flex items-center">
-                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
+                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-blue" />
                           Proper ventilation
                         </li>
                         <li className="flex items-center">
-                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
+                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-blue" />
                           Fire extinguisher nearby
                         </li>
                       </ul>
@@ -524,7 +524,7 @@ export default function BatteryGuide() {
 
                 <Card className="bg-evbd-orange/10 border-evbd-orange">
                   <CardContent className="p-6 text-center">
-                    <Phone className="h-8 w-8 text-evbd-orange mx-auto mb-3" />
+                    <Phone className="h-8 w-8 text-evbd-blue mx-auto mb-3" />
                     <h4 className="font-bold mb-2">Professional Installation Recommended</h4>
                     <p className="text-sm text-gray-600 mb-4">
                       For safety and warranty compliance, we recommend professional 
@@ -545,7 +545,7 @@ export default function BatteryGuide() {
         {/* Final CTA Section */}
         <section className="mt-16">
           <Card className="p-8 text-center bg-gradient-to-r from-evbd-blue to-evbd-green text-white">
-            <h3 className="text-3xl font-bold mb-4">
+            <h3 className="text-3xl font-bold text-evbd-orange mb-4">
               Ready to Choose Your TIGON Batteries?
             </h3>
             <p className="text-xl mb-6 text-blue-100">

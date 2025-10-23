@@ -138,7 +138,7 @@ export default function Contact() {
       <section className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-evbd-orange mb-6">
               Contact TIGON Battery Experts
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
@@ -164,7 +164,7 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Contact Methods */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
+          <h2 className="text-3xl font-bold text-evbd-orange text-center mb-12">
             Get in Touch with TIGON Batteries
           </h2>
           
@@ -180,9 +180,9 @@ export default function Contact() {
                     <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${
                       method.primary ? 'bg-evbd-orange/10' : 'bg-evbd-blue/10'
                     }`}>
-                      <Icon className={`h-8 w-8 ${method.primary ? 'text-evbd-orange' : 'text-evbd-blue'}`} />
+                      <Icon className="h-8 w-8 text-evbd-blue" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{method.title}</h3>
+                    <h3 className="text-xl font-bold text-evbd-orange mb-2">{method.title}</h3>
                     <p className="text-gray-600 mb-4">{method.description}</p>
                     <div className="mb-2">
                       <a 
@@ -206,7 +206,7 @@ export default function Contact() {
         <section className="mb-16">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-bold text-evbd-orange mb-6">
                 Request a Custom Battery Quote
               </h2>
               <p className="text-lg text-gray-600 mb-8">
@@ -216,19 +216,19 @@ export default function Contact() {
 
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-evbd-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-evbd-blue mr-3" />
                   <span className="text-gray-700">Expert consultation included</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-evbd-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-evbd-blue mr-3" />
                   <span className="text-gray-700">Competitive pricing guarantee</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-evbd-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-evbd-blue mr-3" />
                   <span className="text-gray-700">Professional installation available</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-evbd-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-evbd-blue mr-3" />
                   <span className="text-gray-700">24-hour response guarantee</span>
                 </div>
               </div>
@@ -250,8 +250,8 @@ export default function Contact() {
             <div>
               {formSubmitted ? (
                 <Card className="p-8 text-center bg-evbd-green/5 border-evbd-green">
-                  <CheckCircle className="h-16 w-16 text-evbd-green mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  <CheckCircle className="h-16 w-16 text-evbd-blue mx-auto mb-4" />
+                  <h3 className="text-2xl font-bold text-evbd-orange mb-4">
                     Quote Request Submitted Successfully!
                   </h3>
                   <p className="text-gray-600 mb-6">
@@ -451,7 +451,7 @@ export default function Contact() {
 
         {/* Support Areas */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
+          <h2 className="text-3xl font-bold text-evbd-orange text-center mb-12">
             How Our TIGON Battery Experts Can Help
           </h2>
           
@@ -464,12 +464,12 @@ export default function Contact() {
                     <div className="bg-evbd-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Icon className="h-8 w-8 text-evbd-blue" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 text-center mb-3">{area.title}</h3>
+                    <h3 className="text-xl font-bold text-evbd-orange text-center mb-3">{area.title}</h3>
                     <p className="text-gray-600 text-center mb-4">{area.description}</p>
                     <ul className="space-y-2">
                       {area.areas.map((item, idx) => (
                         <li key={idx} className="flex items-center text-sm">
-                          <CheckCircle className="h-4 w-4 text-evbd-green mr-2 flex-shrink-0" />
+                          <CheckCircle className="h-4 w-4 text-evbd-blue mr-2 flex-shrink-0" />
                           {item}
                         </li>
                       ))}
@@ -510,7 +510,7 @@ export default function Contact() {
                   <p className="text-sm text-gray-700">
                     <strong>Emergency Support:</strong> For critical battery failures, 
                     call our emergency line at{" "}
-                    <a href="tel:1-844-888-7732" className="text-evbd-green font-semibold">
+                    <a href="tel:1-844-888-7732" className="text-evbd-blue font-semibold">
                       1-844-888-7732
                     </a>
                   </p>
@@ -557,7 +557,7 @@ export default function Contact() {
         {/* Final CTA */}
         <section>
           <Card className="p-8 text-center bg-evbd-blue text-white">
-            <h3 className="text-3xl font-bold mb-4">
+            <h3 className="text-3xl font-bold text-evbd-orange mb-4">
               Ready to Get Started with TIGON Batteries?
             </h3>
             <p className="text-xl mb-6 text-blue-100">
