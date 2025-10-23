@@ -34,7 +34,7 @@ export default function Home() {
       name: "Golf Cart Batteries",
       slug: "golf-cart",
       description: "Buy premium Golf Cart Batteries for reliable performance. Shop 6V, 8V & 12V configurations. Order direct and save!",
-      image: "/attached_assets/evbd-logo.png",
+      image: "/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png",
       icon: "🏌️",
       count: 24
     },
@@ -42,7 +42,7 @@ export default function Home() {
       name: "LSV Batteries",
       slug: "lsv",
       description: "Shop Low Speed Vehicle (LSV) Batteries for neighborhood transportation. Buy direct from EV Battery Direct!",
-      image: "/attached_assets/evbd-logo.png",
+      image: "/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png",
       icon: "🚗",
       count: 24
     },
@@ -50,7 +50,7 @@ export default function Home() {
       name: "NEV Batteries",
       slug: "nev",
       description: "Purchase Neighborhood Electric Vehicle (NEV) Batteries meeting DOT regulations. Order street-legal EV batteries now!",
-      image: "/attached_assets/evbd-logo.png",
+      image: "/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png",
       icon: "🏠",
       count: 24
     },
@@ -58,7 +58,7 @@ export default function Home() {
       name: "MSV Batteries",
       slug: "msv",
       description: "Buy Medium Speed Vehicle (MSV) Batteries for enhanced performance. Shop extended range EV batteries direct!",
-      image: "/attached_assets/evbd-logo.png",
+      image: "/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png",
       icon: "⚡",
       count: 24
     }
