@@ -13,7 +13,7 @@ export default function Footer() {
               <img 
                 src="/evbd-logo.png" 
                 alt="EV Battery Direct" 
-                className="h-12 w-auto"
+                className="h-24 w-auto"
               />
             </div>
             <p className="text-gray-300 mb-6">

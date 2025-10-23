@@ -47,7 +47,7 @@ export default function Header() {
                 <img 
                   src="/evbd-logo.png" 
                   alt="EV Battery Direct" 
-                  className="h-12 w-auto"
+                  className="h-28 w-auto"
                 />
               </div>
             </Link>
