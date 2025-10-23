@@ -16,8 +16,8 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function BatterySelector() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Find Your Perfect TIGON Battery Match",
-    description: "Use our Battery Selector Quiz to choose the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV battery configurations. Call 1-844-888-7732.",
+    title: "Buy the Perfect Electric Vehicle Battery - Battery Selector | EV Battery Direct",
+    description: "Use our Battery Selector Quiz to buy the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV configurations. Shop direct now! Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -161,7 +161,7 @@ export default function BatterySelector() {
             {!quizCompleted && (
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:1-844-888-7732">
-                  <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+                  <Button size="lg" className="bg-evbd-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                     <Phone className="h-5 w-5 mr-2" />
                     Skip Quiz - Call Expert: 1-844-888-7732
                   </Button>
@@ -195,9 +195,9 @@ export default function BatterySelector() {
           /* Results Section */
           <div>
             {/* Results Header */}
-            <Card className="mb-8 bg-gradient-to-r from-tigon-red to-tigon-green text-white">
+            <Card className="mb-8 bg-gradient-to-r from-evbd-blue to-evbd-green text-white">
               <CardContent className="p-8 text-center">
-                <CheckCircle className="h-16 w-16 mx-auto mb-4 text-tigon-orange" />
+                <CheckCircle className="h-16 w-16 mx-auto mb-4 text-evbd-orange" />
                 <h2 className="text-3xl font-bold mb-4">
                   Your TIGON Battery Recommendations Are Ready!
                 </h2>
@@ -209,12 +209,12 @@ export default function BatterySelector() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a href="tel:1-844-888-7732">
-                    <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
+                    <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                       <Phone className="h-5 w-5 mr-2" />
                       Discuss Results: 1-844-888-7732
                     </Button>
                   </a>
-                  <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100" onClick={resetQuiz}>
+                  <Button size="lg" variant="outline" className="bg-white text-evbd-blue hover:bg-gray-100" onClick={resetQuiz}>
                     <RotateCcw className="h-5 w-5 mr-2" />
                     Retake Quiz
                   </Button>
@@ -229,7 +229,7 @@ export default function BatterySelector() {
                   <h3 className="text-2xl font-bold text-gray-900">
                     Recommended TIGON Batteries for You
                   </h3>
-                  <Badge className="bg-tigon-green text-white px-3 py-1">
+                  <Badge className="bg-evbd-green text-white px-3 py-1">
                     {recommendedProducts.length} Matches Found
                   </Badge>
                 </div>
@@ -238,7 +238,7 @@ export default function BatterySelector() {
                   {recommendedProducts.map((product, index) => (
                     <div key={product.id} className="relative">
                       {index === 0 && (
-                        <Badge className="absolute -top-2 -right-2 z-10 bg-tigon-orange text-white">
+                        <Badge className="absolute -top-2 -right-2 z-10 bg-evbd-orange text-white">
                           Best Match
                         </Badge>
                       )}
@@ -251,7 +251,7 @@ export default function BatterySelector() {
                 <Card className="mb-8">
                   <CardHeader>
                     <CardTitle className="flex items-center">
-                      <CheckCircle className="h-5 w-5 mr-2 text-tigon-green" />
+                      <CheckCircle className="h-5 w-5 mr-2 text-evbd-green" />
                       Why We Recommend These TIGON Batteries
                     </CardTitle>
                   </CardHeader>
@@ -305,7 +305,7 @@ export default function BatterySelector() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a href="tel:1-844-888-7732">
-                    <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
+                    <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                       <Phone className="h-5 w-5 mr-2" />
                       Call TIGON Experts: 1-844-888-7732
                     </Button>
@@ -321,51 +321,51 @@ export default function BatterySelector() {
             {/* Next Steps */}
             <section className="mt-12">
               <Card className="overflow-hidden">
-                <CardHeader className="bg-tigon-red/5">
+                <CardHeader className="bg-evbd-blue/5">
                   <CardTitle className="text-2xl">Next Steps with Your TIGON Battery Selection</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
                   <div className="grid md:grid-cols-3 gap-6">
                     <div className="text-center">
-                      <div className="bg-tigon-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Phone className="h-8 w-8 text-tigon-red" />
+                      <div className="bg-evbd-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Phone className="h-8 w-8 text-evbd-blue" />
                       </div>
                       <h4 className="font-semibold mb-2">1. Consult with Experts</h4>
                       <p className="text-sm text-gray-600 mb-3">
                         Discuss your recommendations with our TIGON battery specialists for personalized advice.
                       </p>
                       <a href="tel:1-844-888-7732">
-                        <Button size="sm" variant="outline" className="border-tigon-red text-tigon-red">
+                        <Button size="sm" variant="outline" className="border-evbd-blue text-evbd-blue">
                           Call 1-844-888-7732
                         </Button>
                       </a>
                     </div>
 
                     <div className="text-center">
-                      <div className="bg-tigon-green/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <CheckCircle className="h-8 w-8 text-tigon-green" />
+                      <div className="bg-evbd-green/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <CheckCircle className="h-8 w-8 text-evbd-green" />
                       </div>
                       <h4 className="font-semibold mb-2">2. Verify Compatibility</h4>
                       <p className="text-sm text-gray-600 mb-3">
                         Confirm the exact specifications and compatibility with your vehicle model.
                       </p>
                       <Link href="/products">
-                        <Button size="sm" variant="outline" className="border-tigon-green text-tigon-green">
+                        <Button size="sm" variant="outline" className="border-evbd-green text-evbd-green">
                           View Details
                         </Button>
                       </Link>
                     </div>
 
                     <div className="text-center">
-                      <div className="bg-tigon-orange/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <ArrowRight className="h-8 w-8 text-tigon-orange" />
+                      <div className="bg-evbd-orange/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <ArrowRight className="h-8 w-8 text-evbd-orange" />
                       </div>
                       <h4 className="font-semibold mb-2">3. Order & Install</h4>
                       <p className="text-sm text-gray-600 mb-3">
                         Place your order and schedule professional installation for optimal performance.
                       </p>
                       <a href="tel:1-844-888-7732">
-                        <Button size="sm" variant="outline" className="border-tigon-orange text-tigon-orange">
+                        <Button size="sm" variant="outline" className="border-evbd-orange text-evbd-orange">
                           Get Quote
                         </Button>
                       </a>
@@ -379,7 +379,7 @@ export default function BatterySelector() {
 
         {/* Expert Help CTA */}
         <section className="mt-16">
-          <Card className="p-8 text-center bg-tigon-red text-white">
+          <Card className="p-8 text-center bg-evbd-blue text-white">
             <h3 className="text-2xl font-bold mb-4">
               Still Have Questions About TIGON Batteries?
             </h3>
@@ -389,12 +389,12 @@ export default function BatterySelector() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
-                <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
+                <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
                   Call TIGON Experts: 1-844-888-7732
                 </Button>
               </a>
-              <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100" asChild>
+              <Button size="lg" variant="outline" className="bg-white text-evbd-blue hover:bg-gray-100" asChild>
                 <Link href="/battery-guide">
                   <Zap className="h-5 w-5 mr-2" />
                   Learn More in Our Guide

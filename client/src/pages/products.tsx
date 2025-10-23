@@ -164,7 +164,7 @@ export default function Products() {
               {pageDescription}
             </p>
             <a href="tel:1-844-888-7732">
-              <Button className="bg-tigon-orange text-white px-6 py-3 hover:bg-orange-600">
+              <Button className="bg-evbd-orange text-white px-6 py-3 hover:bg-orange-600">
                 <Phone className="h-4 w-4 mr-2" />
                 Call Battery Experts: 1-844-888-7732
               </Button>
@@ -269,13 +269,13 @@ export default function Products() {
                 <Separator className="my-6" />
 
                 {/* Expert Help CTA */}
-                <div className="bg-tigon-red/10 p-4 rounded-lg text-center">
-                  <h4 className="font-semibold text-tigon-red mb-2">Need Expert Help?</h4>
+                <div className="bg-evbd-blue/10 p-4 rounded-lg text-center">
+                  <h4 className="font-semibold text-evbd-blue mb-2">Need Expert Help?</h4>
                   <p className="text-sm text-gray-600 mb-3">
                     Talk to our TIGON battery specialists for personalized recommendations.
                   </p>
                   <a href="tel:1-844-888-7732">
-                    <Button size="sm" className="bg-tigon-red text-white hover:bg-blue-700 w-full text-xs px-3">
+                    <Button size="sm" className="bg-evbd-blue text-white hover:bg-blue-700 w-full text-xs px-3">
                       <Phone className="h-4 w-4 mr-1" />
                       Call 1-844-888-7732
                     </Button>
@@ -359,7 +359,7 @@ export default function Products() {
                     Clear All Filters
                   </Button>
                   <a href="tel:1-844-888-7732">
-                    <Button className="bg-tigon-orange text-white hover:bg-orange-600">
+                    <Button className="bg-evbd-orange text-white hover:bg-orange-600">
                       <Phone className="h-4 w-4 mr-2" />
                       Call Expert: 1-844-888-7732
                     </Button>
@@ -386,7 +386,7 @@ export default function Products() {
                     Our TIGON battery experts can help you find the perfect match for your vehicle.
                   </p>
                   <a href="tel:1-844-888-7732">
-                    <Button className="bg-tigon-red text-white hover:bg-blue-700">
+                    <Button className="bg-evbd-blue text-white hover:bg-blue-700">
                       <Phone className="h-4 w-4 mr-2" />
                       Call TIGON Experts: 1-844-888-7732
                     </Button>

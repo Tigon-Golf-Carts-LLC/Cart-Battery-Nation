@@ -22,14 +22,14 @@ export default function Header() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-tigon-red text-white py-2">
+      <div className="bg-evbd-blue text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center text-sm">
-            <span className="hidden sm:inline mr-2">Expert Battery Support:</span>
+            <span className="hidden sm:inline mr-2">Expert EV Battery Support:</span>
             <Phone className="h-4 w-4 mr-2" />
             <a 
               href="tel:1-844-888-7732" 
-              className="font-semibold hover:text-tigon-green transition-colors"
+              className="font-semibold hover:text-evbd-green transition-colors"
             >
               1-844-888-7732
             </a>
@@ -44,13 +44,9 @@ export default function Header() {
             {/* Logo */}
             <Link href="/">
               <div className="flex items-center cursor-pointer">
-                <img 
-                  src="/attached_assets/tigon-logo.png" 
-                  alt="TIGON Batteries Logo" 
-                  className="h-16 w-auto mr-3"
-                />
-                <div className="text-2xl font-bold text-tigon-red">
-                  TIGON <span className="text-tigon-green">Batteries</span>
+                <Battery className="h-16 w-16 text-evbd-blue mr-3" />
+                <div className="text-2xl font-bold text-evbd-blue">
+                  EV Battery <span className="text-evbd-electric">Direct</span>
                 </div>
               </div>
             </Link>
@@ -59,8 +55,8 @@ export default function Header() {
             <nav className="hidden md:flex space-x-8">
               {navigation.map((item) => (
                 <Link key={item.name} href={item.href}>
-                  <span className={`text-gray-700 hover:text-tigon-red font-medium transition-colors cursor-pointer ${
-                    location === item.href ? "text-tigon-red" : ""
+                  <span className={`text-gray-700 hover:text-evbd-blue font-medium transition-colors cursor-pointer ${
+                    location === item.href ? "text-evbd-blue" : ""
                   }`}>
                     {item.name}
                   </span>
@@ -72,7 +68,7 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               <a 
                 href="tel:1-844-888-7732" 
-                className="hidden sm:flex bg-tigon-green text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors items-center"
+                className="hidden sm:flex bg-evbd-green text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors items-center"
               >
                 <Phone className="h-4 w-4 mr-2" />
                 1-844-888-7732
@@ -81,11 +77,11 @@ export default function Header() {
               <Button
                 variant="ghost"
                 onClick={openCart}
-                className="relative p-2 text-gray-600 hover:text-tigon-red"
+                className="relative p-2 text-gray-600 hover:text-evbd-blue"
               >
                 <ShoppingCart className="h-6 w-6" />
                 {itemCount > 0 && (
-                  <Badge className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center text-xs bg-tigon-orange">
+                  <Badge className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center text-xs bg-evbd-orange">
                     {itemCount}
                   </Badge>
                 )}
@@ -103,7 +99,7 @@ export default function Header() {
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href}>
                         <span 
-                          className="block px-3 py-2 text-lg font-medium text-gray-700 hover:text-tigon-red cursor-pointer"
+                          className="block px-3 py-2 text-lg font-medium text-gray-700 hover:text-evbd-blue cursor-pointer"
                           onClick={() => setIsMobileMenuOpen(false)}
                         >
                           {item.name}
@@ -113,7 +109,7 @@ export default function Header() {
                     <div className="border-t pt-4">
                       <a 
                         href="tel:1-844-888-7732" 
-                        className="flex items-center justify-center bg-tigon-green text-white px-4 py-3 rounded-lg font-semibold"
+                        className="flex items-center justify-center bg-evbd-green text-white px-4 py-3 rounded-lg font-semibold"
                       >
                         <Phone className="h-4 w-4 mr-2" />
                         Call Expert: 1-844-888-7732

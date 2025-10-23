@@ -33,8 +33,8 @@ type QuoteFormData = z.infer<typeof quoteFormSchema>;
 export default function Contact() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Contact TIGON Battery Experts",
-    description: "Get expert guidance on Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON specialists. Our team is ready to help you choose from 96+ battery configurations. Call 1-844-888-7732.",
+    title: "Contact EV Battery Direct - Buy Electric Vehicle Batteries Direct",
+    description: "Order Golf Cart Batteries, LSV, NEV & MSV solutions from EV Battery Direct specialists. Get expert buying advice on 96+ battery configurations. Call 1-844-888-7732 to buy now!",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -65,7 +65,7 @@ export default function Contact() {
       setFormSubmitted(true);
       toast({
         title: "Quote request submitted!",
-        description: "Our TIGON battery experts will contact you within 24 hours.",
+        description: "Our EV Battery Direct experts will contact you within 24 hours to help you buy!",
       });
     },
     onError: () => {
@@ -84,8 +84,8 @@ export default function Contact() {
   const contactMethods = [
     {
       icon: Phone,
-      title: "Call Our Battery Experts",
-      description: "Speak directly with TIGON battery specialists for immediate assistance",
+      title: "Call to Order Now",
+      description: "Speak directly with EV Battery Direct specialists to purchase",
       contact: "1-844-888-7732",
       link: "tel:1-844-888-7732",
       hours: "Monday - Friday: 8AM - 6PM EST",
@@ -93,16 +93,16 @@ export default function Contact() {
     },
     {
       icon: Mail,
-      title: "Email Support",
-      description: "Send us your detailed questions and requirements",
-      contact: "experts@tigonbatteries.com",
-      link: "mailto:experts@tigonbatteries.com",
+      title: "Email for Quote",
+      description: "Send us your requirements for a custom price quote",
+      contact: "experts@evbatterydirect.com",
+      link: "mailto:experts@evbatterydirect.com",
       hours: "Response within 24 hours"
     },
     {
       icon: MessageSquare,
       title: "Live Chat",
-      description: "Get instant answers to your TIGON battery questions",
+      description: "Get instant answers to buy Electric Vehicle Batteries",
       contact: "Available on website",
       link: "#",
       hours: "Monday - Friday: 8AM - 6PM EST"
@@ -147,7 +147,7 @@ export default function Contact() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
-                <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+                <Button size="lg" className="bg-evbd-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
                   Call Now: 1-844-888-7732
                 </Button>
@@ -172,15 +172,15 @@ export default function Contact() {
             {contactMethods.map((method, index) => {
               const Icon = method.icon;
               return (
-                <Card key={index} className={`text-center ${method.primary ? 'ring-2 ring-tigon-orange' : ''}`}>
+                <Card key={index} className={`text-center ${method.primary ? 'ring-2 ring-evbd-orange' : ''}`}>
                   <CardContent className="p-6">
                     {method.primary && (
-                      <Badge className="mb-4 bg-tigon-orange text-white">Recommended</Badge>
+                      <Badge className="mb-4 bg-evbd-orange text-white">Recommended</Badge>
                     )}
                     <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${
-                      method.primary ? 'bg-tigon-orange/10' : 'bg-tigon-red/10'
+                      method.primary ? 'bg-evbd-orange/10' : 'bg-evbd-blue/10'
                     }`}>
-                      <Icon className={`h-8 w-8 ${method.primary ? 'text-tigon-orange' : 'text-tigon-red'}`} />
+                      <Icon className={`h-8 w-8 ${method.primary ? 'text-evbd-orange' : 'text-evbd-blue'}`} />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{method.title}</h3>
                     <p className="text-gray-600 mb-4">{method.description}</p>
@@ -188,7 +188,7 @@ export default function Contact() {
                       <a 
                         href={method.link} 
                         className={`font-semibold text-lg ${
-                          method.primary ? 'text-tigon-orange hover:text-orange-600' : 'text-tigon-red hover:text-blue-700'
+                          method.primary ? 'text-evbd-orange hover:text-orange-600' : 'text-evbd-blue hover:text-blue-700'
                         }`}
                       >
                         {method.contact}
@@ -216,30 +216,30 @@ export default function Contact() {
 
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-tigon-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-evbd-green mr-3" />
                   <span className="text-gray-700">Expert consultation included</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-tigon-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-evbd-green mr-3" />
                   <span className="text-gray-700">Competitive pricing guarantee</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-tigon-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-evbd-green mr-3" />
                   <span className="text-gray-700">Professional installation available</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-tigon-green mr-3" />
+                  <CheckCircle className="h-5 w-5 text-evbd-green mr-3" />
                   <span className="text-gray-700">24-hour response guarantee</span>
                 </div>
               </div>
 
-              <Card className="mt-8 p-4 bg-tigon-red text-white">
+              <Card className="mt-8 p-4 bg-evbd-blue text-white">
                 <h4 className="font-bold mb-2">Prefer to Talk? Call Us Now!</h4>
                 <p className="text-blue-100 mb-3">
                   Or call us directly at 1-844-888-7732 for immediate assistance.
                 </p>
                 <a href="tel:1-844-888-7732">
-                  <Button className="bg-tigon-orange text-white hover:bg-orange-600">
+                  <Button className="bg-evbd-orange text-white hover:bg-orange-600">
                     <Phone className="h-4 w-4 mr-2" />
                     Call 1-844-888-7732
                   </Button>
@@ -249,8 +249,8 @@ export default function Contact() {
 
             <div>
               {formSubmitted ? (
-                <Card className="p-8 text-center bg-tigon-green/5 border-tigon-green">
-                  <CheckCircle className="h-16 w-16 text-tigon-green mx-auto mb-4" />
+                <Card className="p-8 text-center bg-evbd-green/5 border-evbd-green">
+                  <CheckCircle className="h-16 w-16 text-evbd-green mx-auto mb-4" />
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
                     Quote Request Submitted Successfully!
                   </h3>
@@ -260,13 +260,13 @@ export default function Contact() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-center justify-center">
-                      <Clock className="h-5 w-5 text-tigon-red mr-2" />
+                      <Clock className="h-5 w-5 text-evbd-blue mr-2" />
                       <span className="text-gray-700">Expected response: Within 24 hours</span>
                     </div>
                     <div className="pt-4">
                       <p className="text-sm text-gray-600 mb-3">Need immediate assistance?</p>
                       <a href="tel:1-844-888-7732">
-                        <Button className="bg-tigon-orange text-white hover:bg-orange-600">
+                        <Button className="bg-evbd-orange text-white hover:bg-orange-600">
                           <Phone className="h-4 w-4 mr-2" />
                           Call 1-844-888-7732
                         </Button>
@@ -428,7 +428,7 @@ export default function Contact() {
 
                         <Button 
                           type="submit" 
-                          className="w-full bg-tigon-orange text-white hover:bg-orange-600"
+                          className="w-full bg-evbd-orange text-white hover:bg-orange-600"
                           disabled={submitQuoteMutation.isPending}
                         >
                           {submitQuoteMutation.isPending ? "Submitting..." : "Request Quote"}
@@ -436,7 +436,7 @@ export default function Contact() {
 
                         <p className="text-center text-sm text-gray-600">
                           Or call us directly at{" "}
-                          <a href="tel:1-844-888-7732" className="text-tigon-red font-semibold">
+                          <a href="tel:1-844-888-7732" className="text-evbd-blue font-semibold">
                             1-844-888-7732
                           </a>
                         </p>
@@ -461,15 +461,15 @@ export default function Contact() {
               return (
                 <Card key={index}>
                   <CardContent className="p-6">
-                    <div className="bg-tigon-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Icon className="h-8 w-8 text-tigon-red" />
+                    <div className="bg-evbd-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Icon className="h-8 w-8 text-evbd-blue" />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 text-center mb-3">{area.title}</h3>
                     <p className="text-gray-600 text-center mb-4">{area.description}</p>
                     <ul className="space-y-2">
                       {area.areas.map((item, idx) => (
                         <li key={idx} className="flex items-center text-sm">
-                          <CheckCircle className="h-4 w-4 text-tigon-green mr-2 flex-shrink-0" />
+                          <CheckCircle className="h-4 w-4 text-evbd-green mr-2 flex-shrink-0" />
                           {item}
                         </li>
                       ))}
@@ -487,7 +487,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Clock className="h-5 w-5 mr-2 text-tigon-red" />
+                  <Clock className="h-5 w-5 mr-2 text-evbd-blue" />
                   Business Hours
                 </CardTitle>
               </CardHeader>
@@ -506,11 +506,11 @@ export default function Contact() {
                     <span className="text-gray-600">Emergency Support Only</span>
                   </div>
                 </div>
-                <div className="mt-6 p-4 bg-tigon-green/10 rounded-lg">
+                <div className="mt-6 p-4 bg-evbd-green/10 rounded-lg">
                   <p className="text-sm text-gray-700">
                     <strong>Emergency Support:</strong> For critical battery failures, 
                     call our emergency line at{" "}
-                    <a href="tel:1-844-888-7732" className="text-tigon-green font-semibold">
+                    <a href="tel:1-844-888-7732" className="text-evbd-green font-semibold">
                       1-844-888-7732
                     </a>
                   </p>
@@ -521,7 +521,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <MapPin className="h-5 w-5 mr-2 text-tigon-red" />
+                  <MapPin className="h-5 w-5 mr-2 text-evbd-blue" />
                   Service Areas
                 </CardTitle>
               </CardHeader>
@@ -556,7 +556,7 @@ export default function Contact() {
 
         {/* Final CTA */}
         <section>
-          <Card className="p-8 text-center bg-tigon-red text-white">
+          <Card className="p-8 text-center bg-evbd-blue text-white">
             <h3 className="text-3xl font-bold mb-4">
               Ready to Get Started with TIGON Batteries?
             </h3>
@@ -566,12 +566,12 @@ export default function Contact() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
-                <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
+                <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
                   Call TIGON Experts: 1-844-888-7732
                 </Button>
               </a>
-              <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100">
+              <Button size="lg" variant="outline" className="bg-white text-evbd-blue hover:bg-gray-100">
                 <MessageSquare className="h-5 w-5 mr-2" />
                 Start Live Chat
               </Button>

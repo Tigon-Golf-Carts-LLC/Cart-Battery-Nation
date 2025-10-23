@@ -50,15 +50,15 @@ export default function ProductCard({ product, showBestSeller = false }: Product
   const specs = safeGetSpecs(product);
 
   return (
-    <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-tigon-red">
+    <Card className="card-hover overflow-hidden border-2 border-transparent hover:border-evbd-blue">
       <div className="relative">
         <img 
-          src="/attached_assets/tigon-logo.png" 
+          src="/attached_assets/evbd-logo.png" 
           alt={product.altText}
           className="w-full h-48 object-contain bg-gray-50" 
         />
         {showBestSeller && (
-          <Badge className="absolute top-4 left-4 bg-tigon-green text-white">
+          <Badge className="absolute top-4 left-4 bg-evbd-green text-white">
             Best Seller
           </Badge>
         )}
@@ -87,21 +87,21 @@ export default function ProductCard({ product, showBestSeller = false }: Product
         </div>
 
         <div className="flex items-center justify-between mb-4">
-          <div className="text-2xl font-bold text-tigon-red">
+          <div className="text-2xl font-bold text-evbd-blue">
             {product.price === "Call for Pricing" ? (
               <span className="text-lg">Call for Pricing</span>
             ) : (
               `$${product.price}`
             )}
           </div>
-          <Badge variant={product.inStock ? "default" : "destructive"} className="bg-tigon-green">
+          <Badge variant={product.inStock ? "default" : "destructive"} className="bg-evbd-green">
             {product.inStock ? "In Stock" : "Out of Stock"}
           </Badge>
         </div>
 
         <div className="space-y-2">
           <Button 
-            className="w-full bg-tigon-orange text-white hover:bg-orange-600"
+            className="w-full bg-evbd-orange text-white hover:bg-orange-600"
             onClick={() => addToCartMutation.mutate(product.id)}
             disabled={!product.inStock || addToCartMutation.isPending || product.price === "Call for Pricing"}
           >
@@ -118,7 +118,7 @@ export default function ProductCard({ product, showBestSeller = false }: Product
             <a href="tel:1-844-888-7732" className="flex-1">
               <Button 
                 variant="outline" 
-                className="w-full border-tigon-red text-tigon-red hover:bg-tigon-red hover:text-white px-3 py-2"
+                className="w-full border-evbd-blue text-evbd-blue hover:bg-evbd-blue hover:text-white px-3 py-2"
               >
                 <Phone className="h-4 w-4 mr-1" />
                 Call Expert

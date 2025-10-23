@@ -11,8 +11,8 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function BatteryGuide() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Complete TIGON Batteries Guide 2025",
-    description: "Everything you need to know about Golf Cart Batteries, voltage configurations, technology options, and maintenance from TIGON Batteries experts. Call 1-844-888-7732.",
+    title: "Complete Electric Vehicle Battery Buying Guide 2025 | EV Battery Direct",
+    description: "Everything you need to know before you buy Golf Cart Batteries - voltage configurations, technology options, and maintenance from EV Battery Direct experts. Shop now! Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -172,7 +172,7 @@ export default function BatteryGuide() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
-                <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+                <Button size="lg" className="bg-evbd-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
                   Call TIGON Experts: 1-844-888-7732
                 </Button>
@@ -213,13 +213,13 @@ export default function BatteryGuide() {
             <div className="space-y-6">
               {voltageGuide.map((voltage) => (
                 <Card key={voltage.voltage} className="overflow-hidden">
-                  <CardHeader className="bg-tigon-red/5">
+                  <CardHeader className="bg-evbd-blue/5">
                     <div className="flex items-center justify-between">
                       <CardTitle className="text-2xl flex items-center">
-                        <Battery className="h-6 w-6 mr-2 text-tigon-red" />
+                        <Battery className="h-6 w-6 mr-2 text-evbd-blue" />
                         {voltage.voltage} Battery Systems
                       </CardTitle>
-                      <Badge className="bg-tigon-green text-white">TIGON Available</Badge>
+                      <Badge className="bg-evbd-green text-white">TIGON Available</Badge>
                     </div>
                     <p className="text-gray-600">{voltage.description}</p>
                   </CardHeader>
@@ -227,13 +227,13 @@ export default function BatteryGuide() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                       <div>
                         <h4 className="font-semibold mb-2 flex items-center">
-                          <Settings className="h-4 w-4 mr-1 text-tigon-red" />
+                          <Settings className="h-4 w-4 mr-1 text-evbd-blue" />
                           Configurations
                         </h4>
                         <ul className="text-sm space-y-1">
                           {voltage.configurations.map((config, idx) => (
                             <li key={idx} className="flex items-center">
-                              <CheckCircle className="h-3 w-3 mr-2 text-tigon-green" />
+                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
                               {config}
                             </li>
                           ))}
@@ -245,7 +245,7 @@ export default function BatteryGuide() {
                         <ul className="text-sm space-y-1">
                           {voltage.applications.map((app, idx) => (
                             <li key={idx} className="flex items-center">
-                              <CheckCircle className="h-3 w-3 mr-2 text-tigon-green" />
+                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
                               {app}
                             </li>
                           ))}
@@ -253,11 +253,11 @@ export default function BatteryGuide() {
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2 text-tigon-green">Advantages</h4>
+                        <h4 className="font-semibold mb-2 text-evbd-green">Advantages</h4>
                         <ul className="text-sm space-y-1">
                           {voltage.pros.map((pro, idx) => (
                             <li key={idx} className="flex items-center">
-                              <CheckCircle className="h-3 w-3 mr-2 text-tigon-green" />
+                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
                               {pro}
                             </li>
                           ))}
@@ -281,14 +281,14 @@ export default function BatteryGuide() {
               ))}
             </div>
 
-            <Card className="mt-8 p-6 bg-tigon-red text-white">
+            <Card className="mt-8 p-6 bg-evbd-blue text-white">
               <h3 className="text-xl font-bold mb-4">Need Help Choosing the Right Voltage?</h3>
               <p className="mb-4 text-blue-100">
                 Our TIGON battery experts can help you determine the optimal voltage system 
                 for your specific golf cart or electric vehicle application.
               </p>
               <a href="tel:1-844-888-7732">
-                <Button className="bg-tigon-orange text-white hover:bg-orange-600">
+                <Button className="bg-evbd-orange text-white hover:bg-orange-600">
                   <Phone className="h-4 w-4 mr-2" />
                   Call TIGON Specialists: 1-844-888-7732
                 </Button>
@@ -317,7 +317,7 @@ export default function BatteryGuide() {
                       <CardTitle className="text-xl">{tech.technology}</CardTitle>
                       <div className="flex items-center gap-2">
                         <Badge variant="outline">{tech.price}</Badge>
-                        <Badge className="bg-tigon-green text-white">{tech.lifespan}</Badge>
+                        <Badge className="bg-evbd-green text-white">{tech.lifespan}</Badge>
                       </div>
                     </div>
                     <p className="text-gray-600">{tech.description}</p>
@@ -334,11 +334,11 @@ export default function BatteryGuide() {
                       </div>
 
                       <div>
-                        <h4 className="font-semibold mb-2 text-tigon-green">Advantages</h4>
+                        <h4 className="font-semibold mb-2 text-evbd-green">Advantages</h4>
                         <ul className="text-sm space-y-1">
                           {tech.pros.map((pro, idx) => (
                             <li key={idx} className="flex items-center">
-                              <CheckCircle className="h-3 w-3 mr-2 text-tigon-green" />
+                              <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
                               {pro}
                             </li>
                           ))}
@@ -386,7 +386,7 @@ export default function BatteryGuide() {
                 <Card key={category.category}>
                   <CardHeader>
                     <CardTitle className="flex items-center">
-                      <Shield className="h-5 w-5 mr-2 text-tigon-red" />
+                      <Shield className="h-5 w-5 mr-2 text-evbd-blue" />
                       {category.category}
                     </CardTitle>
                   </CardHeader>
@@ -394,7 +394,7 @@ export default function BatteryGuide() {
                     <ul className="space-y-2">
                       {category.tasks.map((task, idx) => (
                         <li key={idx} className="flex items-start">
-                          <CheckCircle className="h-4 w-4 mr-2 text-tigon-green mt-0.5 flex-shrink-0" />
+                          <CheckCircle className="h-4 w-4 mr-2 text-evbd-green mt-0.5 flex-shrink-0" />
                           <span className="text-sm">{task}</span>
                         </li>
                       ))}
@@ -475,7 +475,7 @@ export default function BatteryGuide() {
                     <Card key={step.step}>
                       <CardContent className="p-4">
                         <div className="flex items-start">
-                          <div className="bg-tigon-red text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
+                          <div className="bg-evbd-blue text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
                             {step.step}
                           </div>
                           <div>
@@ -502,19 +502,19 @@ export default function BatteryGuide() {
                       <h4 className="font-semibold">Required Safety Equipment:</h4>
                       <ul className="text-sm space-y-1">
                         <li className="flex items-center">
-                          <CheckCircle className="h-3 w-3 mr-2 text-tigon-green" />
+                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
                           Safety glasses and gloves
                         </li>
                         <li className="flex items-center">
-                          <CheckCircle className="h-3 w-3 mr-2 text-tigon-green" />
+                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
                           Insulated tools
                         </li>
                         <li className="flex items-center">
-                          <CheckCircle className="h-3 w-3 mr-2 text-tigon-green" />
+                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
                           Proper ventilation
                         </li>
                         <li className="flex items-center">
-                          <CheckCircle className="h-3 w-3 mr-2 text-tigon-green" />
+                          <CheckCircle className="h-3 w-3 mr-2 text-evbd-green" />
                           Fire extinguisher nearby
                         </li>
                       </ul>
@@ -522,16 +522,16 @@ export default function BatteryGuide() {
                   </CardContent>
                 </Card>
 
-                <Card className="bg-tigon-orange/10 border-tigon-orange">
+                <Card className="bg-evbd-orange/10 border-evbd-orange">
                   <CardContent className="p-6 text-center">
-                    <Phone className="h-8 w-8 text-tigon-orange mx-auto mb-3" />
+                    <Phone className="h-8 w-8 text-evbd-orange mx-auto mb-3" />
                     <h4 className="font-bold mb-2">Professional Installation Recommended</h4>
                     <p className="text-sm text-gray-600 mb-4">
                       For safety and warranty compliance, we recommend professional 
                       installation by certified technicians.
                     </p>
                     <a href="tel:1-844-888-7732">
-                      <Button className="bg-tigon-orange text-white hover:bg-orange-600">
+                      <Button className="bg-evbd-orange text-white hover:bg-orange-600">
                         Find Installer: 1-844-888-7732
                       </Button>
                     </a>
@@ -544,7 +544,7 @@ export default function BatteryGuide() {
 
         {/* Final CTA Section */}
         <section className="mt-16">
-          <Card className="p-8 text-center bg-gradient-to-r from-tigon-red to-tigon-green text-white">
+          <Card className="p-8 text-center bg-gradient-to-r from-evbd-blue to-evbd-green text-white">
             <h3 className="text-3xl font-bold mb-4">
               Ready to Choose Your TIGON Batteries?
             </h3>
@@ -554,12 +554,12 @@ export default function BatteryGuide() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
-                <Button size="lg" className="bg-tigon-orange text-white hover:bg-orange-600">
+                <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
                   Call TIGON Experts: 1-844-888-7732
                 </Button>
               </a>
-              <Button size="lg" variant="outline" className="bg-white text-tigon-red hover:bg-gray-100" asChild>
+              <Button size="lg" variant="outline" className="bg-white text-evbd-blue hover:bg-gray-100" asChild>
                 <a href="/battery-selector">
                   <Zap className="h-5 w-5 mr-2" />
                   Use Battery Selector

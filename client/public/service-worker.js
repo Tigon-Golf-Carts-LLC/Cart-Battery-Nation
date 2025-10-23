@@ -1,7 +1,7 @@
-// TIGON Batteries Service Worker
+// EV Battery Direct Service Worker
 // Enhanced PWA functionality and offline capabilities
 
-const CACHE_NAME = 'tigon-batteries-v1';
+const CACHE_NAME = 'evbatterydirect-v1';
 const OFFLINE_URL = '/offline.html';
 
 // Resources to cache for offline functionality
@@ -11,7 +11,7 @@ const CACHE_RESOURCES = [
   '/battery-selector', 
   '/battery-guide',
   '/contact',
-  '/tigon-logo.png',
+  '/evbd-logo.png',
   '/manifest.json',
   '/offline.html',
   // Add critical CSS and JS files
@@ -21,7 +21,7 @@ const CACHE_RESOURCES = [
 
 // Install event - cache essential resources
 self.addEventListener('install', event => {
-  console.log('TIGON Batteries Service Worker installing...');
+  console.log('EV Battery Direct Service Worker installing...');
   
   event.waitUntil(
     caches.open(CACHE_NAME)
@@ -38,7 +38,7 @@ self.addEventListener('install', event => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', event => {
-  console.log('TIGON Batteries Service Worker activating...');
+  console.log('EV Battery Direct Service Worker activating...');
   
   event.waitUntil(
     caches.keys().then(cacheNames => {
@@ -111,20 +111,20 @@ self.addEventListener('fetch', event => {
 // Background sync for offline form submissions
 self.addEventListener('sync', event => {
   if (event.tag === 'background-sync') {
-    console.log('TIGON Batteries: Background sync triggered');
+    console.log('EV Battery Direct: Background sync triggered');
     event.waitUntil(syncOfflineData());
   }
 });
 
 // Push notification handling
 self.addEventListener('push', event => {
-  console.log('TIGON Batteries: Push notification received');
+  console.log('EV Battery Direct: Push notification received');
   
   let notificationData = {
-    title: 'TIGON Batteries',
-    body: 'New battery deals and updates available!',
-    icon: '/tigon-logo.png',
-    badge: '/tigon-logo.png',
+    title: 'EV Battery Direct',
+    body: 'New electric vehicle battery deals - Buy direct and save!',
+    icon: '/evbd-logo.png',
+    badge: '/evbd-logo.png',
     data: {
       url: '/'
     }
@@ -160,7 +160,7 @@ self.addEventListener('push', event => {
 
 // Notification click handling
 self.addEventListener('notificationclick', event => {
-  console.log('TIGON Batteries: Notification clicked');
+  console.log('EV Battery Direct: Notification clicked');
   
   event.notification.close();
 
@@ -180,7 +180,7 @@ self.addEventListener('notificationclick', event => {
       }).then(clientList => {
         // Check if the site is already open
         for (let client of clientList) {
-          if (client.url.includes('tigonbatteries.com') && 'focus' in client) {
+          if (client.url.includes('evbatterydirect.com') && 'focus' in client) {
             client.focus();
             return client.navigate(urlToOpen);
           }
@@ -202,7 +202,7 @@ async function syncOfflineData() {
     const offlineData = await getOfflineData();
     
     if (offlineData.length > 0) {
-      console.log('TIGON Batteries: Syncing offline data...');
+      console.log('EV Battery Direct: Syncing offline data...');
       
       for (let data of offlineData) {
         try {
@@ -249,4 +249,4 @@ self.addEventListener('message', event => {
   }
 });
 
-console.log('TIGON Batteries Service Worker loaded successfully');
+console.log('EV Battery Direct Service Worker loaded successfully');

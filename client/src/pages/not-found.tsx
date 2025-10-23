@@ -5,8 +5,8 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function NotFound() {
   // Set SEO metadata
   useDocumentHead({
-    title: "404 Page Not Found",
-    description: "The page you're looking for doesn't exist. Browse our complete catalog of TIGON Golf Cart Batteries, LSV, NEV & MSV solutions. Call 1-844-888-7732.",
+    title: "404 Page Not Found | EV Battery Direct",
+    description: "Page not found. Shop our complete catalog of Electric Vehicle Batteries - Golf Cart, LSV, NEV & MSV solutions. Buy direct and save! Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512

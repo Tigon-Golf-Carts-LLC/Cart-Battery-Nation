@@ -98,17 +98,17 @@ export class MemStorage implements IStorage {
     voltageSeriesConfig.forEach(voltageSeries => {
       categories.forEach(category => {
         technologies.forEach(technology => {
-          const productId = `tigon-${voltageSeries.series.toLowerCase()}-${category.slug}-${technology.slug}`;
+          const productId = `evbd-${voltageSeries.series.toLowerCase()}-${category.slug}-${technology.slug}`;
           const price = technology.callForPricing ? "Call for Pricing" : (Math.round(voltageSeries.basePrice * technology.priceMultiplier * 100) / 100).toString();
           
           const product: Product = {
             id: productId,
-            name: `TIGON ${voltageSeries.series} ${category.description}`,
+            name: `EV Battery Direct ${voltageSeries.series} ${category.description}`,
             series: voltageSeries.series,
             category: category.description,
             technology: technology.name,
-            seoTitle: `TIGON ${voltageSeries.series} ${category.description} - ${technology.description}`,
-            metaDescription: `TIGON Batteries ${voltageSeries.series} ${category.description} with ${voltageSeries.ampHours}Ah capacity. Professional ${category.description} for reliable performance. Call 1-844-888-7732`,
+            seoTitle: `Buy ${voltageSeries.series} ${category.description} Direct - ${technology.description} | EV Battery Direct`,
+            metaDescription: `Shop ${voltageSeries.series} ${category.description} with ${voltageSeries.ampHours}Ah capacity. Buy professional Electric Vehicle Batteries direct from EV Battery Direct. Order now! Call 1-844-888-7732`,
             specifications: {
               voltage: voltageSeries.voltage,
               ampHours: voltageSeries.ampHours,
@@ -132,16 +132,16 @@ export class MemStorage implements IStorage {
               : ["Medium Speed Vehicles", "Enhanced Performance", "Extended Range"],
             features: [
               `Deep-cycle design for ${category.description}`,
-              `${technology.description} TIGON Batteries standard`,
-              `Professional ${category.description} solution`,
-              `Proven TIGON Batteries reliability`
+              `${technology.description} EV Battery Direct standard`,
+              `Professional ${category.description} solution - Buy Direct`,
+              `Proven Electric Vehicle Batteries reliability`
             ],
             price: price,
             inStock: true,
-            images: [`tigon-${category.slug}-battery-1.jpg`, `tigon-${category.slug}-battery-2.jpg`],
+            images: [`evbd-${category.slug}-battery-1.jpg`, `evbd-${category.slug}-battery-2.jpg`],
             relatedProducts: [],
-            focusKeywords: ["TIGON Batteries", category.description, `${voltageSeries.series} ${category.description}`],
-            altText: `TIGON ${voltageSeries.series} ${category.description} - ${technology.description} by TIGON Batteries`,
+            focusKeywords: ["EV Battery Direct", "Electric Vehicle Batteries", category.description, `Buy ${voltageSeries.series} ${category.description}`],
+            altText: `Buy ${voltageSeries.series} ${category.description} - ${technology.description} from EV Battery Direct`,
             createdAt: new Date()
           };
 
@@ -153,13 +153,13 @@ export class MemStorage implements IStorage {
     // Add additional services and products
     const additionalProducts: Product[] = [
       {
-        id: "tigon-battery-installation",
+        id: "evbd-battery-installation",
         name: "Professional Battery Installation Service",
         series: "Installation",
         category: "Services",
         technology: "Professional Service",
-        seoTitle: "TIGON Battery Installation Service - Expert Professional Installation",
-        metaDescription: "Professional battery installation service by TIGON Batteries experts. Safe, reliable installation for all battery types. Call 1-844-888-7732",
+        seoTitle: "Buy Professional EV Battery Installation Service - Expert Installation Direct",
+        metaDescription: "Purchase professional battery installation service from EV Battery Direct experts. Safe, reliable installation for all electric vehicle battery types. Order now! Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -172,27 +172,27 @@ export class MemStorage implements IStorage {
         systemCompatibility: ["All Systems"],
         applications: ["Golf Carts", "LSV", "NEV", "MSV", "All Electric Vehicles"],
         features: [
-          "Professional installation by TIGON certified technicians",
+          "Professional installation by EV Battery Direct certified technicians",
           "Proper battery placement and securing",
           "Electrical connection verification", 
           "System testing and validation"
         ],
         price: "200.00",
         inStock: true,
-        images: ["tigon-installation-service.jpg"],
+        images: ["evbd-installation-service.jpg"],
         relatedProducts: [],
-        focusKeywords: ["TIGON Battery Installation", "Professional Installation", "Battery Service"],
-        altText: "TIGON Professional Battery Installation Service",
+        focusKeywords: ["EV Battery Direct Installation", "Buy Professional Installation", "Electric Vehicle Battery Service"],
+        altText: "Buy Professional Battery Installation Service from EV Battery Direct",
         createdAt: new Date()
       },
       {
-        id: "tigon-6v-8v-core-charge",
+        id: "evbd-6v-8v-core-charge",
         name: "6V/8V Battery Core Charge",
         series: "Core",
         category: "Core Charges",
         technology: "Core Exchange",
-        seoTitle: "TIGON 6V 8V Battery Core Charge - Recycling Fee",
-        metaDescription: "6V and 8V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-888-7732",
+        seoTitle: "6V 8V Electric Vehicle Battery Core Charge - Recycling Fee | EV Battery Direct",
+        metaDescription: "6V and 8V battery core charge for recycling old electric vehicle batteries. Environmental responsibility by EV Battery Direct. Order now! Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -208,24 +208,24 @@ export class MemStorage implements IStorage {
           "Environmental battery recycling",
           "Core exchange program",
           "Refundable upon old battery return",
-          "TIGON eco-friendly initiative"
+          "EV Battery Direct eco-friendly initiative"
         ],
         price: "29.00",
         inStock: true,
-        images: ["tigon-core-charge.jpg"],
+        images: ["evbd-core-charge.jpg"],
         relatedProducts: [],
-        focusKeywords: ["TIGON Core Charge", "Battery Recycling", "6V 8V Core"],
-        altText: "TIGON 6V 8V Battery Core Charge",
+        focusKeywords: ["EV Battery Direct Core Charge", "Electric Vehicle Battery Recycling", "Buy 6V 8V Core"],
+        altText: "Buy 6V 8V Electric Vehicle Battery Core Charge - EV Battery Direct",
         createdAt: new Date()
       },
       {
-        id: "tigon-12v-core-charge",
+        id: "evbd-12v-core-charge",
         name: "12V Battery Core Charge",
         series: "Core",
         category: "Core Charges",
         technology: "Core Exchange",
-        seoTitle: "TIGON 12V Battery Core Charge - Recycling Fee",
-        metaDescription: "12V battery core charge for recycling old batteries. Environmental responsibility by TIGON Batteries. Call 1-844-888-7732",
+        seoTitle: "12V Electric Vehicle Battery Core Charge - Recycling Fee | EV Battery Direct",
+        metaDescription: "12V battery core charge for recycling old electric vehicle batteries. Environmental responsibility by EV Battery Direct. Order now! Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -241,24 +241,24 @@ export class MemStorage implements IStorage {
           "Environmental battery recycling",
           "Core exchange program",
           "Refundable upon old battery return",
-          "TIGON eco-friendly initiative"
+          "EV Battery Direct eco-friendly initiative"
         ],
         price: "57.00",
         inStock: true,
-        images: ["tigon-core-charge.jpg"],
+        images: ["evbd-core-charge.jpg"],
         relatedProducts: [],
-        focusKeywords: ["TIGON Core Charge", "Battery Recycling", "12V Core"],
-        altText: "TIGON 12V Battery Core Charge",
+        focusKeywords: ["EV Battery Direct Core Charge", "Electric Vehicle Battery Recycling", "Buy 12V Core"],
+        altText: "Buy 12V Electric Vehicle Battery Core Charge - EV Battery Direct",
         createdAt: new Date()
       },
       {
-        id: "tigon-battery-cable",
-        name: "TIGON Battery Cable",
+        id: "evbd-battery-cable",
+        name: "EV Battery Direct Cable",
         series: "Accessories",
         category: "Cables & Accessories",
         technology: "Heavy-Duty Cable",
-        seoTitle: "TIGON Battery Cable - Professional Grade Connection Cable",
-        metaDescription: "Professional grade battery cables by TIGON Batteries. Reliable connections for all battery systems. $10 per cable. Call 1-844-888-7732",
+        seoTitle: "Buy Professional Grade EV Battery Cable - Connection Cable Direct",
+        metaDescription: "Shop professional grade battery cables from EV Battery Direct. Reliable connections for all electric vehicle battery systems. Order now - $10 per cable. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -274,14 +274,14 @@ export class MemStorage implements IStorage {
           "Professional grade construction",
           "Corrosion-resistant terminals",
           "Flexible heavy-duty cable",
-          "TIGON quality standard"
+          "EV Battery Direct quality standard"
         ],
         price: "10.00",
         inStock: true,
-        images: ["tigon-battery-cable.jpg"],
+        images: ["evbd-battery-cable.jpg"],
         relatedProducts: [],
-        focusKeywords: ["TIGON Battery Cable", "Battery Connections", "Professional Cable"],
-        altText: "TIGON Professional Battery Cable",
+        focusKeywords: ["EV Battery Direct Cable", "Buy Electric Vehicle Battery Connections", "Shop Professional Cable"],
+        altText: "Buy Professional EV Battery Cable from EV Battery Direct",
         createdAt: new Date()
       }
     ];

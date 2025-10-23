@@ -52,11 +52,11 @@
   --tracking-normal: 0em;
   --spacing: 0.25rem;
   
-  /* TIGON Brand Colors - Main color is RED #af1f31 */
-  --tigon-red: hsl(351, 70%, 40%);
-  --tigon-blue: hsl(218, 80%, 40%);
-  --tigon-green: hsl(157, 69%, 38%);
-  --tigon-orange: hsl(38, 95%, 48%);
+  /* EV Battery Direct Brand Colors - Main color is BLUE #2563eb */
+  --evbd-blue: hsl(218, 80%, 40%);
+  --evbd-electric: hsl(218, 90%, 50%);
+  --evbd-green: hsl(157, 69%, 38%);
+  --evbd-orange: hsl(38, 95%, 48%);
 }
 
 .dark {
@@ -116,13 +116,13 @@
   }
 }
 
-/* Custom TIGON Styles */
+/* Custom EV Battery Direct Styles */
 .hero-gradient {
-  background: linear-gradient(135deg, var(--tigon-blue) 0%, #3b82f6 50%, var(--tigon-green) 100%);
+  background: linear-gradient(135deg, var(--evbd-blue) 0%, #3b82f6 50%, var(--evbd-green) 100%);
 }
 
 .battery-selector-active {
-  background: linear-gradient(135deg, var(--tigon-blue) 0%, #3b82f6 100%);
+  background: linear-gradient(135deg, var(--evbd-blue) 0%, #3b82f6 100%);
   color: white;
 }
 
@@ -135,62 +135,138 @@
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+.text-evbd-blue {
+  color: var(--evbd-blue);
+}
+
+.text-evbd-electric {
+  color: var(--evbd-electric);
+}
+
+.text-evbd-green {
+  color: var(--evbd-green);
+}
+
+.text-evbd-orange {
+  color: var(--evbd-orange);
+}
+
+.bg-evbd-blue {
+  background-color: var(--evbd-blue);
+}
+
+.bg-evbd-electric {
+  background-color: var(--evbd-electric);
+}
+
+.bg-evbd-green {
+  background-color: var(--evbd-green);
+}
+
+.bg-evbd-orange {
+  background-color: var(--evbd-orange);
+}
+
+.border-evbd-blue {
+  border-color: var(--evbd-blue);
+}
+
+.border-evbd-green {
+  border-color: var(--evbd-green);
+}
+
+.border-evbd-orange {
+  border-color: var(--evbd-orange);
+}
+
+.hover\:bg-evbd-blue:hover {
+  background-color: var(--evbd-blue);
+}
+
+.hover\:bg-evbd-green:hover {
+  background-color: var(--evbd-green);
+}
+
+.hover\:bg-evbd-orange:hover {
+  background-color: var(--evbd-orange);
+}
+
+.hover\:text-evbd-blue:hover {
+  color: var(--evbd-blue);
+}
+
+.hover\:text-evbd-electric:hover {
+  color: var(--evbd-electric);
+}
+
+.hover\:text-evbd-green:hover {
+  color: var(--evbd-green);
+}
+
+.hover\:text-evbd-orange:hover {
+  color: var(--evbd-orange);
+}
+
+.text-tigon-red {
+  color: var(--evbd-blue);
+}
+
 .text-tigon-blue {
-  color: var(--tigon-blue);
+  color: var(--evbd-blue);
 }
 
 .text-tigon-green {
-  color: var(--tigon-green);
+  color: var(--evbd-green);
 }
 
 .text-tigon-orange {
-  color: var(--tigon-orange);
+  color: var(--evbd-orange);
+}
+
+.bg-tigon-red {
+  background-color: var(--evbd-blue);
 }
 
 .bg-tigon-blue {
-  background-color: var(--tigon-blue);
+  background-color: var(--evbd-blue);
 }
 
 .bg-tigon-green {
-  background-color: var(--tigon-green);
+  background-color: var(--evbd-green);
 }
 
 .bg-tigon-orange {
-  background-color: var(--tigon-orange);
+  background-color: var(--evbd-orange);
+}
+
+.border-tigon-red {
+  border-color: var(--evbd-blue);
 }
 
 .border-tigon-blue {
-  border-color: var(--tigon-blue);
+  border-color: var(--evbd-blue);
 }
 
 .border-tigon-green {
-  border-color: var(--tigon-green);
+  border-color: var(--evbd-green);
 }
 
 .border-tigon-orange {
-  border-color: var(--tigon-orange);
+  border-color: var(--evbd-orange);
 }
 
-.hover\:bg-tigon-blue:hover {
-  background-color: var(--tigon-blue);
+.hover\:bg-tigon-red:hover {
+  background-color: var(--evbd-blue);
 }
 
-.hover\:bg-tigon-green:hover {
-  background-color: var(--tigon-green);
-}
-
-.hover\:bg-tigon-orange:hover {
-  background-color: var(--tigon-orange);
-}
-
-.hover\:text-tigon-blue:hover {
-  color: var(--tigon-blue);
+.hover\:text-tigon-red:hover {
+  color: var(--evbd-blue);
 }
 
 .hover\:text-tigon-green:hover {
-  color: var(--tigon-green);
+  color: var(--evbd-green);
 }
 
 .hover\:text-tigon-orange:hover {
-  color: var(--tigon-orange);
+  color: var(--evbd-orange);
 }

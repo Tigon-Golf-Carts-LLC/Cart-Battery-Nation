@@ -15,8 +15,8 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function Home() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Power Your Golf Cart with TIGON Batteries Reliability",
-    description: "Premium Golf Cart Batteries, LSV, NEV & MSV solutions from TIGON. 96+ professional-grade battery configurations with expert support. Call 1-844-888-7732.",
+    title: "Buy Electric Vehicle Batteries Direct | Golf Cart, LSV, NEV & MSV Batteries",
+    description: "Shop Electric Vehicle Batteries Direct! Order premium Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ battery configurations. Buy now & save! Call 1-844-888-7732.",
     ogImage: "/hero-background.jpg",
     ogImageWidth: 1200,
     ogImageHeight: 630
@@ -33,32 +33,32 @@ export default function Home() {
     {
       name: "Golf Cart Batteries",
       slug: "golf-cart",
-      description: "Premium Golf Cart Batteries for reliable performance on the course. 6V, 8V & 12V configurations available.",
-      image: "/attached_assets/tigon-logo.png",
+      description: "Buy premium Golf Cart Batteries for reliable performance. Shop 6V, 8V & 12V configurations. Order direct and save!",
+      image: "/attached_assets/evbd-logo.png",
       icon: "🏌️",
       count: 24
     },
     {
       name: "LSV Batteries",
       slug: "lsv",
-      description: "Low Speed Vehicle (LSV) Batteries designed for neighborhood transportation and utility applications.",
-      image: "/attached_assets/tigon-logo.png",
+      description: "Shop Low Speed Vehicle (LSV) Batteries for neighborhood transportation. Buy direct from EV Battery Direct!",
+      image: "/attached_assets/evbd-logo.png",
       icon: "🚗",
       count: 24
     },
     {
       name: "NEV Batteries",
       slug: "nev",
-      description: "Neighborhood Electric Vehicle (NEV) Batteries meeting DOT regulations for street-legal operation.",
-      image: "/attached_assets/tigon-logo.png",
+      description: "Purchase Neighborhood Electric Vehicle (NEV) Batteries meeting DOT regulations. Order street-legal EV batteries now!",
+      image: "/attached_assets/evbd-logo.png",
       icon: "🏠",
       count: 24
     },
     {
       name: "MSV Batteries",
       slug: "msv",
-      description: "Medium Speed Vehicle (MSV) Batteries for enhanced performance and extended range applications.",
-      image: "/attached_assets/tigon-logo.png",
+      description: "Buy Medium Speed Vehicle (MSV) Batteries for enhanced performance. Shop extended range EV batteries direct!",
+      image: "/attached_assets/evbd-logo.png",
       icon: "⚡",
       count: 24
     }
@@ -68,59 +68,59 @@ export default function Home() {
     {
       icon: Settings,
       title: "96+ Battery Configurations",
-      description: "Complete lineup covering every voltage, capacity and technology combination for Golf Cart Batteries and electric vehicles.",
-      color: "tigon-red"
+      description: "Shop our complete lineup of Electric Vehicle Batteries. Buy every voltage, capacity and technology for your Golf Cart or EV.",
+      color: "evbd-blue"
     },
     {
       icon: Phone,
       title: "Expert Phone Support",
-      description: "Talk directly to TIGON battery specialists. Get personalized advice for your specific Golf Cart or electric vehicle needs.",
-      color: "tigon-green"
+      description: "Talk directly to EV Battery Direct specialists. Get personalized buying advice for your Golf Cart or electric vehicle battery needs.",
+      color: "evbd-green"
     },
     {
       icon: Truck,
       title: "Fast Nationwide Shipping",
-      description: "Quick delivery of TIGON Batteries across the country. Get your Golf Cart back on the course faster.",
-      color: "tigon-orange"
+      description: "Quick delivery of Electric Vehicle Batteries across the country. Order today and get your Golf Cart batteries fast!",
+      color: "evbd-orange"
     },
     {
       icon: Shield,
       title: "Industry-Leading Warranty",
-      description: "Comprehensive warranty coverage on all TIGON Golf Cart Batteries and electric vehicle battery solutions.",
-      color: "tigon-red"
+      description: "Comprehensive warranty coverage on all EV Battery Direct Golf Cart Batteries and electric vehicle battery solutions.",
+      color: "evbd-blue"
     },
     {
       icon: GraduationCap,
       title: "Educational Resources",
-      description: "Comprehensive guides on Golf Cart Batteries, voltage systems, maintenance and installation from TIGON experts.",
-      color: "tigon-green"
+      description: "Comprehensive buying guides on Electric Vehicle Batteries, voltage systems, maintenance from EV Battery Direct experts.",
+      color: "evbd-green"
     },
     {
       icon: Wrench,
       title: "Professional Installation",
-      description: "Expert installation services and detailed guides ensure optimal performance of your TIGON battery system.",
-      color: "tigon-orange"
+      description: "Expert installation services ensure optimal performance when you buy electric vehicle batteries from EV Battery Direct.",
+      color: "evbd-orange"
     }
   ];
 
   const testimonials = [
     {
       rating: 5,
-      text: "TIGON Batteries transformed my golf cart performance! The 6V-225 Golf Cart Batteries have been running strong for 3 years. Excellent customer support when I called 1-844-888-7732.",
+      text: "Bought 6V-225 Golf Cart Batteries from EV Battery Direct - best purchase ever! Running strong for 3 years. Excellent customer support when I called 1-844-888-7732 to order.",
       author: "John Smith",
       title: "Golf Course Manager, Texas",
       initials: "JS"
     },
     {
       rating: 5,
-      text: "Outstanding LSV Batteries from TIGON! Perfect for our neighborhood electric vehicles. The phone support at 1-844-888-7732 helped us choose exactly what we needed.",
+      text: "Outstanding LSV Batteries! Purchased direct and saved hundreds. Perfect for our neighborhood electric vehicles. Call 1-844-888-7732 to buy yours today!",
       author: "Maria Rodriguez",
       title: "Fleet Manager, California",
       initials: "MR"
     },
     {
       rating: 5,
-      text: "TIGON's lithium Golf Cart Batteries are incredible! Extended range and fast charging. The expert advice I received when calling 1-844-888-7732 was invaluable.",
+      text: "Ordered lithium Golf Cart Batteries from EV Battery Direct - incredible value! Extended range and fast charging. Buy now, you won't regret it!",
       author: "Bob Kim",
       title: "Golf Enthusiast, Florida",
       initials: "BK"
@@ -129,25 +129,25 @@ export default function Home() {
 
   const educationalContent = [
     {
-      title: "Complete Golf Cart Battery Guide 2025",
-      description: "Everything you need to know about Golf Cart Batteries: voltage configurations, TIGON Batteries options, maintenance tips and installation.",
+      title: "Golf Cart Battery Buying Guide 2025",
+      description: "Shop smart! Everything you need to know before you buy Golf Cart Batteries: voltage configurations, pricing, and installation from EV Battery Direct.",
       readTime: "5 min read",
-      category: "GUIDE",
-      image: "/attached_assets/tigon-logo.png"
+      category: "BUYING GUIDE",
+      image: "/attached_assets/evbd-logo.png"
     },
     {
-      title: "Understanding Battery Technologies",
-      description: "Compare Flooded Lead-Acid, AGM, Gel and Lithium technologies. TIGON Batteries explains pros, cons and best applications.",
+      title: "Best Electric Vehicle Battery Technologies",
+      description: "Compare & buy: Flooded Lead-Acid, AGM, Gel and Lithium technologies. EV Battery Direct explains which to purchase for your needs.",
       readTime: "8 min read",
       category: "TECHNICAL",
-      image: "/attached_assets/tigon-logo.png"
+      image: "/attached_assets/evbd-logo.png"
     },
     {
-      title: "Vehicle-Specific Battery Requirements",
-      description: "Learn the power needs for Golf Carts, LSV, NEV & MSV applications. TIGON Batteries selection guide for each vehicle type.",
+      title: "Which EV Battery Should You Buy?",
+      description: "Purchase the right battery for Golf Carts, LSV, NEV & MSV applications. EV Battery Direct shopping guide for each vehicle type.",
       readTime: "6 min read",
-      category: "VEHICLES",
-      image: "/attached_assets/tigon-logo.png"
+      category: "SHOPPING",
+      image: "/attached_assets/evbd-logo.png"
     }
   ];
 
@@ -162,19 +162,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              TIGON Batteries for Every Electric Vehicle
+              Shop Electric Vehicle Batteries Direct & Save
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From Golf Cart Batteries to specialized LSV, NEV & MSV solutions, TIGON Batteries offers the complete lineup for all your electric vehicle needs.
+              Buy Golf Cart Batteries and specialized LSV, NEV & MSV solutions direct. EV Battery Direct offers the complete lineup at the best prices!
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {categories.map((category) => (
-              <Card key={category.slug} className="card-hover overflow-hidden border-2 border-transparent hover:border-tigon-red">
+              <Card key={category.slug} className="card-hover overflow-hidden border-2 border-transparent hover:border-evbd-blue">
                 <img 
                   src={category.image}
-                  alt={`${category.name} by TIGON`}
+                  alt={`${category.name} - Buy from EV Battery Direct`}
                   className="w-full h-48 object-contain bg-gray-50" 
                 />
                 <CardContent className="p-6">
@@ -185,11 +185,11 @@ export default function Home() {
                   <p className="text-gray-600 mb-4">{category.description}</p>
                   <div className="flex justify-between items-center">
                     <Link href={`/products/${category.slug}`}>
-                      <span className="text-tigon-red font-semibold hover:underline cursor-pointer">
-                        View All {category.name} →
+                      <span className="text-evbd-blue font-semibold hover:underline cursor-pointer">
+                        Shop All {category.name} →
                       </span>
                     </Link>
-                    <Badge className="bg-tigon-green text-white">
+                    <Badge className="bg-evbd-green text-white">
                       {category.count} Models
                     </Badge>
                   </div>
@@ -200,9 +200,9 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+              <Button size="lg" className="bg-evbd-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Need Help Choosing? Call TIGON Battery Experts: 1-844-888-7732
+                Ready to Buy? Call EV Battery Direct: 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -214,10 +214,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Find Your Perfect TIGON Battery Match
+              Shop Smart - Find Your Perfect EV Battery
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our Battery Selector Quiz helps you choose the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV battery configurations.
+              Our Battery Selector Quiz helps you buy the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV battery configurations. Purchase with confidence!
             </p>
           </div>
 
@@ -230,10 +230,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Why Golf Cart Owners Choose TIGON Batteries
+              Why Buy Electric Vehicle Batteries from EV Battery Direct?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Over 10,000 customers trust TIGON Batteries for reliable Golf Cart, LSV, NEV & MSV power solutions. Here's why we're the industry leader.
+              Over 10,000 customers order from EV Battery Direct for reliable Golf Cart, LSV, NEV & MSV power solutions. Shop with confidence - here's why we're the industry leader.
             </p>
           </div>
 
@@ -254,9 +254,9 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-red text-white px-8 py-4 text-lg hover:bg-blue-700">
+              <Button size="lg" className="bg-evbd-blue text-white px-8 py-4 text-lg hover:bg-blue-700">
                 <Phone className="h-5 w-5 mr-2" />
-                Experience TIGON Excellence: Call 1-844-888-7732
+                Order Now & Experience Direct Savings: Call 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -268,10 +268,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Popular TIGON Battery Solutions
+              Best-Selling Electric Vehicle Batteries - Order Today!
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Top-selling Golf Cart Batteries and electric vehicle solutions trusted by thousands of customers nationwide.
+              Shop our top-selling Golf Cart Batteries and electric vehicle solutions. Buy the batteries trusted by thousands nationwide!
             </p>
           </div>
 
@@ -287,15 +287,15 @@ export default function Home() {
 
           <div className="text-center mt-12 flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/products">
-              <Button size="lg" className="bg-tigon-red text-white px-8 py-4 text-lg hover:bg-blue-700">
+              <Button size="lg" className="bg-evbd-blue text-white px-8 py-4 text-lg hover:bg-blue-700">
                 <Settings className="h-5 w-5 mr-2" />
-                View All 96+ Battery Models
+                Shop All 96+ Battery Models
               </Button>
             </Link>
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+              <Button size="lg" className="bg-evbd-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Questions? Call 1-844-888-7732
+                Ready to Buy? Call 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -307,10 +307,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              TIGON Batteries Educational Resources
+              EV Battery Direct Buying Guides & Resources
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Learn everything about Golf Cart Batteries, electric vehicle power systems, and battery maintenance from TIGON Batteries experts.
+              Learn everything before you buy! Electric Vehicle Batteries buying guides, power systems, and battery maintenance from EV Battery Direct experts.
             </p>
           </div>
 
@@ -326,9 +326,9 @@ export default function Home() {
                   <div className="flex items-center mb-3">
                     <Badge 
                       className={`text-white mr-2 ${
-                        article.category === 'GUIDE' ? 'bg-tigon-green' :
-                        article.category === 'TECHNICAL' ? 'bg-tigon-red' :
-                        'bg-tigon-orange'
+                        article.category === 'BUYING GUIDE' ? 'bg-evbd-green' :
+                        article.category === 'TECHNICAL' ? 'bg-evbd-blue' :
+                        'bg-evbd-orange'
                       }`}
                     >
                       {article.category}
@@ -338,8 +338,8 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-gray-900 mb-3">{article.title}</h3>
                   <p className="text-gray-600 mb-4">{article.description}</p>
                   <Link href="/battery-guide">
-                    <span className="text-tigon-red font-semibold hover:underline flex items-center cursor-pointer">
-                      Read Guide <span className="ml-2">→</span>
+                    <span className="text-evbd-blue font-semibold hover:underline flex items-center cursor-pointer">
+                      Read Buying Guide <span className="ml-2">→</span>
                     </span>
                   </Link>
                 </CardContent>
@@ -349,9 +349,9 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <a href="tel:1-844-888-7732">
-              <Button size="lg" className="bg-tigon-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
+              <Button size="lg" className="bg-evbd-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Still Have Questions? Call TIGON Experts: 1-844-888-7732
+                Questions Before You Buy? Call EV Battery Direct: 1-844-888-7732
               </Button>
             </a>
           </div>
@@ -363,10 +363,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              What Customers Say About TIGON Batteries
+              Customers Love Buying from EV Battery Direct
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Over 10,000 satisfied customers trust TIGON Batteries for their Golf Cart, LSV, NEV & MSV battery needs.
+              Over 10,000 satisfied customers purchased Electric Vehicle Batteries from EV Battery Direct for their Golf Cart, LSV, NEV & MSV needs.
             </p>
           </div>
 
@@ -386,7 +386,7 @@ export default function Home() {
                     "{testimonial.text}"
                   </blockquote>
                   <div className="flex items-center">
-                    <div className="w-12 h-12 bg-tigon-red rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                    <div className="w-12 h-12 bg-evbd-blue rounded-full flex items-center justify-center text-white font-semibold mr-3">
                       {testimonial.initials}
                     </div>
                     <div>
@@ -402,13 +402,13 @@ export default function Home() {
           <div className="text-center mt-12">
             <Card className="max-w-2xl mx-auto p-8">
               <CardContent className="p-0 text-center">
-                <div className="text-4xl font-bold text-tigon-red mb-2">10,000+</div>
+                <div className="text-4xl font-bold text-evbd-blue mb-2">10,000+</div>
                 <div className="text-xl font-semibold text-gray-900 mb-2">Satisfied Customers</div>
-                <div className="text-gray-600 mb-6">Trust TIGON Batteries for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
+                <div className="text-gray-600 mb-6">Purchased Electric Vehicle Batteries from EV Battery Direct for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
                 <a href="tel:1-844-888-7732">
-                  <Button className="bg-tigon-red text-white px-8 py-3 hover:bg-blue-700">
+                  <Button className="bg-evbd-blue text-white px-8 py-3 hover:bg-blue-700">
                     <Phone className="h-4 w-4 mr-2" />
-                    Join Our Happy Customers: 1-844-888-7732
+                    Start Your Order Today: 1-844-888-7732
                   </Button>
                 </a>
               </CardContent>
@@ -421,20 +421,20 @@ export default function Home() {
       <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-gray-900">
-            Ready to Power Up with TIGON Batteries?
+            Ready to Buy Electric Vehicle Batteries Direct?
           </h2>
           <p className="text-xl mb-8 text-gray-600 max-w-3xl mx-auto">
-            Get expert advice on Golf Cart Batteries, LSV, NEV & MSV solutions. Our battery specialists are standing by to help you choose from our complete lineup of 96+ configurations.
+            Order Golf Cart Batteries, LSV, NEV & MSV solutions now! Our battery specialists are standing by to help you purchase from our complete lineup of 96+ configurations. Shop direct and save!
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <a 
               href="tel:1-844-888-7732"
-              className="bg-tigon-orange text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-orange-600 transition-colors flex items-center"
+              className="bg-evbd-orange text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-orange-600 transition-colors flex items-center"
             >
               <Phone className="h-6 w-6 mr-3" />
               <div>
-                <div>Call Battery Experts</div>
+                <div>Order Now - Call Direct</div>
                 <div className="text-lg font-normal">1-844-888-7732</div>
               </div>
             </a>
@@ -447,20 +447,20 @@ export default function Home() {
 
           <div className="grid md:grid-cols-4 gap-6 text-center">
             <div>
-              <div className="text-2xl font-bold text-tigon-green">96+</div>
-              <div className="text-gray-600">Battery Configurations</div>
+              <div className="text-2xl font-bold text-evbd-green">96+</div>
+              <div className="text-gray-600">EV Battery Models</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-tigon-green">10,000+</div>
-              <div className="text-gray-600">Happy Customers</div>
+              <div className="text-2xl font-bold text-evbd-green">10,000+</div>
+              <div className="text-gray-600">Customers Bought Direct</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-tigon-green">24/7</div>
+              <div className="text-2xl font-bold text-evbd-green">24/7</div>
               <div className="text-gray-600">Online Shopping</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-tigon-green">Fast</div>
-              <div className="text-gray-600">Nationwide Shipping</div>
+              <div className="text-2xl font-bold text-evbd-green">Fast</div>
+              <div className="text-gray-600">Nationwide Delivery</div>
             </div>
           </div>
         </div>

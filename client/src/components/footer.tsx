@@ -10,25 +10,22 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <img 
-                src="/attached_assets/tigon-logo.png" 
-                alt="TIGON Batteries Logo" 
-                className="w-auto mr-3"
-                style={{ height: '60px' }}
+              <Battery 
+                className="h-16 w-16 text-evbd-blue mr-3"
               />
-              <div className="text-2xl font-bold text-tigon-red">
-                TIGON <span className="text-tigon-green">Batteries</span>
+              <div className="text-2xl font-bold text-evbd-blue">
+                EV Battery <span className="text-evbd-electric">Direct</span>
               </div>
             </div>
             <p className="text-gray-300 mb-6">
-              TIGON Batteries specializes in Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, 
+              EV Battery Direct specializes in Electric Vehicle Batteries, Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, 
               Neighborhood Electric Vehicle (NEV) Batteries, and Medium Speed Vehicle (MSV) Batteries. 
-              Trusted by over 10,000 customers nationwide.
+              Trusted by over 10,000 customers nationwide for direct electric vehicle battery solutions.
             </p>
             
             {/* Footer Phone CTA */}
-            <div className="bg-tigon-orange p-4 rounded-lg">
-              <h3 className="font-bold text-lg mb-2">Need Help? Call Our Battery Experts</h3>
+            <div className="bg-evbd-orange p-4 rounded-lg">
+              <h3 className="font-bold text-lg mb-2">Need Help? Call Our EV Battery Experts</h3>
               <a 
                 href="tel:1-844-888-7732" 
                 className="text-2xl font-bold hover:text-yellow-200 transition-colors flex items-center"
@@ -46,49 +43,49 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li>
                 <Link href="/products/golf-cart">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Golf Cart Batteries
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products/lsv">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     LSV Batteries
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products/nev">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     NEV Batteries
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products/msv">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     MSV Batteries
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products?voltage=6">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     6V Battery Series
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products?voltage=8">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     8V Battery Series
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/products?voltage=12">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     12V Battery Series
                   </span>
                 </Link>
@@ -102,42 +99,42 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li>
                 <Link href="/battery-guide">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Battery Guide
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-guide/voltage">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Voltage Guide
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-guide/technology">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Technology Comparison
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-guide/maintenance">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Maintenance Tips
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-guide/installation">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Installation Guide
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/battery-selector">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Battery Selector
                   </span>
                 </Link>
@@ -152,7 +149,7 @@ export default function Footer() {
               <li>
                 <a 
                   href="tel:1-844-888-7732" 
-                  className="hover:text-tigon-orange transition-colors font-semibold flex items-center"
+                  className="hover:text-evbd-orange transition-colors font-semibold flex items-center"
                 >
                   <Phone className="h-4 w-4 mr-1" />
                   1-844-888-7732
@@ -160,35 +157,35 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/contact">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Technical Support
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/warranty">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Warranty Info
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/returns">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Returns
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/shipping">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Shipping Info
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-                  <span className="hover:text-tigon-green transition-colors cursor-pointer">
+                  <span className="hover:text-evbd-green transition-colors cursor-pointer">
                     Contact Us
                   </span>
                 </Link>
@@ -201,21 +198,21 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © 2025 TIGON Batteries. All rights reserved. Golf Cart Batteries, LSV, NEV & MSV Battery Specialists.
+              © 2025 EV Battery Direct. All rights reserved. Electric Vehicle Batteries, Golf Cart Batteries, LSV, NEV & MSV Battery Specialists.
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="/privacy">
-                <span className="text-gray-400 hover:text-tigon-green transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-green transition-colors text-sm cursor-pointer">
                   Privacy Policy
                 </span>
               </Link>
               <Link href="/terms">
-                <span className="text-gray-400 hover:text-tigon-green transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-green transition-colors text-sm cursor-pointer">
                   Terms of Service
                 </span>
               </Link>
               <Link href="/sitemap">
-                <span className="text-gray-400 hover:text-tigon-green transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-green transition-colors text-sm cursor-pointer">
                   Sitemap
                 </span>
               </Link>
@@ -225,13 +222,13 @@ export default function Footer() {
       </div>
 
       {/* Sticky Mobile Contact Bar */}
-      <div className="fixed bottom-0 left-0 right-0 bg-tigon-orange p-4 shadow-lg md:hidden z-50">
+      <div className="fixed bottom-0 left-0 right-0 bg-evbd-orange p-4 shadow-lg md:hidden z-50">
         <a 
           href="tel:1-844-888-7732" 
           className="flex items-center justify-center text-white font-bold text-lg"
         >
           <Phone className="h-5 w-5 mr-2" />
-          Call TIGON Experts: 1-844-888-7732
+          Call EV Battery Direct: 1-844-888-7732
         </a>
       </div>
     </footer>
