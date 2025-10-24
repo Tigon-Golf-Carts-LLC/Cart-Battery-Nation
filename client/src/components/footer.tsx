@@ -3,43 +3,44 @@ import { Battery, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-700 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="bg-gray-700 text-white pb-20 md:pb-0">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8 mb-6 sm:mb-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
                 src="/evbd-logo.png" 
                 alt="EV Battery Direct" 
-                className="h-24 w-auto"
+                className="h-16 sm:h-20 md:h-24 w-auto"
               />
             </div>
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base leading-relaxed">
               EV Battery Direct specializes in Electric Vehicle Batteries, Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, 
               Neighborhood Electric Vehicle (NEV) Batteries, and Medium Speed Vehicle (MSV) Batteries. 
               Trusted by over 10,000 customers nationwide for direct electric vehicle battery solutions.
             </p>
             
             {/* Footer Phone CTA */}
-            <div className="bg-evbd-orange p-4 rounded-lg">
-              <h3 className="font-bold text-lg text-white mb-2">Need Help? Call Our EV Battery Experts</h3>
+            <div className="bg-evbd-orange p-3 sm:p-4 rounded-lg">
+              <h3 className="font-bold text-base sm:text-lg text-white mb-2">Need Help? Call Our EV Battery Experts</h3>
               <a 
                 href="tel:1-844-888-7732" 
-                className="text-2xl font-bold hover:text-yellow-200 transition-colors flex items-center"
+                className="text-lg sm:text-xl md:text-2xl font-bold hover:text-yellow-200 transition-colors flex items-center flex-wrap"
+                data-testid="link-footer-call"
               >
-                <Phone className="h-6 w-6 mr-2 text-white" />
-                1-844-888-7732
+                <Phone className="h-5 w-5 sm:h-6 sm:w-6 mr-2 text-white" />
+                <span>1-844-888-7732</span>
               </a>
-              <p className="text-sm text-orange-100 mt-1">Monday - Saturday: 8AM - 5PM EST</p>
+              <p className="text-xs sm:text-sm text-orange-100 mt-1">Monday - Saturday: 8AM - 5PM EST</p>
             </div>
           </div>
 
           {/* Products */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Products</h4>
-            <ul className="space-y-2 text-gray-300">
+            <h4 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Products</h4>
+            <ul className="space-y-2 text-gray-300 text-sm sm:text-base">
               <li>
                 <Link href="/products/golf-cart">
                   <span className="hover:text-evbd-blue transition-colors cursor-pointer">
@@ -94,8 +95,8 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Resources</h4>
-            <ul className="space-y-2 text-gray-300">
+            <h4 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Resources</h4>
+            <ul className="space-y-2 text-gray-300 text-sm sm:text-base">
               <li>
                 <Link href="/battery-guide">
                   <span className="hover:text-evbd-blue transition-colors cursor-pointer">
@@ -143,8 +144,8 @@ export default function Footer() {
 
           {/* Support */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Support</h4>
-            <ul className="space-y-2 text-gray-300">
+            <h4 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Support</h4>
+            <ul className="space-y-2 text-gray-300 text-sm sm:text-base">
               <li>
                 <a 
                   href="tel:1-844-888-7732" 
@@ -194,24 +195,24 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-gray-800 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 text-sm">
+        <div className="border-t border-gray-800 pt-6 sm:pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-gray-400 text-xs sm:text-sm text-center md:text-left">
               © 2025 EV Battery Direct. All rights reserved. Electric Vehicle Batteries, Golf Cart Batteries, LSV, NEV & MSV Battery Specialists.
             </div>
-            <div className="flex space-x-6 mt-4 md:mt-0">
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
               <Link href="/privacy">
-                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-xs sm:text-sm cursor-pointer">
                   Privacy Policy
                 </span>
               </Link>
               <Link href="/terms">
-                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-xs sm:text-sm cursor-pointer">
                   Terms of Service
                 </span>
               </Link>
               <Link href="/sitemap">
-                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-sm cursor-pointer">
+                <span className="text-gray-400 hover:text-evbd-blue transition-colors text-xs sm:text-sm cursor-pointer">
                   Sitemap
                 </span>
               </Link>
@@ -221,13 +222,14 @@ export default function Footer() {
       </div>
 
       {/* Sticky Mobile Contact Bar */}
-      <div className="fixed bottom-0 left-0 right-0 bg-evbd-orange p-4 shadow-lg md:hidden z-50">
+      <div className="fixed bottom-0 left-0 right-0 bg-evbd-orange p-3 shadow-lg md:hidden z-50">
         <a 
           href="tel:1-844-888-7732" 
-          className="flex items-center justify-center text-white font-bold text-lg"
+          className="flex items-center justify-center text-white font-bold text-sm sm:text-base"
+          data-testid="link-mobile-call-bar"
         >
-          <Phone className="h-5 w-5 mr-2 text-white" />
-          Call EV Battery Direct: 1-844-888-7732
+          <Phone className="h-4 w-4 sm:h-5 sm:w-5 mr-2 text-white flex-shrink-0" />
+          <span className="truncate">Call: 1-844-888-7732</span>
         </a>
       </div>
     </footer>

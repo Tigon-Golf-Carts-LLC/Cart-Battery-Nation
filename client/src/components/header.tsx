@@ -23,10 +23,10 @@ export default function Header() {
     <>
       {/* Top Bar */}
       <div className="bg-evbd-blue text-white py-2">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center items-center text-sm">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+          <div className="flex justify-center items-center text-xs sm:text-sm">
             <span className="hidden sm:inline mr-2">Expert EV Battery Support:</span>
-            <Phone className="h-4 w-4 mr-2 text-white" />
+            <Phone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2 text-white" />
             <a 
               href="tel:1-844-888-7732" 
               className="font-semibold hover:text-evbd-orange transition-colors"
@@ -39,15 +39,15 @@ export default function Header() {
 
       {/* Main Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+          <div className="flex justify-between items-center py-2 sm:py-3 md:py-4">
             {/* Logo */}
             <Link href="/">
               <div className="flex items-center cursor-pointer">
                 <img 
                   src="/evbd-logo.png" 
                   alt="EV Battery Direct" 
-                  className="h-28 w-auto"
+                  className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto"
                 />
               </div>
             </Link>
@@ -66,10 +66,10 @@ export default function Header() {
             </nav>
 
             {/* Header CTA & Cart */}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2 sm:space-x-4">
               <a 
                 href="tel:1-844-888-7732" 
-                className="hidden sm:flex bg-evbd-orange text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition-colors items-center"
+                className="hidden lg:flex bg-evbd-orange text-white px-3 md:px-4 py-2 rounded-lg text-sm md:text-base font-semibold hover:bg-orange-600 transition-colors items-center"
               >
                 <Phone className="h-4 w-4 mr-2 text-white" />
                 1-844-888-7732
