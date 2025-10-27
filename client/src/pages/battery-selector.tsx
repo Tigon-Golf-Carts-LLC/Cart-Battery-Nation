@@ -16,7 +16,7 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function BatterySelector() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Buy the Perfect Electric Vehicle Battery - Battery Selector | EV Battery Direct",
+    title: "Buy the Perfect Electric Vehicle Battery - Battery Selector | Cart Battery Nation",
     description: "Use our Battery Selector Quiz to buy the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV configurations. Shop direct now! Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
@@ -151,7 +151,7 @@ export default function BatterySelector() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h1 className="text-4xl lg:text-5xl font-bold text-evbd-orange mb-6">
-              Find Your Perfect TIGON Battery Match
+              Find Your Perfect Cart Battery Nation Battery Match
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
               Our Battery Selector Quiz helps you choose the optimal battery from our complete 
@@ -185,7 +185,7 @@ export default function BatterySelector() {
                 Answer a Few Questions to Get Started
               </h2>
               <p className="text-gray-600">
-                Our quiz takes less than 2 minutes and provides personalized TIGON battery recommendations.
+                Our quiz takes less than 2 minutes and provides personalized Cart Battery Nation battery recommendations.
               </p>
             </div>
             
@@ -199,13 +199,13 @@ export default function BatterySelector() {
               <CardContent className="p-8 text-center">
                 <CheckCircle className="h-16 w-16 mx-auto mb-4 text-evbd-blue" />
                 <h2 className="text-3xl font-bold text-evbd-orange mb-4">
-                  Your TIGON Battery Recommendations Are Ready!
+                  Your Cart Battery Nation Battery Recommendations Are Ready!
                 </h2>
                 <p className="text-xl mb-4 text-blue-100">
                   Based on your selections: {getRecommendationSummary()}
                 </p>
                 <p className="text-blue-100 mb-6">
-                  We found {recommendedProducts.length} TIGON battery configurations that match your needs.
+                  We found {recommendedProducts.length} Cart Battery Nation battery configurations that match your needs.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a href="tel:1-844-888-7732">
@@ -227,7 +227,7 @@ export default function BatterySelector() {
               <div>
                 <div className="flex items-center justify-between mb-6">
                   <h3 className="text-2xl font-bold text-evbd-orange">
-                    Recommended TIGON Batteries for You
+                    Recommended Cart Battery Nation Batteries for You
                   </h3>
                   <Badge className="bg-evbd-green text-white px-3 py-1">
                     {recommendedProducts.length} Matches Found
@@ -252,7 +252,7 @@ export default function BatterySelector() {
                   <CardHeader>
                     <CardTitle className="flex items-center">
                       <CheckCircle className="h-5 w-5 mr-2 text-evbd-blue" />
-                      Why We Recommend These TIGON Batteries
+                      Why We Recommend These Cart Battery Nation Batteries
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -268,7 +268,7 @@ export default function BatterySelector() {
 
                         <h4 className="font-semibold mb-2">Matched to Your Usage Pattern:</h4>
                         <p className="text-sm text-gray-600">
-                          Selected for {quizResults?.usage} applications, these TIGON batteries provide 
+                          Selected for {quizResults?.usage} applications, these Cart Battery Nation batteries provide 
                           the right balance of performance, longevity, and value for your specific needs.
                         </p>
                       </div>
@@ -301,13 +301,13 @@ export default function BatterySelector() {
                 </h3>
                 <p className="text-gray-600 mb-6">
                   Based on your specific requirements, we'd like to discuss your needs personally 
-                  to recommend the best TIGON battery configuration for your vehicle.
+                  to recommend the best Cart Battery Nation battery configuration for your vehicle.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a href="tel:1-844-888-7732">
                     <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                       <Phone className="h-5 w-5 mr-2" />
-                      Call TIGON Experts: 1-844-888-7732
+                      Call Cart Battery Nation Experts: 1-844-888-7732
                     </Button>
                   </a>
                   <Button size="lg" variant="outline" onClick={resetQuiz}>
@@ -322,7 +322,7 @@ export default function BatterySelector() {
             <section className="mt-12">
               <Card className="overflow-hidden">
                 <CardHeader className="bg-evbd-blue/5">
-                  <CardTitle className="text-2xl">Next Steps with Your TIGON Battery Selection</CardTitle>
+                  <CardTitle className="text-2xl">Next Steps with Your Cart Battery Nation Battery Selection</CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
                   <div className="grid md:grid-cols-3 gap-6">
@@ -332,7 +332,7 @@ export default function BatterySelector() {
                       </div>
                       <h4 className="font-semibold mb-2">1. Consult with Experts</h4>
                       <p className="text-sm text-gray-600 mb-3">
-                        Discuss your recommendations with our TIGON battery specialists for personalized advice.
+                        Discuss your recommendations with our Cart Battery Nation battery specialists for personalized advice.
                       </p>
                       <a href="tel:1-844-888-7732">
                         <Button size="sm" variant="outline" className="border-evbd-blue text-evbd-blue">
@@ -381,7 +381,7 @@ export default function BatterySelector() {
         <section className="mt-16">
           <Card className="p-8 text-center bg-evbd-blue text-white">
             <h3 className="text-2xl font-bold text-evbd-orange mb-4">
-              Still Have Questions About TIGON Batteries?
+              Still Have Questions About Cart Battery Nation Batteries?
             </h3>
             <p className="text-xl mb-6 text-blue-100">
               Our battery experts are standing by to help you make the perfect choice for your 
@@ -391,7 +391,7 @@ export default function BatterySelector() {
               <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call TIGON Experts: 1-844-888-7732
+                  Call Cart Battery Nation Experts: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline" className="bg-white text-evbd-blue hover:bg-gray-100" asChild>

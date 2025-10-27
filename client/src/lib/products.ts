@@ -422,7 +422,7 @@ export const PRODUCT_CONSTANTS = {
   PHONE_NUMBER: "1-844-888-7732",
   
   SEO_KEYWORDS: [
-    "TIGON Batteries",
+    "Cart Battery Nation",
     "Golf Cart Batteries", 
     "LSV Batteries",
     "NEV Batteries",

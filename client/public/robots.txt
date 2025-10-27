@@ -140,4 +140,4 @@ Allow: /
 Crawl-delay: 0
 
 # Sitemap References
-Sitemap: https://evbatterydirect.com/sitemap.xml
+Sitemap: https://cartbatterynation.com/sitemap.xml

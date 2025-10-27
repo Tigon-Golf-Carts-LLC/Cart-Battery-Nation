@@ -546,7 +546,7 @@ export default function BatteryGuide() {
         <section className="mt-16">
           <Card className="p-8 text-center bg-gradient-to-r from-evbd-blue to-evbd-green text-white">
             <h3 className="text-3xl font-bold text-evbd-orange mb-4">
-              Ready to Choose Your TIGON Batteries?
+              Ready to Choose Your Cart Battery Nation?
             </h3>
             <p className="text-xl mb-6 text-blue-100">
               Our battery experts can help you select the perfect configuration, 
@@ -556,7 +556,7 @@ export default function BatteryGuide() {
               <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call TIGON Experts: 1-844-888-7732
+                  Call Cart Battery Nation Experts: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline" className="bg-white text-evbd-blue hover:bg-gray-100" asChild>

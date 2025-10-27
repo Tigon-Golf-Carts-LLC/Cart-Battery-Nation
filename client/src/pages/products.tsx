@@ -106,16 +106,16 @@ export default function Products() {
   }, [allProducts]);
 
   const pageTitle = category 
-    ? `${categoryMap[category]} by TIGON - 6V, 8V, 12V Deep Cycle Battery Solutions`
-    : "TIGON Batteries - Complete Golf Cart, LSV, NEV & MSV Battery Catalog";
+    ? `${categoryMap[category]} by Cart Battery Nation - 6V, 8V, 12V Deep Cycle Battery Solutions`
+    : "Cart Battery Nation - Complete Golf Cart, LSV, NEV & MSV Battery Catalog";
 
   const pageDescription = category
-    ? `Premium ${categoryMap[category]} from TIGON Batteries. Flooded, AGM, Gel & Lithium options. Expert support for all battery needs. Call 1-844-888-7732`
-    : "Browse TIGON Batteries complete catalog of Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ configurations available. Call 1-844-888-7732";
+    ? `Premium ${categoryMap[category]} from Cart Battery Nation. Flooded, AGM, Gel & Lithium options. Expert support for all battery needs. Call 1-844-888-7732`
+    : "Browse Cart Battery Nation complete catalog of Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ configurations available. Call 1-844-888-7732";
 
   const displayTitle = category 
     ? categoryMap[category] 
-    : "TIGON Batteries Complete Catalog";
+    : "Cart Battery Nation Complete Catalog";
 
   // Set SEO metadata
   useDocumentHead({
@@ -158,7 +158,7 @@ export default function Products() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <h1 className="text-3xl lg:text-4xl font-bold text-evbd-orange mb-4">
-              {category ? categoryMap[category] : "TIGON Batteries Complete Catalog"}
+              {category ? categoryMap[category] : "Cart Battery Nation Complete Catalog"}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
               {pageDescription}
@@ -272,7 +272,7 @@ export default function Products() {
                 <div className="bg-evbd-blue/10 p-4 rounded-lg text-center">
                   <h4 className="font-semibold text-evbd-blue mb-2">Need Expert Help?</h4>
                   <p className="text-sm text-gray-600 mb-3">
-                    Talk to our TIGON battery specialists for personalized recommendations.
+                    Talk to our Cart Battery Nation battery specialists for personalized recommendations.
                   </p>
                   <a href="tel:1-844-888-7732">
                     <Button size="sm" className="bg-evbd-blue text-white hover:bg-blue-700 w-full text-xs px-3">
@@ -383,12 +383,12 @@ export default function Products() {
                 <Card className="p-6 max-w-lg mx-auto">
                   <h3 className="font-semibold mb-2">Looking for something specific?</h3>
                   <p className="text-gray-600 mb-4">
-                    Our TIGON battery experts can help you find the perfect match for your vehicle.
+                    Our Cart Battery Nation battery experts can help you find the perfect match for your vehicle.
                   </p>
                   <a href="tel:1-844-888-7732">
                     <Button className="bg-evbd-blue text-white hover:bg-blue-700">
                       <Phone className="h-4 w-4 mr-2" />
-                      Call TIGON Experts: 1-844-888-7732
+                      Call Cart Battery Nation Experts: 1-844-888-7732
                     </Button>
                   </a>
                 </Card>

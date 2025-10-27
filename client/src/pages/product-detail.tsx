@@ -32,7 +32,7 @@ export default function ProductDetail() {
   // Set SEO metadata - must be called unconditionally (Rules of Hooks)
   const title = product ? product.name : error ? "Product Not Found" : "Loading...";
   const description = product 
-    ? `Buy ${product.name} - Premium ${product.technology} battery from EV Battery Direct. Professional grade battery solution for ${product.category}. Order now! Call 1-844-888-7732.`
+    ? `Buy ${product.name} - Premium ${product.technology} battery from Cart Battery Nation. Professional grade battery solution for ${product.category}. Order now! Call 1-844-888-7732.`
     : error 
     ? "The battery you're looking for doesn't exist or may have been discontinued. Shop our complete catalog of Electric Vehicle Batteries direct. Call 1-844-888-7732."
     : "Loading product details...";
@@ -199,7 +199,7 @@ export default function ProductDetail() {
                 )}
               </div>
               <p className="text-gray-600">
-                Professional-grade battery with proven TIGON reliability
+                Professional-grade battery with proven Cart Battery Nation reliability
               </p>
             </div>
 
@@ -447,7 +447,7 @@ export default function ProductDetail() {
         {/* Related Products */}
         {relatedProducts.length > 0 && (
           <section className="mt-16">
-            <h2 className="text-2xl font-bold text-evbd-orange mb-8">Related TIGON Batteries</h2>
+            <h2 className="text-2xl font-bold text-evbd-orange mb-8">Related Cart Battery Nation Batteries</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {relatedProducts.map((relatedProduct) => (
                 <ProductCard key={relatedProduct.id} product={relatedProduct} />
@@ -460,7 +460,7 @@ export default function ProductDetail() {
         <section className="mt-16">
           <Card className="p-8 text-center bg-evbd-blue text-white">
             <h3 className="text-2xl font-bold text-evbd-orange mb-4">
-              Questions About This TIGON Battery?
+              Questions About This Cart Battery Nation Battery?
             </h3>
             <p className="mb-6 text-blue-100">
               Our battery experts are standing by to help you with installation, compatibility, 
@@ -469,7 +469,7 @@ export default function ProductDetail() {
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Call TIGON Experts: 1-844-888-7732
+                Call Cart Battery Nation Experts: 1-844-888-7732
               </Button>
             </a>
           </Card>

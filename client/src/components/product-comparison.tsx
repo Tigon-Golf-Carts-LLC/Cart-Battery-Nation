@@ -270,7 +270,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
       <Card className="bg-evbd-blue text-white">
         <CardContent className="p-6 text-center">
           <h3 className="text-xl font-bold text-evbd-orange mb-4">
-            Need Help Choosing Between These TIGON Batteries?
+            Need Help Choosing Between These Cart Battery Nation Batteries?
           </h3>
           <p className="mb-6 text-blue-100">
             Our battery experts can help you select the best option based on your specific 
@@ -280,7 +280,7 @@ export default function ProductComparison({ products, onRemoveProduct, onAddToCa
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                 <Phone className="h-5 w-5 mr-2" />
-                Call TIGON Experts: 1-844-888-7732
+                Call Cart Battery Nation Experts: 1-844-888-7732
               </Button>
             </a>
             <Button size="lg" variant="outline" className="bg-white text-evbd-blue hover:bg-gray-100">

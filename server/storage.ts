@@ -53,7 +53,7 @@ export class MemStorage implements IStorage {
     const categories = [
       { name: "Golf Cart", slug: "golf-cart", description: "Golf Cart Batteries" },
       { name: "LSV", slug: "lsv", description: "Low Speed Vehicle (LSV) Batteries" },
-      { name: "NEV", slug: "nev", description: "Neighborhood Electric Vehicle (NEV) Batteries" },
+      { name: "NEV", slug: "nev", description: "Neighborhood Cart (NEV) Batteries" },
       { name: "MSV", slug: "msv", description: "Medium Speed Vehicle (MSV) Batteries" }
     ];
 
@@ -103,12 +103,12 @@ export class MemStorage implements IStorage {
           
           const product: Product = {
             id: productId,
-            name: `EV Battery Direct ${voltageSeries.series} ${category.description}`,
+            name: `Cart Battery Nation ${voltageSeries.series} ${category.description}`,
             series: voltageSeries.series,
             category: category.description,
             technology: technology.name,
-            seoTitle: `Buy ${voltageSeries.series} ${category.description} Direct - ${technology.description} | EV Battery Direct`,
-            metaDescription: `Shop ${voltageSeries.series} ${category.description} with ${voltageSeries.ampHours}Ah capacity. Buy professional Electric Vehicle Batteries direct from EV Battery Direct. Order now! Call 1-844-888-7732`,
+            seoTitle: `Buy ${voltageSeries.series} ${category.description} Direct - ${technology.description} | Cart Battery Nation`,
+            metaDescription: `Shop ${voltageSeries.series} ${category.description} with ${voltageSeries.ampHours}Ah capacity. Buy professional Cart Batteries direct from Cart Battery Nation. Order now! Call 1-844-888-7732`,
             specifications: {
               voltage: voltageSeries.voltage,
               ampHours: voltageSeries.ampHours,
@@ -128,20 +128,20 @@ export class MemStorage implements IStorage {
               : category.name === "LSV"
               ? ["Low Speed Vehicles", "Neighborhood Transport", "Campus Vehicles"]
               : category.name === "NEV"
-              ? ["Neighborhood Electric Vehicles", "Street Legal Vehicles", "Community Transport"]
+              ? ["Neighborhood Carts", "Street Legal Vehicles", "Community Transport"]
               : ["Medium Speed Vehicles", "Enhanced Performance", "Extended Range"],
             features: [
               `Deep-cycle design for ${category.description}`,
-              `${technology.description} EV Battery Direct standard`,
+              `${technology.description} Cart Battery Nation standard`,
               `Professional ${category.description} solution - Buy Direct`,
-              `Proven Electric Vehicle Batteries reliability`
+              `Proven Cart Batteries reliability`
             ],
             price: price,
             inStock: true,
             images: [`evbd-${category.slug}-battery-1.jpg`, `evbd-${category.slug}-battery-2.jpg`],
             relatedProducts: [],
-            focusKeywords: ["EV Battery Direct", "Electric Vehicle Batteries", category.description, `Buy ${voltageSeries.series} ${category.description}`],
-            altText: `Buy ${voltageSeries.series} ${category.description} - ${technology.description} from EV Battery Direct`,
+            focusKeywords: ["Cart Battery Nation", "Cart Batteries", category.description, `Buy ${voltageSeries.series} ${category.description}`],
+            altText: `Buy ${voltageSeries.series} ${category.description} - ${technology.description} from Cart Battery Nation`,
             createdAt: new Date()
           };
 
@@ -159,7 +159,7 @@ export class MemStorage implements IStorage {
         category: "Services",
         technology: "Professional Service",
         seoTitle: "Buy Professional EV Battery Installation Service - Expert Installation Direct",
-        metaDescription: "Purchase professional battery installation service from EV Battery Direct experts. Safe, reliable installation for all electric vehicle battery types. Order now! Call 1-844-888-7732",
+        metaDescription: "Purchase professional battery installation service from Cart Battery Nation experts. Safe, reliable installation for all electric vehicle battery types. Order now! Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -170,9 +170,9 @@ export class MemStorage implements IStorage {
           cycleLife: "N/A"
         },
         systemCompatibility: ["All Systems"],
-        applications: ["Golf Carts", "LSV", "NEV", "MSV", "All Electric Vehicles"],
+        applications: ["Golf Carts", "LSV", "NEV", "MSV", "All Carts"],
         features: [
-          "Professional installation by EV Battery Direct certified technicians",
+          "Professional installation by Cart Battery Nation certified technicians",
           "Proper battery placement and securing",
           "Electrical connection verification", 
           "System testing and validation"
@@ -181,8 +181,8 @@ export class MemStorage implements IStorage {
         inStock: true,
         images: ["evbd-installation-service.jpg"],
         relatedProducts: [],
-        focusKeywords: ["EV Battery Direct Installation", "Buy Professional Installation", "Electric Vehicle Battery Service"],
-        altText: "Buy Professional Battery Installation Service from EV Battery Direct",
+        focusKeywords: ["Cart Battery Nation Installation", "Buy Professional Installation", "Cart Battery Service"],
+        altText: "Buy Professional Battery Installation Service from Cart Battery Nation",
         createdAt: new Date()
       },
       {
@@ -191,8 +191,8 @@ export class MemStorage implements IStorage {
         series: "Core",
         category: "Core Charges",
         technology: "Core Exchange",
-        seoTitle: "6V 8V Electric Vehicle Battery Core Charge - Recycling Fee | EV Battery Direct",
-        metaDescription: "6V and 8V battery core charge for recycling old electric vehicle batteries. Environmental responsibility by EV Battery Direct. Order now! Call 1-844-888-7732",
+        seoTitle: "6V 8V Cart Battery Core Charge - Recycling Fee | Cart Battery Nation",
+        metaDescription: "6V and 8V battery core charge for recycling old electric vehicle batteries. Environmental responsibility by Cart Battery Nation. Order now! Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -208,14 +208,14 @@ export class MemStorage implements IStorage {
           "Environmental battery recycling",
           "Core exchange program",
           "Refundable upon old battery return",
-          "EV Battery Direct eco-friendly initiative"
+          "Cart Battery Nation eco-friendly initiative"
         ],
         price: "29.00",
         inStock: true,
         images: ["evbd-core-charge.jpg"],
         relatedProducts: [],
-        focusKeywords: ["EV Battery Direct Core Charge", "Electric Vehicle Battery Recycling", "Buy 6V 8V Core"],
-        altText: "Buy 6V 8V Electric Vehicle Battery Core Charge - EV Battery Direct",
+        focusKeywords: ["Cart Battery Nation Core Charge", "Cart Battery Recycling", "Buy 6V 8V Core"],
+        altText: "Buy 6V 8V Cart Battery Core Charge - Cart Battery Nation",
         createdAt: new Date()
       },
       {
@@ -224,8 +224,8 @@ export class MemStorage implements IStorage {
         series: "Core",
         category: "Core Charges",
         technology: "Core Exchange",
-        seoTitle: "12V Electric Vehicle Battery Core Charge - Recycling Fee | EV Battery Direct",
-        metaDescription: "12V battery core charge for recycling old electric vehicle batteries. Environmental responsibility by EV Battery Direct. Order now! Call 1-844-888-7732",
+        seoTitle: "12V Cart Battery Core Charge - Recycling Fee | Cart Battery Nation",
+        metaDescription: "12V battery core charge for recycling old electric vehicle batteries. Environmental responsibility by Cart Battery Nation. Order now! Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -241,24 +241,24 @@ export class MemStorage implements IStorage {
           "Environmental battery recycling",
           "Core exchange program",
           "Refundable upon old battery return",
-          "EV Battery Direct eco-friendly initiative"
+          "Cart Battery Nation eco-friendly initiative"
         ],
         price: "57.00",
         inStock: true,
         images: ["evbd-core-charge.jpg"],
         relatedProducts: [],
-        focusKeywords: ["EV Battery Direct Core Charge", "Electric Vehicle Battery Recycling", "Buy 12V Core"],
-        altText: "Buy 12V Electric Vehicle Battery Core Charge - EV Battery Direct",
+        focusKeywords: ["Cart Battery Nation Core Charge", "Cart Battery Recycling", "Buy 12V Core"],
+        altText: "Buy 12V Cart Battery Core Charge - Cart Battery Nation",
         createdAt: new Date()
       },
       {
         id: "evbd-battery-cable",
-        name: "EV Battery Direct Cable",
+        name: "Cart Battery Nation Cable",
         series: "Accessories",
         category: "Cables & Accessories",
         technology: "Heavy-Duty Cable",
         seoTitle: "Buy Professional Grade EV Battery Cable - Connection Cable Direct",
-        metaDescription: "Shop professional grade battery cables from EV Battery Direct. Reliable connections for all electric vehicle battery systems. Order now - $10 per cable. Call 1-844-888-7732",
+        metaDescription: "Shop professional grade battery cables from Cart Battery Nation. Reliable connections for all electric vehicle battery systems. Order now - $10 per cable. Call 1-844-888-7732",
         specifications: {
           voltage: 0,
           ampHours: 0,
@@ -269,19 +269,19 @@ export class MemStorage implements IStorage {
           cycleLife: "N/A"
         },
         systemCompatibility: ["All Voltage Systems"],
-        applications: ["Golf Carts", "LSV", "NEV", "MSV", "All Electric Vehicles"],
+        applications: ["Golf Carts", "LSV", "NEV", "MSV", "All Carts"],
         features: [
           "Professional grade construction",
           "Corrosion-resistant terminals",
           "Flexible heavy-duty cable",
-          "EV Battery Direct quality standard"
+          "Cart Battery Nation quality standard"
         ],
         price: "10.00",
         inStock: true,
         images: ["evbd-battery-cable.jpg"],
         relatedProducts: [],
-        focusKeywords: ["EV Battery Direct Cable", "Buy Electric Vehicle Battery Connections", "Shop Professional Cable"],
-        altText: "Buy Professional EV Battery Cable from EV Battery Direct",
+        focusKeywords: ["Cart Battery Nation Cable", "Buy Cart Battery Connections", "Shop Professional Cable"],
+        altText: "Buy Professional EV Battery Cable from Cart Battery Nation",
         createdAt: new Date()
       }
     ];
