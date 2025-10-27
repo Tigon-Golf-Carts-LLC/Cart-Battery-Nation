@@ -19,8 +19,8 @@ export default function Hero() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4 sm:mb-6 text-evbd-orange">
-              Buy Cart Batteries <span className="text-evbd-green">Direct</span> & <span className="text-evbd-green">Save</span>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4 sm:mb-6 text-white">
+              Cart Battery Nation – The Nation's Source for Golf Cart Power
             </h1>
             <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-blue-100 leading-relaxed">
               Cart Battery Nation - Shop premium Cart Batteries for Golf Carts, LSV, NEV & MSV. 
