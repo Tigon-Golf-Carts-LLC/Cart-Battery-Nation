@@ -15,8 +15,8 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function Home() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Buy Electric Vehicle Batteries Direct | Golf Cart, LSV, NEV & MSV Batteries",
-    description: "Shop Electric Vehicle Batteries Direct! Order premium Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ battery configurations. Buy now & save! Call 1-844-888-7732.",
+    title: "Buy Cart Batteries Direct | Golf Cart, LSV, NEV & MSV Batteries",
+    description: "Shop Cart Batteries Direct from Cart Battery Nation! Order premium Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ battery configurations. Buy now & save! Call 1-844-888-7732.",
     ogImage: "/hero-background.jpg",
     ogImageWidth: 1200,
     ogImageHeight: 630
@@ -41,7 +41,7 @@ export default function Home() {
     {
       name: "LSV Batteries",
       slug: "lsv",
-      description: "Shop Low Speed Vehicle (LSV) Batteries for neighborhood transportation. Buy direct from EV Battery Direct!",
+      description: "Shop Low Speed Vehicle (LSV) Batteries for neighborhood transportation. Buy direct from Cart Battery Nation!",
       image: "/attached_assets/TIGON BATTERIES TRANS BG_1755534409586.png",
       icon: "🚗",
       count: 24
@@ -68,37 +68,37 @@ export default function Home() {
     {
       icon: Settings,
       title: "96+ Battery Configurations",
-      description: "Shop our complete lineup of Electric Vehicle Batteries. Buy every voltage, capacity and technology for your Golf Cart or EV.",
+      description: "Shop our complete lineup of Cart Batteries. Buy every voltage, capacity and technology for your Golf Cart.",
       color: "evbd-blue"
     },
     {
       icon: Phone,
       title: "Expert Phone Support",
-      description: "Talk directly to EV Battery Direct specialists. Get personalized buying advice for your Golf Cart or electric vehicle battery needs.",
+      description: "Talk directly to Cart Battery Nation specialists. Get personalized buying advice for your Golf Cart or cart battery needs.",
       color: "evbd-blue"
     },
     {
       icon: Truck,
       title: "Fast Nationwide Shipping",
-      description: "Quick delivery of Electric Vehicle Batteries across the country. Order today and get your Golf Cart batteries fast!",
+      description: "Quick delivery of Cart Batteries across the country. Order today and get your Golf Cart batteries fast!",
       color: "evbd-blue"
     },
     {
       icon: Shield,
       title: "Industry-Leading Warranty",
-      description: "Comprehensive warranty coverage on all EV Battery Direct Golf Cart Batteries and electric vehicle battery solutions.",
+      description: "Comprehensive warranty coverage on all Cart Battery Nation Golf Cart Batteries and cart battery solutions.",
       color: "evbd-blue"
     },
     {
       icon: GraduationCap,
       title: "Educational Resources",
-      description: "Comprehensive buying guides on Electric Vehicle Batteries, voltage systems, maintenance from EV Battery Direct experts.",
+      description: "Comprehensive buying guides on Cart Batteries, voltage systems, maintenance from Cart Battery Nation experts.",
       color: "evbd-blue"
     },
     {
       icon: Wrench,
       title: "Professional Installation",
-      description: "Expert installation services ensure optimal performance when you buy electric vehicle batteries from EV Battery Direct.",
+      description: "Expert installation services ensure optimal performance when you buy cart batteries from Cart Battery Nation.",
       color: "evbd-blue"
     }
   ];
@@ -106,21 +106,21 @@ export default function Home() {
   const testimonials = [
     {
       rating: 5,
-      text: "Bought 6V-225 Golf Cart Batteries from EV Battery Direct - best purchase ever! Running strong for 3 years. Excellent customer support when I called 1-844-888-7732 to order.",
+      text: "Bought 6V-225 Golf Cart Batteries from Cart Battery Nation - best purchase ever! Running strong for 3 years. Excellent customer support when I called 1-844-888-7732 to order.",
       author: "John Smith",
       title: "Golf Course Manager, Texas",
       initials: "JS"
     },
     {
       rating: 5,
-      text: "Outstanding LSV Batteries! Purchased direct and saved hundreds. Perfect for our neighborhood electric vehicles. Call 1-844-888-7732 to buy yours today!",
+      text: "Outstanding LSV Batteries! Purchased direct and saved hundreds. Perfect for our neighborhood carts. Call 1-844-888-7732 to buy yours today!",
       author: "Maria Rodriguez",
       title: "Fleet Manager, California",
       initials: "MR"
     },
     {
       rating: 5,
-      text: "Ordered lithium Golf Cart Batteries from EV Battery Direct - incredible value! Extended range and fast charging. Buy now, you won't regret it!",
+      text: "Ordered lithium Golf Cart Batteries from Cart Battery Nation - incredible value! Extended range and fast charging. Buy now, you won't regret it!",
       author: "Bob Kim",
       title: "Golf Enthusiast, Florida",
       initials: "BK"
@@ -130,21 +130,21 @@ export default function Home() {
   const educationalContent = [
     {
       title: "Golf Cart Battery Buying Guide 2025",
-      description: "Shop smart! Everything you need to know before you buy Golf Cart Batteries: voltage configurations, pricing, and installation from EV Battery Direct.",
+      description: "Shop smart! Everything you need to know before you buy Golf Cart Batteries: voltage configurations, pricing, and installation from Cart Battery Nation.",
       readTime: "5 min read",
       category: "BUYING GUIDE",
       image: "/attached_assets/evbd-logo.png"
     },
     {
-      title: "Best Electric Vehicle Battery Technologies",
-      description: "Compare & buy: Flooded Lead-Acid, AGM, Gel and Lithium technologies. EV Battery Direct explains which to purchase for your needs.",
+      title: "Best Cart Battery Technologies",
+      description: "Compare & buy: Flooded Lead-Acid, AGM, Gel and Lithium technologies. Cart Battery Nation explains which to purchase for your needs.",
       readTime: "8 min read",
       category: "TECHNICAL",
       image: "/attached_assets/evbd-logo.png"
     },
     {
-      title: "Which EV Battery Should You Buy?",
-      description: "Purchase the right battery for Golf Carts, LSV, NEV & MSV applications. EV Battery Direct shopping guide for each vehicle type.",
+      title: "Which Cart Battery Should You Buy?",
+      description: "Purchase the right battery for Golf Carts, LSV, NEV & MSV applications. Cart Battery Nation shopping guide for each vehicle type.",
       readTime: "6 min read",
       category: "SHOPPING",
       image: "/attached_assets/evbd-logo.png"
@@ -162,10 +162,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-evbd-orange mb-3 sm:mb-4">
-              Shop Electric Vehicle Batteries Direct & Save
+              Shop Cart Batteries Direct & Save
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2">
-              Buy Golf Cart Batteries and specialized LSV, NEV & MSV solutions direct. EV Battery Direct offers the complete lineup at the best prices!
+              Buy Golf Cart Batteries and specialized LSV, NEV & MSV solutions direct. Cart Battery Nation offers the complete lineup at the best prices!
             </p>
           </div>
 
@@ -174,7 +174,7 @@ export default function Home() {
               <Card key={category.slug} className="card-hover overflow-hidden border-2 border-transparent hover:border-evbd-blue">
                 <img 
                   src={category.image}
-                  alt={`${category.name} - Buy from EV Battery Direct`}
+                  alt={`${category.name} - Buy from Cart Battery Nation`}
                   className="w-full h-36 sm:h-40 md:h-48 object-contain bg-gray-50" 
                 />
                 <CardContent className="p-4 sm:p-5 md:p-6">
@@ -202,7 +202,7 @@ export default function Home() {
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-evbd-orange text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 text-sm sm:text-base md:text-lg hover:bg-orange-600 w-full sm:w-auto" data-testid="button-ready-to-buy">
                 <Phone className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
-                <span className="hidden sm:inline">Ready to Buy? Call EV Battery Direct: </span>1-844-888-7732
+                <span className="hidden sm:inline">Ready to Buy? Call Cart Battery Nation: </span>1-844-888-7732
               </Button>
             </a>
           </div>
@@ -214,7 +214,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-evbd-orange mb-3 sm:mb-4">
-              Shop Smart - Find Your Perfect EV Battery
+              Shop Smart - Find Your Perfect Cart Battery
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2">
               Our Battery Selector Quiz helps you buy the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV battery configurations. Purchase with confidence!
@@ -225,15 +225,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Choose EV Battery Direct Section */}
+      {/* Why Choose Cart Battery Nation Section */}
       <section className="py-8 sm:py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10 sm:mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-evbd-orange mb-3 sm:mb-4">
-              Why Buy Electric Vehicle Batteries from EV Battery Direct?
+              Why Buy Cart Batteries from Cart Battery Nation?
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2">
-              Over 10,000 customers order from EV Battery Direct for reliable Golf Cart, LSV, NEV & MSV power solutions. Shop with confidence - here's why we're the industry leader.
+              Over 10,000 customers order from Cart Battery Nation for reliable Golf Cart, LSV, NEV & MSV power solutions. Shop with confidence - here's why we're the industry leader.
             </p>
           </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-evbd-orange mb-3 sm:mb-4">
-              Best-Selling Electric Vehicle Batteries - Order Today!
+              Best-Selling Cart Batteries - Order Today!
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2">
               Shop our top-selling Golf Cart Batteries and electric vehicle solutions. Buy the batteries trusted by thousands nationwide!
@@ -307,10 +307,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-evbd-orange mb-3 sm:mb-4">
-              EV Battery Direct Buying Guides & Resources
+              Cart Battery Nation Buying Guides & Resources
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2">
-              Learn everything before you buy! Electric Vehicle Batteries buying guides, power systems, and battery maintenance from EV Battery Direct experts.
+              Learn everything before you buy! Cart Batteries buying guides, power systems, and battery maintenance from Cart Battery Nation experts.
             </p>
           </div>
 
@@ -351,7 +351,7 @@ export default function Home() {
             <a href="tel:1-844-888-7732">
               <Button size="lg" className="bg-evbd-orange text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 text-sm sm:text-base md:text-lg hover:bg-orange-600 w-full sm:w-auto" data-testid="button-questions">
                 <Phone className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
-                <span className="hidden sm:inline">Questions Before You Buy? Call EV Battery Direct: </span>1-844-888-7732
+                <span className="hidden sm:inline">Questions Before You Buy? Call Cart Battery Nation: </span>1-844-888-7732
               </Button>
             </a>
           </div>
@@ -363,10 +363,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-10 md:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-evbd-orange mb-3 sm:mb-4">
-              Customers Love Buying from EV Battery Direct
+              Customers Love Buying from Cart Battery Nation
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2">
-              Over 10,000 satisfied customers purchased Electric Vehicle Batteries from EV Battery Direct for their Golf Cart, LSV, NEV & MSV needs.
+              Over 10,000 satisfied customers purchased Cart Batteries from Cart Battery Nation for their Golf Cart, LSV, NEV & MSV needs.
             </p>
           </div>
 
@@ -404,7 +404,7 @@ export default function Home() {
               <CardContent className="p-0 text-center">
                 <div className="text-3xl sm:text-4xl font-bold text-evbd-orange mb-2">10,000+</div>
                 <div className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">Satisfied Customers</div>
-                <div className="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base px-2">Purchased Electric Vehicle Batteries from EV Battery Direct for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
+                <div className="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base px-2">Purchased Cart Batteries from Cart Battery Nation for Golf Cart, LSV, NEV & MSV solutions nationwide</div>
                 <a href="tel:1-844-888-7732">
                   <Button className="bg-evbd-blue text-white px-8 py-3 hover:bg-blue-700">
                     <Phone className="h-4 w-4 mr-2" />
@@ -421,7 +421,7 @@ export default function Home() {
       <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-gray-900">
-            Ready to Buy Electric Vehicle Batteries Direct?
+            Ready to Buy Cart Batteries Direct?
           </h2>
           <p className="text-xl mb-8 text-gray-600 max-w-3xl mx-auto">
             Order Golf Cart Batteries, LSV, NEV & MSV solutions now! Our battery specialists are standing by to help you purchase from our complete lineup of 96+ configurations. Shop direct and save!
@@ -448,7 +448,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-6 text-center">
             <div>
               <div className="text-2xl font-bold text-evbd-orange">96+</div>
-              <div className="text-gray-600">EV Battery Models</div>
+              <div className="text-gray-600">Cart Battery Models</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-evbd-orange">10,000+</div>
