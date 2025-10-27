@@ -1,6 +1,6 @@
 # Overview
 
-EV Battery Direct is a professional e-commerce website where customers can buy electric vehicle batteries direct across four main categories: Golf Cart Batteries (primary focus), Low Speed Vehicles (LSV), Neighborhood Electric Vehicle (NEV), and Medium Speed Vehicle (MSV) batteries. The application features a comprehensive product catalog with 96+ battery configurations across different voltage systems (6V, 8V, 12V) and technologies (Flooded, AGM, Gel, Lithium), along with educational content, battery selection tools, and quote request functionality. Customers shop direct for the best Electric Vehicle Battery solutions.
+Cart Battery Nation is a professional e-commerce website where customers can buy cart batteries direct across four main categories: Golf Cart Batteries (primary focus), Low Speed Vehicles (LSV), Neighborhood Electric Vehicle (NEV), and Medium Speed Vehicle (MSV) batteries. The application features a comprehensive product catalog with 96+ battery configurations across different voltage systems (6V, 8V, 12V) and technologies (Flooded, AGM, Gel, Lithium), along with educational content, battery selection tools, and quote request functionality. Customers shop direct from Cart Battery Nation for the best cart battery solutions.
 
 # User Preferences
 
@@ -9,7 +9,7 @@ Preferred communication style: Simple, everyday language.
 # System Architecture
 
 ## Frontend Architecture
-The application uses a **React with TypeScript** frontend built with Vite as the build tool. The UI framework leverages **shadcn/ui** components with **Tailwind CSS** for styling, implementing a modern design system with custom color schemes for the EV Battery Direct brand. The application follows a **single-page application (SPA)** pattern using Wouter for client-side routing.
+The application uses a **React with TypeScript** frontend built with Vite as the build tool. The UI framework leverages **shadcn/ui** components with **Tailwind CSS** for styling, implementing a modern design system with custom color schemes for the Cart Battery Nation brand. The application follows a **single-page application (SPA)** pattern using Wouter for client-side routing.
 
 Key architectural decisions:
 - **Component-based architecture** with reusable UI components in the `/components` directory
