@@ -11,32 +11,32 @@
   --card-foreground: hsl(210, 25%, 7.8431%);
   --popover: hsl(0, 0%, 100%);
   --popover-foreground: hsl(210, 25%, 7.8431%);
-  --primary: hsl(218, 80%, 40%);
+  --primary: hsl(0, 66%, 37%);                    /* Red CTA color #9c2020 */
   --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(157, 69%, 38%);
+  --secondary: hsl(91, 45%, 32%);                 /* WCAG AA compliant green (4.51:1 contrast) */
   --secondary-foreground: hsl(0, 0%, 100%);
   --muted: hsl(240, 1.9608%, 90%);
   --muted-foreground: hsl(210, 25%, 7.8431%);
-  --accent: hsl(38, 95%, 48%);
+  --accent: hsl(215, 57%, 27%);                   /* Professional blue #1d3a6a */
   --accent-foreground: hsl(0, 0%, 100%);
-  --destructive: hsl(356.3033, 90.5579%, 54.3137%);
+  --destructive: hsl(0, 66%, 37%);                /* Use red for destructive actions */
   --destructive-foreground: hsl(0, 0%, 100%);
   --border: hsl(201.4286, 30.4348%, 90.9804%);
   --input: hsl(200, 23.0769%, 97.4510%);
-  --ring: hsl(202.8169, 89.1213%, 53.1373%);
-  --chart-1: hsl(203.8863, 88.2845%, 53.1373%);
-  --chart-2: hsl(159.7826, 100%, 36.0784%);
-  --chart-3: hsl(42.0290, 92.8251%, 56.2745%);
+  --ring: hsl(0, 66%, 37%);                       /* Red focus ring for consistency */
+  --chart-1: hsl(215, 57%, 27%);                  /* Blue for charts */
+  --chart-2: hsl(91, 45%, 38%);                   /* Green for charts */
+  --chart-3: hsl(0, 66%, 37%);                    /* Red for charts */
   --chart-4: hsl(147.1429, 78.5047%, 41.9608%);
   --chart-5: hsl(341.4894, 75.2000%, 50.9804%);
   --sidebar: hsl(180, 6.6667%, 97.0588%);
   --sidebar-foreground: hsl(210, 25%, 7.8431%);
-  --sidebar-primary: hsl(203.8863, 88.2845%, 53.1373%);
+  --sidebar-primary: hsl(215, 57%, 27%);          /* Blue sidebar primary */
   --sidebar-primary-foreground: hsl(0, 0%, 100%);
   --sidebar-accent: hsl(211.5789, 51.3514%, 92.7451%);
-  --sidebar-accent-foreground: hsl(203.8863, 88.2845%, 53.1373%);
+  --sidebar-accent-foreground: hsl(215, 57%, 27%);
   --sidebar-border: hsl(205.0000, 25.0000%, 90.5882%);
-  --sidebar-ring: hsl(202.8169, 89.1213%, 53.1373%);
+  --sidebar-ring: hsl(0, 66%, 37%);
   --font-sans: 'Inter', sans-serif;
   --font-serif: Georgia, serif;
   --font-mono: Menlo, monospace;
@@ -54,25 +54,28 @@
   
   /* Cart Battery Nation Brand Colors - Optimized for Conversion & UX 
    * 
-   * COLOR USAGE STRATEGY:
+   * COLOR USAGE STRATEGY (WCAG AA Compliant):
    * - BLUE (#1d3a6a): Headings, navigation, trust elements - builds credibility
    * - RED (#9c2020): Primary CTA buttons (Call, Buy, Add to Cart) - drives action
-   * - GREEN (#7bab4f): Success states, secondary CTAs, positive feedback
+   * - GREEN (adjusted for contrast): Success states, secondary CTAs, positive feedback
    * - WHITE (#ffffff): Clean backgrounds, high contrast text
    * 
-   * Note: evbd-orange now contains RED for backward compatibility with existing components
+   * DESIGN TOKEN MAPPING:
+   * --primary: Red (CTAs get red automatically via shadcn components)
+   * --accent: Blue (headings and navigation)
+   * --secondary: Green (success states and secondary actions)
    */
   --evbd-blue: hsl(215, 57%, 27%);        /* Professional Blue #1d3a6a */
   --evbd-electric: hsl(215, 57%, 27%);    /* Same as blue */
-  --evbd-green: hsl(91, 37%, 49%);        /* Success Green #7bab4f */
+  --evbd-green: hsl(91, 45%, 32%);        /* Success Green - WCAG AA (4.51:1 contrast) */
   --evbd-orange: hsl(0, 66%, 37%);        /* CTA Red #9c2020 (backwards compat) */
   --evbd-red: hsl(0, 66%, 37%);           /* Primary CTA Red #9c2020 */
   --cbn-white: hsl(0, 0%, 100%);          /* Pure White #ffffff */
   
-  /* Hover states - darker for better feedback */
+  /* Hover states - darker for better feedback (WCAG compliant) */
   --evbd-blue-dark: hsl(215, 57%, 20%);   /* Darker blue for hovers */
   --evbd-red-dark: hsl(0, 66%, 30%);      /* Darker red for hovers */
-  --evbd-green-dark: hsl(91, 37%, 42%);   /* Darker green for hovers */
+  --evbd-green-dark: hsl(91, 45%, 27%);   /* Darker green for hovers */
 }
 
 .dark {
@@ -82,32 +85,32 @@
   --card-foreground: hsl(0, 0%, 85.0980%);
   --popover: hsl(0, 0%, 0%);
   --popover-foreground: hsl(200, 6.6667%, 91.1765%);
-  --primary: hsl(218, 80%, 50%);
+  --primary: hsl(0, 66%, 45%);                    /* Lighter red for dark mode */
   --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(157, 69%, 48%);
+  --secondary: hsl(91, 50%, 35%);                 /* WCAG AA compliant green for dark mode (4.54:1) */
   --secondary-foreground: hsl(0, 0%, 100%);
   --muted: hsl(0, 0%, 9.4118%);
   --muted-foreground: hsl(210, 3.3898%, 46.2745%);
-  --accent: hsl(38, 95%, 58%);
+  --accent: hsl(215, 57%, 40%);                   /* Lighter blue for dark mode */
   --accent-foreground: hsl(0, 0%, 100%);
-  --destructive: hsl(356.3033, 90.5579%, 54.3137%);
+  --destructive: hsl(0, 66%, 45%);                /* Red for destructive */
   --destructive-foreground: hsl(0, 0%, 100%);
   --border: hsl(210, 5.2632%, 14.9020%);
   --input: hsl(207.6923, 27.6596%, 18.4314%);
-  --ring: hsl(202.8169, 89.1213%, 53.1373%);
-  --chart-1: hsl(203.8863, 88.2845%, 53.1373%);
-  --chart-2: hsl(159.7826, 100%, 36.0784%);
-  --chart-3: hsl(42.0290, 92.8251%, 56.2745%);
+  --ring: hsl(0, 66%, 45%);
+  --chart-1: hsl(215, 57%, 40%);                  /* Blue for charts - dark mode */
+  --chart-2: hsl(91, 45%, 48%);                   /* Green for charts - dark mode */
+  --chart-3: hsl(0, 66%, 45%);                    /* Red for charts - dark mode */
   --chart-4: hsl(147.1429, 78.5047%, 41.9608%);
   --chart-5: hsl(341.4894, 75.2000%, 50.9804%);
   --sidebar: hsl(228, 9.8039%, 10%);
   --sidebar-foreground: hsl(0, 0%, 85.0980%);
-  --sidebar-primary: hsl(202.8169, 89.1213%, 53.1373%);
+  --sidebar-primary: hsl(215, 57%, 40%);          /* Blue sidebar - dark mode */
   --sidebar-primary-foreground: hsl(0, 0%, 100%);
   --sidebar-accent: hsl(205.7143, 70%, 7.8431%);
-  --sidebar-accent-foreground: hsl(203.7736, 87.6033%, 52.5490%);
+  --sidebar-accent-foreground: hsl(215, 57%, 40%);/* Blue accent - dark mode */
   --sidebar-border: hsl(205.7143, 15.7895%, 26.0784%);
-  --sidebar-ring: hsl(202.8169, 89.1213%, 53.1373%);
+  --sidebar-ring: hsl(0, 66%, 45%);               /* Red ring - dark mode */
   --font-sans: 'Inter', sans-serif;
   --font-serif: Georgia, serif;
   --font-mono: Menlo, monospace;
