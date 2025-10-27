@@ -87,7 +87,7 @@
   --popover-foreground: hsl(200, 6.6667%, 91.1765%);
   --primary: hsl(0, 66%, 45%);                    /* Lighter red for dark mode */
   --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(91, 50%, 35%);                 /* WCAG AA compliant green for dark mode (4.54:1) */
+  --secondary: hsl(91, 50%, 33%);                 /* WCAG AA compliant green for dark mode (≥4.5:1) */
   --secondary-foreground: hsl(0, 0%, 100%);
   --muted: hsl(0, 0%, 9.4118%);
   --muted-foreground: hsl(210, 3.3898%, 46.2745%);
@@ -99,7 +99,7 @@
   --input: hsl(207.6923, 27.6596%, 18.4314%);
   --ring: hsl(0, 66%, 45%);
   --chart-1: hsl(215, 57%, 40%);                  /* Blue for charts - dark mode */
-  --chart-2: hsl(91, 45%, 48%);                   /* Green for charts - dark mode */
+  --chart-2: hsl(91, 50%, 33%);                   /* Green for charts - WCAG AA compliant */
   --chart-3: hsl(0, 66%, 45%);                    /* Red for charts - dark mode */
   --chart-4: hsl(147.1429, 78.5047%, 41.9608%);
   --chart-5: hsl(341.4894, 75.2000%, 50.9804%);
