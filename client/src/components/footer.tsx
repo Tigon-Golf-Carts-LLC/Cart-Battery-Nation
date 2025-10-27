@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/evbd-logo.png" 
+                src="/cbn-logo.png" 
                 alt="Cart Battery Nation" 
                 className="h-16 sm:h-20 md:h-24 w-auto"
               />

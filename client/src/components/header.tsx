@@ -45,7 +45,7 @@ export default function Header() {
             <Link href="/">
               <div className="flex items-center cursor-pointer">
                 <img 
-                  src="/evbd-logo.png" 
+                  src="/cbn-logo.png" 
                   alt="Cart Battery Nation" 
                   className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto"
                 />
