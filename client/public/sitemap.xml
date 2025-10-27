@@ -9,7 +9,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://cartbatterynation.com/evbd-logo.png</image:loc>
+      <image:loc>https://cartbatterynation.com/cbn-logo.png</image:loc>
       <image:title>Cart Battery Nation Logo</image:title>
     </image:image>
   </url>
@@ -80,28 +80,28 @@
   
   <!-- Individual Product Pages - 6V Batteries -->
   <url>
-    <loc>https://cartbatterynation.com/product/evbd-6v-225-golf-cart-flooded</loc>
+    <loc>https://cartbatterynation.com/product/cbn-6v-225-golf-cart-flooded</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://cartbatterynation.com/product/evbd-6v-225-golf-cart-agm</loc>
+    <loc>https://cartbatterynation.com/product/cbn-6v-225-golf-cart-agm</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://cartbatterynation.com/product/evbd-6v-225-golf-cart-gel</loc>
+    <loc>https://cartbatterynation.com/product/cbn-6v-225-golf-cart-gel</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://cartbatterynation.com/product/evbd-6v-225-golf-cart-lithium</loc>
+    <loc>https://cartbatterynation.com/product/cbn-6v-225-golf-cart-lithium</loc>
     <lastmod>2024-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

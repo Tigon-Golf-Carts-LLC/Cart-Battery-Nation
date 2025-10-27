@@ -98,7 +98,7 @@ export class MemStorage implements IStorage {
     voltageSeriesConfig.forEach(voltageSeries => {
       categories.forEach(category => {
         technologies.forEach(technology => {
-          const productId = `evbd-${voltageSeries.series.toLowerCase()}-${category.slug}-${technology.slug}`;
+          const productId = `cbn-${voltageSeries.series.toLowerCase()}-${category.slug}-${technology.slug}`;
           const price = technology.callForPricing ? "Call for Pricing" : (Math.round(voltageSeries.basePrice * technology.priceMultiplier * 100) / 100).toString();
           
           const product: Product = {
@@ -138,7 +138,7 @@ export class MemStorage implements IStorage {
             ],
             price: price,
             inStock: true,
-            images: [`evbd-${category.slug}-battery-1.jpg`, `evbd-${category.slug}-battery-2.jpg`],
+            images: [`cbn-${category.slug}-battery-1.jpg`, `cbn-${category.slug}-battery-2.jpg`],
             relatedProducts: [],
             focusKeywords: ["Cart Battery Nation", "Cart Batteries", category.description, `Buy ${voltageSeries.series} ${category.description}`],
             altText: `Buy ${voltageSeries.series} ${category.description} - ${technology.description} from Cart Battery Nation`,
@@ -153,7 +153,7 @@ export class MemStorage implements IStorage {
     // Add additional services and products
     const additionalProducts: Product[] = [
       {
-        id: "evbd-battery-installation",
+        id: "cbn-battery-installation",
         name: "Professional Battery Installation Service",
         series: "Installation",
         category: "Services",
@@ -179,14 +179,14 @@ export class MemStorage implements IStorage {
         ],
         price: "200.00",
         inStock: true,
-        images: ["evbd-installation-service.jpg"],
+        images: ["cbn-installation-service.jpg"],
         relatedProducts: [],
         focusKeywords: ["Cart Battery Nation Installation", "Buy Professional Installation", "Cart Battery Service"],
         altText: "Buy Professional Battery Installation Service from Cart Battery Nation",
         createdAt: new Date()
       },
       {
-        id: "evbd-6v-8v-core-charge",
+        id: "cbn-6v-8v-core-charge",
         name: "6V/8V Battery Core Charge",
         series: "Core",
         category: "Core Charges",
@@ -212,14 +212,14 @@ export class MemStorage implements IStorage {
         ],
         price: "29.00",
         inStock: true,
-        images: ["evbd-core-charge.jpg"],
+        images: ["cbn-core-charge.jpg"],
         relatedProducts: [],
         focusKeywords: ["Cart Battery Nation Core Charge", "Cart Battery Recycling", "Buy 6V 8V Core"],
         altText: "Buy 6V 8V Cart Battery Core Charge - Cart Battery Nation",
         createdAt: new Date()
       },
       {
-        id: "evbd-12v-core-charge",
+        id: "cbn-12v-core-charge",
         name: "12V Battery Core Charge",
         series: "Core",
         category: "Core Charges",
@@ -245,14 +245,14 @@ export class MemStorage implements IStorage {
         ],
         price: "57.00",
         inStock: true,
-        images: ["evbd-core-charge.jpg"],
+        images: ["cbn-core-charge.jpg"],
         relatedProducts: [],
         focusKeywords: ["Cart Battery Nation Core Charge", "Cart Battery Recycling", "Buy 12V Core"],
         altText: "Buy 12V Cart Battery Core Charge - Cart Battery Nation",
         createdAt: new Date()
       },
       {
-        id: "evbd-battery-cable",
+        id: "cbn-battery-cable",
         name: "Cart Battery Nation Cable",
         series: "Accessories",
         category: "Cables & Accessories",
@@ -278,7 +278,7 @@ export class MemStorage implements IStorage {
         ],
         price: "10.00",
         inStock: true,
-        images: ["evbd-battery-cable.jpg"],
+        images: ["cbn-battery-cable.jpg"],
         relatedProducts: [],
         focusKeywords: ["Cart Battery Nation Cable", "Buy Cart Battery Connections", "Shop Professional Cable"],
         altText: "Buy Professional EV Battery Cable from Cart Battery Nation",
