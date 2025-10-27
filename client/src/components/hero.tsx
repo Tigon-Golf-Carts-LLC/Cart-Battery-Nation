@@ -20,10 +20,10 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4 sm:mb-6 text-evbd-orange">
-              Buy Electric Vehicle Batteries <span className="text-evbd-green">Direct</span> & <span className="text-evbd-green">Save</span>
+              Buy Cart Batteries <span className="text-evbd-green">Direct</span> & <span className="text-evbd-green">Save</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-blue-100 leading-relaxed">
-              EV Battery Direct - Shop premium Electric Vehicle Batteries for Golf Carts, LSV, NEV & MSV. 
+              Cart Battery Nation - Shop premium Cart Batteries for Golf Carts, LSV, NEV & MSV. 
               Order from 96+ professional-grade battery configurations. Buy now with expert support!
             </p>
             <div className="flex flex-col gap-3 sm:gap-4">
@@ -34,7 +34,7 @@ export default function Hero() {
                   data-testid="button-shop-batteries"
                 >
                   <Search className="h-4 w-4 sm:h-5 sm:w-5 mr-2 text-white" />
-                  Shop Electric Vehicle Batteries
+                  Shop Cart Batteries
                 </Button>
               </Link>
               <a 
@@ -74,7 +74,7 @@ export default function Hero() {
                 </div>
               </div>
               <div className="mt-3 sm:mt-4 text-center">
-                <div className="text-evbd-orange font-semibold text-sm sm:text-base md:text-lg">96+ EV Battery Models - Order Today!</div>
+                <div className="text-evbd-orange font-semibold text-sm sm:text-base md:text-lg">96+ Cart Battery Models - Order Today!</div>
                 <div className="text-blue-100 text-xs sm:text-sm">6V • 8V • 12V | Flooded • AGM • Gel • Lithium</div>
               </div>
             </div>

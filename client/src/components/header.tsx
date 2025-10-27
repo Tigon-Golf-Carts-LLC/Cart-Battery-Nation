@@ -25,7 +25,7 @@ export default function Header() {
       <div className="bg-evbd-blue text-white py-2">
         <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
           <div className="flex justify-center items-center text-xs sm:text-sm">
-            <span className="hidden sm:inline mr-2">Expert EV Battery Support:</span>
+            <span className="hidden sm:inline mr-2">Expert Cart Battery Support:</span>
             <Phone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2 text-white" />
             <a 
               href="tel:1-844-888-7732" 
@@ -46,7 +46,7 @@ export default function Header() {
               <div className="flex items-center cursor-pointer">
                 <img 
                   src="/evbd-logo.png" 
-                  alt="EV Battery Direct" 
+                  alt="Cart Battery Nation" 
                   className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto"
                 />
               </div>

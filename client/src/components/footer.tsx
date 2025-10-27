@@ -12,19 +12,19 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <img 
                 src="/evbd-logo.png" 
-                alt="EV Battery Direct" 
+                alt="Cart Battery Nation" 
                 className="h-16 sm:h-20 md:h-24 w-auto"
               />
             </div>
             <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base leading-relaxed">
-              EV Battery Direct specializes in Electric Vehicle Batteries, Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, 
+              Cart Battery Nation specializes in Cart Batteries, Golf Cart Batteries, Low Speed Vehicle (LSV) Batteries, 
               Neighborhood Electric Vehicle (NEV) Batteries, and Medium Speed Vehicle (MSV) Batteries. 
-              Trusted by over 10,000 customers nationwide for direct electric vehicle battery solutions.
+              Trusted by over 10,000 customers nationwide for direct cart battery solutions.
             </p>
             
             {/* Footer Phone CTA */}
             <div className="bg-evbd-orange p-3 sm:p-4 rounded-lg">
-              <h3 className="font-bold text-base sm:text-lg text-white mb-2">Need Help? Call Our EV Battery Experts</h3>
+              <h3 className="font-bold text-base sm:text-lg text-white mb-2">Need Help? Call Our Cart Battery Experts</h3>
               <a 
                 href="tel:1-844-888-7732" 
                 className="text-lg sm:text-xl md:text-2xl font-bold hover:text-yellow-200 transition-colors flex items-center flex-wrap"
@@ -198,7 +198,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-6 sm:pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-xs sm:text-sm text-center md:text-left">
-              © 2025 EV Battery Direct. All rights reserved. Electric Vehicle Batteries, Golf Cart Batteries, LSV, NEV & MSV Battery Specialists.
+              © 2025 Cart Battery Nation. All rights reserved. Cart Batteries, Golf Cart Batteries, LSV, NEV & MSV Battery Specialists.
             </div>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
               <Link href="/privacy">
