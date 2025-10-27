@@ -52,11 +52,27 @@
   --tracking-normal: 0em;
   --spacing: 0.25rem;
   
-  /* EV Battery Direct Brand Colors - Main color is BLUE #3f4895 */
-  --evbd-blue: hsl(234, 41%, 42%);
-  --evbd-electric: hsl(234, 41%, 42%);
-  --evbd-green: hsl(91, 47%, 49%);
-  --evbd-orange: hsl(20, 80%, 56%);
+  /* Cart Battery Nation Brand Colors - Optimized for Conversion & UX 
+   * 
+   * COLOR USAGE STRATEGY:
+   * - BLUE (#1d3a6a): Headings, navigation, trust elements - builds credibility
+   * - RED (#9c2020): Primary CTA buttons (Call, Buy, Add to Cart) - drives action
+   * - GREEN (#7bab4f): Success states, secondary CTAs, positive feedback
+   * - WHITE (#ffffff): Clean backgrounds, high contrast text
+   * 
+   * Note: evbd-orange now contains RED for backward compatibility with existing components
+   */
+  --evbd-blue: hsl(215, 57%, 27%);        /* Professional Blue #1d3a6a */
+  --evbd-electric: hsl(215, 57%, 27%);    /* Same as blue */
+  --evbd-green: hsl(91, 37%, 49%);        /* Success Green #7bab4f */
+  --evbd-orange: hsl(0, 66%, 37%);        /* CTA Red #9c2020 (backwards compat) */
+  --evbd-red: hsl(0, 66%, 37%);           /* Primary CTA Red #9c2020 */
+  --cbn-white: hsl(0, 0%, 100%);          /* Pure White #ffffff */
+  
+  /* Hover states - darker for better feedback */
+  --evbd-blue-dark: hsl(215, 57%, 20%);   /* Darker blue for hovers */
+  --evbd-red-dark: hsl(0, 66%, 30%);      /* Darker red for hovers */
+  --evbd-green-dark: hsl(91, 37%, 42%);   /* Darker green for hovers */
 }
 
 .dark {
@@ -140,9 +156,9 @@
   }
 }
 
-/* Custom EV Battery Direct Styles */
+/* Custom Cart Battery Nation Styles - Optimized Gradients */
 .hero-gradient {
-  background: linear-gradient(135deg, var(--evbd-blue) 0%, var(--evbd-blue) 50%, var(--evbd-green) 100%);
+  background: linear-gradient(135deg, var(--evbd-blue) 0%, var(--evbd-blue) 70%, var(--evbd-green) 100%);
 }
 
 .battery-selector-active {
@@ -195,6 +211,10 @@ button, a, input, select, textarea {
   color: var(--evbd-orange);
 }
 
+.text-evbd-red {
+  color: var(--evbd-red);
+}
+
 .bg-evbd-blue {
   background-color: var(--evbd-blue);
 }
@@ -211,6 +231,10 @@ button, a, input, select, textarea {
   background-color: var(--evbd-orange);
 }
 
+.bg-evbd-red {
+  background-color: var(--evbd-red);
+}
+
 .border-evbd-blue {
   border-color: var(--evbd-blue);
 }
@@ -223,6 +247,10 @@ button, a, input, select, textarea {
   border-color: var(--evbd-orange);
 }
 
+.border-evbd-red {
+  border-color: var(--evbd-red);
+}
+
 .hover\:bg-evbd-blue:hover {
   background-color: var(--evbd-blue);
 }
@@ -233,6 +261,27 @@ button, a, input, select, textarea {
 
 .hover\:bg-evbd-orange:hover {
   background-color: var(--evbd-orange);
+}
+
+.hover\:bg-evbd-red:hover {
+  background-color: var(--evbd-red);
+}
+
+/* Optimized hover states for better user feedback */
+.hover\:bg-red-700:hover {
+  background-color: var(--evbd-red-dark);
+}
+
+.hover\:bg-orange-600:hover {
+  background-color: var(--evbd-red-dark);
+}
+
+.hover\:bg-blue-700:hover {
+  background-color: var(--evbd-blue-dark);
+}
+
+.hover\:bg-green-600:hover {
+  background-color: var(--evbd-green-dark);
 }
 
 .hover\:text-evbd-blue:hover {
@@ -249,6 +298,10 @@ button, a, input, select, textarea {
 
 .hover\:text-evbd-orange:hover {
   color: var(--evbd-orange);
+}
+
+.hover\:text-evbd-red:hover {
+  color: var(--evbd-red);
 }
 
 .text-tigon-red {
