@@ -26,10 +26,10 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
           <div className="flex justify-center items-center text-xs sm:text-sm">
             <span className="hidden sm:inline mr-2">Expert Cart Battery Support:</span>
-            <Phone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2 text-white" />
+            <Phone className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2 text-white flex-shrink-0" />
             <a 
               href="tel:1-844-888-7732" 
-              className="font-semibold hover:text-evbd-orange transition-colors"
+              className="font-semibold hover:text-evbd-orange transition-colors whitespace-nowrap"
             >
               1-844-888-7732
             </a>
