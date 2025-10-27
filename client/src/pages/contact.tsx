@@ -33,8 +33,8 @@ type QuoteFormData = z.infer<typeof quoteFormSchema>;
 export default function Contact() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Contact EV Battery Direct - Buy Electric Vehicle Batteries Direct",
-    description: "Order Golf Cart Batteries, LSV, NEV & MSV solutions from EV Battery Direct specialists. Get expert buying advice on 96+ battery configurations. Call 1-844-888-7732 to buy now!",
+    title: "Contact Cart Battery Nation - Buy Cart Batteries Direct",
+    description: "Order Golf Cart Batteries, LSV, NEV & MSV solutions from Cart Battery Nation specialists. Get expert buying advice on 96+ battery configurations. Call 1-844-888-7732 to buy now!",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -65,7 +65,7 @@ export default function Contact() {
       setFormSubmitted(true);
       toast({
         title: "Quote request submitted!",
-        description: "Our EV Battery Direct experts will contact you within 24 hours to help you buy!",
+        description: "Our Cart Battery Nation experts will contact you within 24 hours to help you buy!",
       });
     },
     onError: () => {
@@ -85,7 +85,7 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Call to Order Now",
-      description: "Speak directly with EV Battery Direct specialists to purchase",
+      description: "Speak directly with Cart Battery Nation specialists to purchase",
       contact: "1-844-888-7732",
       link: "tel:1-844-888-7732",
       hours: "Monday - Friday: 8AM - 6PM EST",
@@ -95,14 +95,14 @@ export default function Contact() {
       icon: Mail,
       title: "Email for Quote",
       description: "Send us your requirements for a custom price quote",
-      contact: "experts@evbatterydirect.com",
-      link: "mailto:experts@evbatterydirect.com",
+      contact: "experts@cartbatterynation.com",
+      link: "mailto:experts@cartbatterynation.com",
       hours: "Response within 24 hours"
     },
     {
       icon: MessageSquare,
       title: "Live Chat",
-      description: "Get instant answers to buy Electric Vehicle Batteries",
+      description: "Get instant answers to buy Cart Batteries",
       contact: "Available on website",
       link: "#",
       hours: "Monday - Friday: 8AM - 6PM EST"
@@ -139,7 +139,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h1 className="text-4xl lg:text-5xl font-bold text-evbd-orange mb-6">
-              Contact TIGON Battery Experts
+              Contact Cart Battery Nation Experts
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
               Get expert guidance on Golf Cart Batteries, LSV, NEV & MSV solutions. Our specialists 
@@ -165,7 +165,7 @@ export default function Contact() {
         {/* Contact Methods */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-evbd-orange text-center mb-12">
-            Get in Touch with TIGON Batteries
+            Get in Touch with Cart Battery Nation
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -210,7 +210,7 @@ export default function Contact() {
                 Request a Custom Battery Quote
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Fill out the form below and our TIGON battery experts will provide you with 
+                Fill out the form below and our Cart Battery Nation experts will provide you with 
                 a personalized quote for your Golf Cart, LSV, NEV, or MSV battery needs.
               </p>
 
@@ -255,7 +255,7 @@ export default function Contact() {
                     Quote Request Submitted Successfully!
                   </h3>
                   <p className="text-gray-600 mb-6">
-                    Thank you for your interest in TIGON Batteries. Our battery experts will 
+                    Thank you for your interest in Cart Battery Nation. Our battery experts will 
                     review your requirements and contact you within 24 hours with a personalized quote.
                   </p>
                   <div className="space-y-4">
@@ -452,7 +452,7 @@ export default function Contact() {
         {/* Support Areas */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-evbd-orange text-center mb-12">
-            How Our TIGON Battery Experts Can Help
+            How Our Cart Battery Nation Experts Can Help
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -530,7 +530,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold mb-2">Nationwide Shipping</h4>
                     <p className="text-sm text-gray-600">
-                      We ship TIGON Batteries to all 50 states with fast, 
+                      We ship Cart Battery Nation batteries to all 50 states with fast, 
                       reliable delivery options.
                     </p>
                   </div>
@@ -558,17 +558,17 @@ export default function Contact() {
         <section>
           <Card className="p-8 text-center bg-evbd-blue text-white">
             <h3 className="text-3xl font-bold text-evbd-orange mb-4">
-              Ready to Get Started with TIGON Batteries?
+              Ready to Get Started with Cart Battery Nation?
             </h3>
             <p className="text-xl mb-6 text-blue-100">
               Don't wait - our battery experts are standing by to help you choose the perfect 
-              TIGON battery solution for your Golf Cart, LSV, NEV, or MSV needs.
+              cart battery solution for your Golf Cart, LSV, NEV, or MSV needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-evbd-orange text-white hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call TIGON Experts: 1-844-888-7732
+                  Call Cart Battery Nation: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline" className="bg-white text-evbd-blue hover:bg-gray-100">

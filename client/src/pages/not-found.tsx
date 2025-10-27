@@ -5,8 +5,8 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function NotFound() {
   // Set SEO metadata
   useDocumentHead({
-    title: "404 Page Not Found | EV Battery Direct",
-    description: "Page not found. Shop our complete catalog of Electric Vehicle Batteries - Golf Cart, LSV, NEV & MSV solutions. Buy direct and save! Call 1-844-888-7732.",
+    title: "404 Page Not Found | Cart Battery Nation",
+    description: "Page not found. Shop our complete catalog of Cart Batteries - Golf Cart, LSV, NEV & MSV solutions. Buy direct and save! Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512

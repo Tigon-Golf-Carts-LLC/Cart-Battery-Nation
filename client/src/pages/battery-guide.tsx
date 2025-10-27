@@ -11,8 +11,8 @@ import { useDocumentHead } from "@/hooks/use-document-head";
 export default function BatteryGuide() {
   // Set SEO metadata
   useDocumentHead({
-    title: "Complete Electric Vehicle Battery Buying Guide 2025 | EV Battery Direct",
-    description: "Everything you need to know before you buy Golf Cart Batteries - voltage configurations, technology options, and maintenance from EV Battery Direct experts. Shop now! Call 1-844-888-7732.",
+    title: "Complete Cart Battery Buying Guide 2025 | Cart Battery Nation",
+    description: "Everything you need to know before you buy Golf Cart Batteries - voltage configurations, technology options, and maintenance from Cart Battery Nation experts. Shop now! Call 1-844-888-7732.",
     ogImage: "/og/logo.png",
     ogImageWidth: 512,
     ogImageHeight: 512
@@ -164,17 +164,17 @@ export default function BatteryGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h1 className="text-4xl lg:text-5xl font-bold text-evbd-orange mb-6">
-              Complete TIGON Batteries Guide 2025
+              Complete Cart Battery Guide 2025
             </h1>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
               Everything you need to know about Golf Cart Batteries, voltage configurations, 
-              technology options, and maintenance from TIGON Batteries experts.
+              technology options, and maintenance from Cart Battery Nation experts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-888-7732">
                 <Button size="lg" className="bg-evbd-orange text-white px-8 py-4 text-lg hover:bg-orange-600">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call TIGON Experts: 1-844-888-7732
+                  Call Cart Battery Nation: 1-844-888-7732
                 </Button>
               </a>
               <Button size="lg" variant="outline" asChild>
@@ -204,7 +204,7 @@ export default function BatteryGuide() {
                 Golf Cart Battery Voltage Guide
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl">
-                Understanding voltage systems is crucial for choosing the right TIGON Batteries 
+                Understanding voltage systems is crucial for choosing the right cart batteries 
                 for your golf cart or electric vehicle. Each voltage has distinct advantages 
                 depending on your specific needs.
               </p>
@@ -219,7 +219,7 @@ export default function BatteryGuide() {
                         <Battery className="h-6 w-6 mr-2 text-evbd-blue" />
                         {voltage.voltage} Battery Systems
                       </CardTitle>
-                      <Badge className="bg-evbd-green text-white">TIGON Available</Badge>
+                      <Badge className="bg-evbd-green text-white">Available</Badge>
                     </div>
                     <p className="text-gray-600">{voltage.description}</p>
                   </CardHeader>
@@ -284,13 +284,13 @@ export default function BatteryGuide() {
             <Card className="mt-8 p-6 bg-evbd-blue text-white">
               <h3 className="text-xl font-bold mb-4">Need Help Choosing the Right Voltage?</h3>
               <p className="mb-4 text-blue-100">
-                Our TIGON battery experts can help you determine the optimal voltage system 
+                Our Cart Battery Nation experts can help you determine the optimal voltage system 
                 for your specific golf cart or electric vehicle application.
               </p>
               <a href="tel:1-844-888-7732">
                 <Button className="bg-evbd-orange text-white hover:bg-orange-600">
                   <Phone className="h-4 w-4 mr-2" />
-                  Call TIGON Specialists: 1-844-888-7732
+                  Call Cart Battery Nation: 1-844-888-7732
                 </Button>
               </a>
             </Card>
@@ -303,7 +303,7 @@ export default function BatteryGuide() {
                 Understanding Battery Technologies
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl">
-                TIGON Batteries offers four distinct battery technologies, each with unique 
+                Cart Battery Nation offers four distinct battery technologies, each with unique 
                 advantages. Compare Flooded Lead-Acid, AGM, Gel, and Lithium options to 
                 find the perfect match for your needs.
               </p>
@@ -372,10 +372,10 @@ export default function BatteryGuide() {
           <TabsContent value="maintenance" className="mt-8">
             <div className="mb-8">
               <h2 className="text-3xl font-bold text-evbd-orange mb-4">
-                TIGON Battery Maintenance Guide
+                Cart Battery Maintenance Guide
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl">
-                Proper maintenance extends the life of your TIGON Batteries and ensures 
+                Proper maintenance extends the life of your cart batteries and ensures 
                 optimal performance. Follow our expert recommendations for different 
                 battery technologies and maintenance schedules.
               </p>
@@ -462,7 +462,7 @@ export default function BatteryGuide() {
               </h2>
               <p className="text-lg text-gray-600 max-w-4xl">
                 Proper installation is crucial for safety and optimal performance of your 
-                TIGON Batteries. While we recommend professional installation, this guide 
+                cart batteries. While we recommend professional installation, this guide 
                 provides an overview of the process.
               </p>
             </div>
