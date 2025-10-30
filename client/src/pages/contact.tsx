@@ -31,16 +31,18 @@ const quoteFormSchema = z.object({
 type QuoteFormData = z.infer<typeof quoteFormSchema>;
 
 export default function Contact() {
+  const { toast } = useToast();
+
   // Set SEO metadata
   useDocumentHead({
     title: "Contact Cart Battery Nation - Buy Cart Batteries Direct",
     description: "Order Golf Cart Batteries, LSV, NEV & MSV solutions from Cart Battery Nation specialists. Get expert buying advice on 96+ battery configurations. Call 1-844-888-7732 to buy now!",
-    ogImage: "/og/logo.png",
-    ogImageWidth: 512,
-    ogImageHeight: 512
+    ogImage: "/cbn-logo.png",
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: "image/png",
+    pageType: "website"
   });
-
-  const { toast } = useToast();
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const form = useForm<QuoteFormData>({

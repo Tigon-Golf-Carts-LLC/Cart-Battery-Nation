@@ -13,17 +13,18 @@ import { type Product } from "@shared/schema";
 import { useDocumentHead } from "@/hooks/use-document-head";
 
 export default function Home() {
+  const { data: products = [] } = useQuery<Product[]>({
+    queryKey: ["/api/products"],
+  });
+
   // Set SEO metadata
   useDocumentHead({
-    title: "Buy Cart Batteries Direct | Golf Cart, LSV, NEV & MSV Batteries",
+    title: "Cart Battery Nation - Buy Cart Batteries Direct | Golf Cart, LSV, NEV & MSV",
     description: "Shop Cart Batteries Direct from Cart Battery Nation! Order premium Golf Cart Batteries, LSV, NEV & MSV solutions. 96+ battery configurations. Buy now & save! Call 1-844-888-7732.",
     ogImage: "/hero-background.jpg",
     ogImageWidth: 1200,
-    ogImageHeight: 630
-  });
-
-  const { data: products = [] } = useQuery<Product[]>({
-    queryKey: ["/api/products"],
+    ogImageHeight: 630,
+    pageType: "website"
   });
 
   // Get featured products (first 4 from each category)

@@ -14,16 +14,18 @@ import { type BatteryQuizState } from "@/types";
 import { useDocumentHead } from "@/hooks/use-document-head";
 
 export default function BatterySelector() {
+  const [quizCompleted, setQuizCompleted] = useState(false);
+
   // Set SEO metadata
   useDocumentHead({
     title: "Buy the Perfect Electric Vehicle Battery - Battery Selector | Cart Battery Nation",
     description: "Use our Battery Selector Quiz to buy the optimal battery from our complete lineup of 96+ Golf Cart, LSV, NEV & MSV configurations. Shop direct now! Call 1-844-888-7732.",
-    ogImage: "/og/logo.png",
-    ogImageWidth: 512,
-    ogImageHeight: 512
+    ogImage: "/cbn-logo.png",
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: "image/png",
+    pageType: "website"
   });
-
-  const [quizCompleted, setQuizCompleted] = useState(false);
   const [quizResults, setQuizResults] = useState<BatteryQuizState | null>(null);
   const [recommendedProducts, setRecommendedProducts] = useState<Product[]>([]);
 

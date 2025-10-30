@@ -119,11 +119,13 @@ export default function Products() {
 
   // Set SEO metadata
   useDocumentHead({
-    title: displayTitle,
+    title: pageTitle,
     description: pageDescription,
-    ogImage: "/og/logo.png",
-    ogImageWidth: 512,
-    ogImageHeight: 512
+    ogImage: "/cbn-logo.png",
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: "image/png",
+    pageType: "website"
   });
 
   if (isLoading) {

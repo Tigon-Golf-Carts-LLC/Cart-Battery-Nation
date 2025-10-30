@@ -13,9 +13,12 @@ export default function BatteryGuide() {
   useDocumentHead({
     title: "Complete Cart Battery Buying Guide 2025 | Cart Battery Nation",
     description: "Everything you need to know before you buy Golf Cart Batteries - voltage configurations, technology options, and maintenance from Cart Battery Nation experts. Shop now! Call 1-844-888-7732.",
-    ogImage: "/og/logo.png",
-    ogImageWidth: 512,
-    ogImageHeight: 512
+    ogImage: "/cbn-logo.png",
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: "image/png",
+    pageType: "article",
+    modifiedTime: new Date().toISOString()
   });
   const voltageGuide = [
     {

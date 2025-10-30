@@ -10,6 +10,7 @@ import ProductDetail from "@/pages/product-detail";
 import BatteryGuide from "@/pages/battery-guide";
 import BatterySelector from "@/pages/battery-selector";
 import Contact from "@/pages/contact";
+import MetaSettings from "@/pages/meta-settings";
 
 function Router() {
   return (
@@ -21,6 +22,7 @@ function Router() {
       <Route path="/battery-guide" component={BatteryGuide} />
       <Route path="/battery-selector" component={BatterySelector} />
       <Route path="/contact" component={Contact} />
+      <Route path="/meta-settings" component={MetaSettings} />
       <Route component={NotFound} />
     </Switch>
   );

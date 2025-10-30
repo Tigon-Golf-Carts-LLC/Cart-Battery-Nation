@@ -30,7 +30,7 @@ export default function ProductDetail() {
   });
 
   // Set SEO metadata - must be called unconditionally (Rules of Hooks)
-  const title = product ? product.name : error ? "Product Not Found" : "Loading...";
+  const title = product ? `${product.name} - Cart Battery Nation` : error ? "Product Not Found" : "Loading...";
   const description = product 
     ? `Buy ${product.name} - Premium ${product.technology} battery from Cart Battery Nation. Professional grade battery solution for ${product.category}. Order now! Call 1-844-888-7732.`
     : error 
@@ -40,9 +40,12 @@ export default function ProductDetail() {
   useDocumentHead({
     title,
     description,
-    ogImage: "/og/logo.png",
-    ogImageWidth: 512,
-    ogImageHeight: 512
+    ogImage: "/cbn-logo.png",
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: "image/png",
+    pageType: "article",
+    modifiedTime: new Date().toISOString()
   });
 
   const { data: relatedProducts = [] } = useQuery<Product[]>({
