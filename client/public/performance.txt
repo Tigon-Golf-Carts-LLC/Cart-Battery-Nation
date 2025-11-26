@@ -1,0 +1,279 @@
+# Cart Battery Nation - Performance Optimization Data
+# Core Web Vitals and performance metrics for SEO
+# Technical performance specifications and optimization guidelines
+# https://www.cartbatterynation.com
+
+## CORE WEB VITALS TARGETS
+
+### Largest Contentful Paint (LCP)
+Target: < 2.5 seconds
+Optimization Strategies:
+- Preload critical above-fold images
+- Optimize server response time
+- Use CDN for static assets
+- Implement lazy loading for below-fold content
+- Compress and optimize images (WebP format)
+
+### First Input Delay (FID) / Interaction to Next Paint (INP)
+Target: < 100 milliseconds
+Optimization Strategies:
+- Minimize JavaScript bundle size
+- Code splitting for route-based loading
+- Defer non-critical JavaScript
+- Use web workers for heavy computations
+- Optimize event handlers
+
+### Cumulative Layout Shift (CLS)
+Target: < 0.1
+Optimization Strategies:
+- Reserve space for dynamic content
+- Define image dimensions (width/height)
+- Avoid inserting content above existing content
+- Use CSS aspect-ratio for media
+- Preload web fonts with fallbacks
+
+## PERFORMANCE METRICS DATA
+
+### Page Load Performance
+Homepage:
+- First Contentful Paint: < 1.8s
+- Time to Interactive: < 3.5s
+- Total Blocking Time: < 200ms
+- Speed Index: < 3.0s
+
+Product Pages:
+- First Contentful Paint: < 1.5s
+- Largest Contentful Paint: < 2.0s
+- Time to Interactive: < 3.0s
+- Total Blocking Time: < 150ms
+
+### Resource Optimization
+JavaScript:
+- Main bundle: < 150KB (gzipped)
+- Vendor bundle: < 100KB (gzipped)
+- Route chunks: < 50KB each
+- Total JS: < 400KB (gzipped)
+
+CSS:
+- Critical CSS: < 15KB (inlined)
+- Full CSS: < 50KB (gzipped)
+- Unused CSS: < 10%
+
+Images:
+- Hero images: < 200KB (WebP)
+- Product thumbnails: < 30KB (WebP)
+- Icons/logos: < 10KB (SVG)
+
+### Server Performance
+Response Times:
+- HTML document: < 200ms
+- API responses: < 100ms
+- Static assets: < 50ms (CDN)
+
+Caching Headers:
+- Static assets: Cache-Control: max-age=31536000, immutable
+- HTML pages: Cache-Control: no-cache, must-revalidate
+- API responses: Cache-Control: private, max-age=60
+
+## LIGHTHOUSE SCORE TARGETS
+
+### Performance Score: 90+
+Key Metrics:
+- Fast page load times
+- Optimized resource delivery
+- Efficient JavaScript execution
+- Minimal render-blocking resources
+
+### Accessibility Score: 95+
+Key Metrics:
+- WCAG 2.1 AA compliance
+- Proper heading hierarchy
+- ARIA labels and roles
+- Color contrast ratios (5.2:1 light, 4.8:1 dark)
+- Keyboard navigation support
+
+### Best Practices Score: 95+
+Key Metrics:
+- HTTPS enforcement
+- No console errors
+- Proper image aspect ratios
+- Modern JavaScript usage
+- Secure headers implementation
+
+### SEO Score: 100
+Key Metrics:
+- Meta tags present
+- Structured data valid
+- Mobile-friendly design
+- Crawlable links
+- Valid robots.txt and sitemap
+
+## MOBILE PERFORMANCE OPTIMIZATION
+
+### Mobile-First Design
+Responsive Breakpoints:
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+Touch Optimization:
+- Tap targets: Minimum 44x44 pixels
+- Touch feedback: Immediate visual response
+- Swipe gestures: Product image galleries
+- Scroll behavior: Smooth native scrolling
+
+### Mobile Network Optimization
+3G Performance Targets:
+- First Contentful Paint: < 3.0s
+- Time to Interactive: < 5.0s
+- Total page weight: < 1MB
+
+4G Performance Targets:
+- First Contentful Paint: < 1.5s
+- Time to Interactive: < 3.0s
+- Total page weight: < 2MB
+
+## CACHING STRATEGIES
+
+### Browser Caching
+Static Assets:
+- JavaScript: 1 year (fingerprinted)
+- CSS: 1 year (fingerprinted)
+- Images: 1 year (fingerprinted)
+- Fonts: 1 year (fingerprinted)
+
+Dynamic Content:
+- HTML: No cache (revalidate on request)
+- API data: Short cache (1-5 minutes)
+- User data: No cache (personalized)
+
+### Service Worker Caching
+Cache-First Strategy:
+- Static assets (JS, CSS, fonts)
+- Product images
+- Icon assets
+
+Network-First Strategy:
+- API responses
+- Product data
+- User session data
+
+### CDN Configuration
+Edge Caching:
+- Static assets: Global edge distribution
+- Images: WebP conversion at edge
+- HTML: Origin caching with short TTL
+
+## RESOURCE LOADING OPTIMIZATION
+
+### Critical Resource Prioritization
+High Priority:
+1. HTML document
+2. Critical CSS (inlined)
+3. Hero image (preload)
+4. Main JavaScript bundle
+
+Medium Priority:
+1. Product images (lazy load)
+2. Non-critical CSS
+3. Analytics scripts
+
+Low Priority:
+1. Third-party widgets
+2. Below-fold content
+3. Prefetched pages
+
+### Preloading Strategy
+```html
+<link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/cbn-logo.png" as="image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+```
+
+### Code Splitting
+Route-based Splitting:
+- /products → products.chunk.js
+- /battery-selector → selector.chunk.js
+- /battery-guide → guide.chunk.js
+- /contact → contact.chunk.js
+
+Component-based Splitting:
+- Product modals: Lazy loaded on interaction
+- Image galleries: Lazy loaded on scroll
+- Forms: Lazy loaded on route access
+
+## MONITORING AND ANALYTICS
+
+### Real User Monitoring (RUM)
+Tracked Metrics:
+- First Contentful Paint (FCP)
+- Largest Contentful Paint (LCP)
+- First Input Delay (FID)
+- Cumulative Layout Shift (CLS)
+- Time to First Byte (TTFB)
+
+### Synthetic Monitoring
+Testing Locations:
+- US East Coast
+- US West Coast
+- US Central
+- Global edge locations
+
+Testing Frequency:
+- Critical pages: Every 5 minutes
+- All pages: Every hour
+- Full site audit: Daily
+
+### Performance Budgets
+JavaScript Budget: 400KB (gzipped)
+CSS Budget: 60KB (gzipped)
+Image Budget: 1MB per page
+Total Page Weight: 2MB maximum
+LCP Budget: 2.5 seconds
+
+## TECHNICAL IMPLEMENTATION
+
+### Compression
+Gzip: Enabled for all text resources
+Brotli: Enabled for modern browsers
+Image Compression: WebP with JPEG fallback
+
+### HTTP/2 and HTTP/3
+HTTP/2: Enabled for multiplexing
+HTTP/3: Enabled for QUIC protocol
+Server Push: Disabled (using preload instead)
+
+### Security Headers
+Content-Security-Policy: Configured
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Referrer-Policy: strict-origin-when-cross-origin
+
+## PERFORMANCE TESTING TOOLS
+
+### Recommended Tools
+- Google PageSpeed Insights
+- Google Lighthouse
+- WebPageTest
+- GTmetrix
+- Chrome DevTools Performance tab
+
+### Testing Methodology
+1. Test on representative devices
+2. Test on various network conditions
+3. Test with cache cleared and primed
+4. Monitor real user metrics
+5. Compare against performance budgets
+
+## BRAND COLORS (OPTIMIZED FOR PERFORMANCE)
+Primary Blue: #1d3a6a
+Accent Red: #9c2020
+Success Green: #7bab4f
+White: #ffffff
+
+## CONTACT FOR PERFORMANCE ISSUES
+Technical Support: 1-844-888-7732
+Website: https://www.cartbatterynation.com
+Business Hours: Monday - Saturday, 8AM - 5PM EST
+Performance Monitoring: Continuous automated testing

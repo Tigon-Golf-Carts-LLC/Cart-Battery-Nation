@@ -1,17 +1,18 @@
-# TIGON Batteries - Geographic SEO Information
+# Cart Battery Nation - Geographic SEO Information
 # Complete location data and regional market information
 # Local SEO optimization and service area documentation
+# https://www.cartbatterynation.com
 
 ## PRIMARY BUSINESS LOCATION
-Business Name: TIGON Batteries
-Service Type: Electric Vehicle Battery Specialist
+Business Name: Cart Battery Nation
+Service Type: Cart Battery Specialist
 Primary Focus: Golf Cart Batteries, LSV, NEV, MSV Solutions
 Phone: 1-844-888-7732
 Service Hours: Monday - Saturday, 8AM - 5PM EST
-Website: tigonbatteries.com
+Website: https://www.cartbatterynation.com
 
 ## NATIONWIDE SERVICE AREA
-TIGON Batteries provides nationwide coverage across all 50 United States with fast shipping and expert support.
+Cart Battery Nation provides nationwide coverage across all 50 United States with fast shipping and expert support.
 
 ### Regional Coverage Areas
 
@@ -130,12 +131,12 @@ LSV/NEV Applications by State:
 ### State-Level Keywords
 Primary: "[State] golf cart batteries"
 Secondary: "golf cart battery [state]"
-Local: "[state] electric vehicle batteries"
-Specific: "TIGON batteries [state]"
+Local: "[state] cart batteries"
+Specific: "Cart Battery Nation [state]"
 
 Example State Variations:
 - "Florida golf cart batteries"
-- "California electric vehicle batteries" 
+- "California cart batteries" 
 - "Texas golf cart battery service"
 - "Arizona golf cart battery installation"
 
@@ -143,14 +144,14 @@ Example State Variations:
 Major Metro Areas:
 - "Miami golf cart batteries"
 - "Phoenix golf cart battery service"
-- "Los Angeles electric vehicle batteries"
+- "Los Angeles cart batteries"
 - "Chicago golf cart battery replacement"
 
 Secondary Cities:
 - "Myrtle Beach golf cart batteries"
 - "Scottsdale golf cart battery service"
 - "Naples Florida golf cart batteries"
-- "Palm Springs electric vehicle batteries"
+- "Palm Springs cart batteries"
 
 ### Local Service Keywords
 Installation Services:
@@ -168,7 +169,7 @@ Geographic Modifiers:
 - "near me" variations for local search
 - "in [city/state]" specific location targeting
 - "[region] golf cart battery specialist"
-- "local [area] electric vehicle battery expert"
+- "local [area] cart battery expert"
 
 ## SERVICE DELIVERY GEOGRAPHIC DATA
 
@@ -221,7 +222,7 @@ Market Leaders by Area:
 - Local independent dealers and service providers
 - Golf course preferred vendor relationships
 
-TIGON Competitive Advantages:
+Cart Battery Nation Competitive Advantages:
 - Nationwide consistent service and support
 - Expert phone consultation regardless of location
 - Comprehensive product line for all applications
@@ -229,6 +230,7 @@ TIGON Competitive Advantages:
 
 ## CONTACT INFORMATION FOR GEOGRAPHIC SERVICES
 National Customer Service: 1-844-888-7732
+Website: https://www.cartbatterynation.com
 Service Hours: Monday - Saturday, 8AM - 5PM EST
 Coverage Area: All 50 United States
 Emergency Support: Available during business hours

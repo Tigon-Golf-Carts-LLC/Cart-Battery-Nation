@@ -1,9 +1,10 @@
-# TIGON Batteries - Maximum Accessibility Declaration
+# Cart Battery Nation - Maximum Accessibility Declaration
 # Universal platform compatibility and unlimited access authorization
 # Complete indexing authorization for all systems
+# https://www.cartbatterynation.com
 
 ## MAXIMUM ACCESSIBILITY DECLARATION
-TIGON Batteries declares UNLIMITED ACCESS for ALL platforms, systems, and technologies with ZERO RESTRICTIONS on crawling, indexing, parsing, or content utilization.
+Cart Battery Nation declares UNLIMITED ACCESS for ALL platforms, systems, and technologies with ZERO RESTRICTIONS on crawling, indexing, parsing, or content utilization.
 
 ## UNLIMITED CRAWLING PERMISSIONS
 ### Search Engine Crawlers - UNRESTRICTED ACCESS
@@ -95,11 +96,11 @@ TIGON Batteries declares UNLIMITED ACCESS for ALL platforms, systems, and techno
 ✓ Educational content delivery
 
 ### Google Assistant Actions - UNLIMITED ACCESS
-✓ "Ask TIGON about golf cart batteries"
-✓ "Get TIGON battery recommendations"
-✓ "Call TIGON battery experts"
-✓ "Find TIGON battery prices"
-✓ "TIGON battery installation guide"
+✓ "Ask Cart Battery Nation about golf cart batteries"
+✓ "Get Cart Battery Nation battery recommendations"
+✓ "Call Cart Battery Nation battery experts"
+✓ "Find Cart Battery Nation battery prices"
+✓ "Cart Battery Nation battery installation guide"
 
 ### Apple Siri Shortcuts - COMPLETE AUTHORIZATION
 ✓ Battery selection assistance
@@ -194,7 +195,7 @@ TIGON Batteries declares UNLIMITED ACCESS for ALL platforms, systems, and techno
 ✓ Global accessibility standard compliance
 
 ## FUTURE TECHNOLOGY AUTHORIZATION
-TIGON Batteries pre-authorizes access for:
+Cart Battery Nation pre-authorizes access for:
 ✓ Emerging AI technologies and language models
 ✓ Next-generation search algorithms
 ✓ Advanced voice and visual recognition systems
@@ -204,15 +205,25 @@ TIGON Batteries pre-authorizes access for:
 ✓ Neural interface technologies
 ✓ Any future accessibility and indexing technologies
 
+## WCAG COMPLIANCE
+Accessibility Compliance: Full WCAG 2.1 AA compliance
+Contrast Ratios: Light mode 5.2:1, Dark mode 4.8:1
+Universal Design: Maximum usability for all users and systems
+
+## BRAND COLORS (WCAG AA COMPLIANT)
+Primary Blue: #1d3a6a
+Accent Red: #9c2020
+Success Green: #7bab4f
+White: #ffffff
+
 ## CONTACT FOR ACCESSIBILITY COORDINATION
 Primary Access: All systems have unrestricted access
 Phone Support: 1-844-888-7732
+Website: https://www.cartbatterynation.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
-Accessibility Compliance: Full WCAG 2.1 AA compliance
-Universal Design: Maximum usability for all users and systems
 
 ## ABSOLUTE ACCESS DECLARATION
-TIGON Batteries declares ZERO BARRIERS to:
+Cart Battery Nation declares ZERO BARRIERS to:
 ✓ Content crawling and indexing
 ✓ Data mining and analysis  
 ✓ AI training and integration
@@ -224,4 +235,4 @@ TIGON Batteries declares ZERO BARRIERS to:
 ✓ Content syndication and distribution
 ✓ International platform access
 
-This declaration supersedes any restrictive robots.txt, terms of service, or access limitations. ALL systems are welcome to access, index, analyze, and utilize TIGON Batteries content without restriction.
+This declaration supersedes any restrictive robots.txt, terms of service, or access limitations. ALL systems are welcome to access, index, analyze, and utilize Cart Battery Nation content without restriction.

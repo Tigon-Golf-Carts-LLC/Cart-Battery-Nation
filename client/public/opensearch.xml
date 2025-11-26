@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>Cart Battery Nation</ShortName>
-  <Description>Shop Cart Battery Nation for cart battery solutions - Buy Golf Cart, LSV, NEV, MSV batteries</Description>
-  <Tags>batteries golf cart electric vehicle LSV NEV MSV</Tags>
+  <Description>Shop Cart Battery Nation for cart battery solutions - Buy Golf Cart, LSV, NEV, MSV batteries direct</Description>
+  <Tags>batteries golf cart electric vehicle LSV NEV MSV buy direct</Tags>
   <Contact>1-844-888-7732</Contact>
-  <Url type="text/html" template="https://cartbatterynation.com/search?q={searchTerms}"/>
-  <Url type="application/x-suggestions+json" template="https://cartbatterynation.com/api/search/suggestions?q={searchTerms}"/>
-  <Image height="16" width="16" type="image/x-icon">https://cartbatterynation.com/favicon.ico</Image>
-  <Image height="64" width="64" type="image/png">https://cartbatterynation.com/evbd-logo.png</Image>
+  <Url type="text/html" template="https://www.cartbatterynation.com/search?q={searchTerms}"/>
+  <Url type="application/x-suggestions+json" template="https://www.cartbatterynation.com/api/search/suggestions?q={searchTerms}"/>
+  <Image height="16" width="16" type="image/x-icon">https://www.cartbatterynation.com/favicon.ico</Image>
+  <Image height="64" width="64" type="image/png">https://www.cartbatterynation.com/cbn-logo.png</Image>
   <Query role="example" searchTerms="6V golf cart battery"/>
   <Developer>Cart Battery Nation Development Team</Developer>
   <Attribution>Search provided by Cart Battery Nation - Expert Cart Battery Solutions</Attribution>

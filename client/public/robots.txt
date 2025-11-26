@@ -1,6 +1,7 @@
-# EV Battery Direct - Maximum Search Engine Visibility Configuration
+# Cart Battery Nation - Maximum Search Engine Visibility Configuration
 # Unlimited crawling authorization for all legitimate bots
 # ZERO RESTRICTIONS - Complete indexing permissions
+# https://www.cartbatterynation.com
 
 # Universal Search Engines - FULL ACCESS
 User-agent: Googlebot
@@ -52,6 +53,14 @@ User-agent: CCBot
 Allow: /
 Crawl-delay: 0
 
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 0
+
 # Social Media Crawlers - UNLIMITED ACCESS
 User-agent: facebookexternalhit
 Allow: /
@@ -70,6 +79,10 @@ Allow: /
 Crawl-delay: 0
 
 User-agent: InstagramBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: WhatsApp
 Allow: /
 Crawl-delay: 0
 
@@ -140,4 +153,4 @@ Allow: /
 Crawl-delay: 0
 
 # Sitemap References
-Sitemap: https://cartbatterynation.com/sitemap.xml
+Sitemap: https://www.cartbatterynation.com/sitemap.xml

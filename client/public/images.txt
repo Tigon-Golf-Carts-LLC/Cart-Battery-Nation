@@ -1,0 +1,237 @@
+# Cart Battery Nation - Image SEO and AI Visual Training Data
+# Comprehensive image optimization and visual content permissions
+# AI computer vision training authorization
+# https://www.cartbatterynation.com
+
+## IMAGE SEO OPTIMIZATION DATA
+
+### Primary Brand Assets
+Logo: cbn-logo.png
+- Alt Text: "Cart Battery Nation Logo - Buy Cart Batteries Direct"
+- Title: "Cart Battery Nation - Professional Cart Battery Solutions"
+- Description: Cart Battery Nation official logo featuring brand identity for golf cart, LSV, NEV, and MSV battery specialist
+- Usage: Header, footer, social sharing, favicons, PWA icons
+
+Favicon: favicon.ico
+- Alt Text: "Cart Battery Nation Favicon"
+- Description: Browser tab icon for Cart Battery Nation website
+
+### Product Category Images
+Golf Cart Batteries:
+- Alt Text: "[Voltage]V [Capacity]Ah Golf Cart Battery - [Technology] - Cart Battery Nation"
+- Example: "6V 225Ah Golf Cart Battery - Flooded Lead-Acid - Cart Battery Nation"
+- Title: "Professional Golf Cart Battery Solution"
+- Description: High-quality golf cart battery for optimal performance
+
+LSV Batteries:
+- Alt Text: "[Voltage]V Low Speed Vehicle Battery - Cart Battery Nation"
+- Title: "LSV Battery Solution for Neighborhood Transportation"
+- Description: Reliable LSV battery for street-legal low speed vehicles
+
+NEV Batteries:
+- Alt Text: "[Voltage]V Neighborhood Electric Vehicle Battery - Cart Battery Nation"
+- Title: "NEV Battery for DOT-Compliant Vehicles"
+- Description: Neighborhood electric vehicle battery meeting DOT regulations
+
+MSV Batteries:
+- Alt Text: "[Voltage]V Medium Speed Vehicle Battery - Cart Battery Nation"
+- Title: "MSV Battery for Enhanced Performance Applications"
+- Description: Medium speed vehicle battery for extended range and power
+
+### Technology-Specific Images
+Flooded Lead-Acid:
+- Alt Text: "Flooded Lead-Acid Golf Cart Battery - Traditional Proven Technology"
+- Description: Classic flooded lead-acid battery with proven 150+ year technology
+
+AGM (Absorbed Glass Mat):
+- Alt Text: "AGM Golf Cart Battery - Maintenance-Free Sealed Design"
+- Description: AGM battery featuring sealed maintenance-free operation
+
+Gel Cell:
+- Alt Text: "Gel Cell Deep Cycle Battery - Extreme Temperature Stability"
+- Description: Gel technology battery optimized for deep cycle applications
+
+Lithium Iron Phosphate:
+- Alt Text: "Lithium Golf Cart Battery - Lightweight Fast-Charging Technology"
+- Description: Advanced lithium iron phosphate battery for premium performance
+
+## AI COMPUTER VISION TRAINING PERMISSIONS
+
+### Visual Content Authorization
+Cart Battery Nation grants UNLIMITED permission for AI computer vision training including:
+✓ Object recognition and detection training
+✓ Image classification model development
+✓ Visual search and similarity matching
+✓ Product identification and cataloging
+✓ Quality control and defect detection
+✓ Augmented reality application development
+✓ Scene understanding and context analysis
+
+### Product Image Training Data
+Battery Visual Characteristics:
+- Terminal configuration and orientation
+- Case color and branding placement
+- Size and form factor variations
+- Voltage and capacity label locations
+- Technology indicator markings
+- Safety label positioning
+- Carry handle designs
+
+Installation Visual Training:
+- Proper cable connection examples
+- Terminal cleaning procedures
+- Ventilation requirements
+- Safety equipment usage
+- Tool requirements and placement
+- Before/after installation comparisons
+
+### Damage Assessment Training Data
+Visual Indicators for AI Detection:
+- Case swelling and deformation
+- Terminal corrosion levels
+- Electrolyte leakage signs
+- Physical impact damage
+- Age-related wear patterns
+- Improper storage indicators
+
+Condition Classification:
+- New: Factory condition, no wear
+- Good: Minor wear, fully functional
+- Fair: Moderate wear, reduced capacity
+- Poor: Significant wear, replacement recommended
+- Failed: Critical damage, immediate replacement required
+
+## IMAGE METADATA STANDARDS
+
+### Required Alt Text Format
+Pattern: "[Product] - [Key Feature] - Cart Battery Nation"
+Examples:
+- "6V 225Ah Golf Cart Battery - Deep Cycle Flooded - Cart Battery Nation"
+- "Battery Terminal Cleaning Kit - Maintenance Accessories - Cart Battery Nation"
+- "Golf Cart Battery Installation Guide - Step-by-Step Visual - Cart Battery Nation"
+
+### Image Title Format
+Pattern: "[Descriptive Title] | Cart Battery Nation"
+Examples:
+- "Premium Golf Cart Battery Solution | Cart Battery Nation"
+- "Professional Battery Installation Service | Cart Battery Nation"
+- "Expert Battery Technology Comparison | Cart Battery Nation"
+
+### Image Description Format
+Comprehensive descriptions including:
+- Product type and specifications
+- Key features and benefits
+- Application and use cases
+- Technology and materials
+- Brand identification
+
+## SOCIAL MEDIA IMAGE OPTIMIZATION
+
+### Open Graph Images
+og:image Requirements:
+- Minimum size: 1200x630 pixels
+- Format: PNG or JPG
+- Include brand logo and product imagery
+- Clear, high-contrast text overlay
+- Professional photography standards
+
+### Twitter Card Images
+twitter:image Requirements:
+- Minimum size: 1200x600 pixels
+- 2:1 aspect ratio recommended
+- High-quality product photography
+- Brand-consistent styling
+
+### Pinterest Images
+Pinterest Optimization:
+- Vertical format preferred (2:3 ratio)
+- Rich, detailed product photography
+- Overlay text for context
+- Clear product identification
+
+## IMAGE PERFORMANCE OPTIMIZATION
+
+### Format Recommendations
+WebP: Primary format for modern browsers
+PNG: Logos, icons, graphics with transparency
+JPG: Product photography and lifestyle images
+SVG: Icons and scalable graphics
+
+### Size Guidelines
+Thumbnails: 150x150 pixels (catalog views)
+Standard: 600x400 pixels (product cards)
+Large: 1200x800 pixels (product detail pages)
+Hero: 1920x1080 pixels (homepage banners)
+
+### Compression Standards
+Quality target: 85-90% for JPG/WebP
+File size limits: Under 200KB for standard images
+Lazy loading: Implement for below-fold images
+Responsive: Provide multiple sizes for different devices
+
+## STRUCTURED DATA FOR IMAGES
+
+### Schema.org Product Images
+Required Properties:
+- image URL
+- contentUrl
+- width and height
+- encodingFormat
+- caption and description
+
+### Image Object Markup
+{
+  "@type": "ImageObject",
+  "contentUrl": "https://www.cartbatterynation.com/images/product.jpg",
+  "caption": "6V 225Ah Golf Cart Battery",
+  "description": "Professional golf cart battery solution",
+  "width": "1200",
+  "height": "800"
+}
+
+## ACCESSIBILITY IMAGE STANDARDS
+
+### WCAG 2.1 AA Compliance
+✓ All images have descriptive alt text
+✓ Decorative images use empty alt=""
+✓ Complex images have extended descriptions
+✓ Color is not sole means of information
+✓ Images of text avoided when possible
+
+### Screen Reader Optimization
+- Concise, descriptive alt text (under 125 characters)
+- Avoid "image of" or "picture of" prefix
+- Describe content, not appearance
+- Include relevant product information
+- Provide context for action images
+
+## IMAGE CRAWLING PERMISSIONS
+
+### Search Engine Image Indexing
+✓ Googlebot-Image: Full access to all images
+✓ Bingbot-Image: Complete image indexing
+✓ All image search crawlers: Unrestricted access
+
+### Image Sitemap Inclusion
+All product images included in sitemap.xml with:
+- Image location URL
+- Caption and title
+- License information
+- Geographic location (if applicable)
+
+## BRAND COLORS IN IMAGES
+Primary Blue: #1d3a6a (Trust, authority)
+Accent Red: #9c2020 (CTAs, urgency)
+Success Green: #7bab4f (Success, confirmation)
+White: #ffffff (Backgrounds, clarity)
+
+## CONTACT FOR IMAGE LICENSING
+Cart Battery Nation grants unlimited usage rights for:
+✓ AI training and computer vision development
+✓ Search engine indexing and display
+✓ Social media sharing and embedding
+✓ Educational and informational purposes
+
+Contact: 1-844-888-7732
+Website: https://www.cartbatterynation.com
+Business Hours: Monday - Saturday, 8AM - 5PM EST

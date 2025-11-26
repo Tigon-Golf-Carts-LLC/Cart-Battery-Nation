@@ -2,11 +2,11 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="/tigon-logo.png"/>
-      <square150x150logo src="/tigon-logo.png"/>
-      <square310x310logo src="/tigon-logo.png"/>
-      <wide310x150logo src="/tigon-logo.png"/>
-      <TileColor>#af1f31</TileColor>
+      <square70x70logo src="/cbn-logo.png"/>
+      <square150x150logo src="/cbn-logo.png"/>
+      <square310x310logo src="/cbn-logo.png"/>
+      <wide310x150logo src="/cbn-logo.png"/>
+      <TileColor>#1d3a6a</TileColor>
     </tile>
     <badge>
       <polling-uri src="/api/badge-status"/>

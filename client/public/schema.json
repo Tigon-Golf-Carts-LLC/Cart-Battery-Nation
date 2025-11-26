@@ -1,0 +1,305 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.cartbatterynation.com/#organization",
+      "name": "Cart Battery Nation",
+      "alternateName": "CBN",
+      "url": "https://www.cartbatterynation.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.cartbatterynation.com/cbn-logo.png",
+        "width": "512",
+        "height": "512"
+      },
+      "image": "https://www.cartbatterynation.com/cbn-logo.png",
+      "description": "Cart Battery Nation is your trusted source for professional cart battery solutions. Buy golf cart, LSV, NEV, and MSV batteries direct with 96+ configurations and expert support.",
+      "telephone": "1-844-888-7732",
+      "foundingDate": "2024",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-844-888-7732",
+        "contactType": "customer service",
+        "availableLanguage": "English",
+        "areaServed": "US",
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      },
+      "sameAs": [],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.cartbatterynation.com/#website",
+      "url": "https://www.cartbatterynation.com",
+      "name": "Cart Battery Nation",
+      "description": "Buy cart batteries direct - Golf Cart, LSV, NEV, MSV battery solutions with 96+ configurations",
+      "publisher": {
+        "@id": "https://www.cartbatterynation.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.cartbatterynation.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.cartbatterynation.com/#webpage",
+      "url": "https://www.cartbatterynation.com",
+      "name": "Cart Battery Nation - Buy Cart Batteries Direct | Golf Cart, LSV, NEV, MSV",
+      "description": "Shop professional cart battery solutions direct. 96+ battery configurations for Golf Cart, LSV, NEV, and MSV applications. Expert support at 1-844-888-7732.",
+      "isPartOf": {
+        "@id": "https://www.cartbatterynation.com/#website"
+      },
+      "about": {
+        "@id": "https://www.cartbatterynation.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.cartbatterynation.com/cbn-logo.png"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ItemList",
+      "name": "Cart Battery Nation Product Categories",
+      "description": "Complete lineup of cart battery solutions across 4 vehicle types and 4 technologies",
+      "numberOfItems": 4,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Golf Cart Batteries",
+          "description": "Premium golf cart battery solutions in 6V, 8V, and 12V configurations with Flooded, AGM, Gel, and Lithium technologies",
+          "url": "https://www.cartbatterynation.com/products/golf-cart"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LSV Batteries",
+          "description": "Low Speed Vehicle battery solutions for neighborhood transportation and utility applications",
+          "url": "https://www.cartbatterynation.com/products/lsv"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "NEV Batteries",
+          "description": "Neighborhood Electric Vehicle batteries meeting DOT regulations for street-legal operation",
+          "url": "https://www.cartbatterynation.com/products/nev"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "MSV Batteries",
+          "description": "Medium Speed Vehicle batteries for enhanced performance and extended range applications",
+          "url": "https://www.cartbatterynation.com/products/msv"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "6V 225Ah Golf Cart Battery - Flooded Lead-Acid",
+      "description": "Professional 6V 225Ah flooded lead-acid golf cart battery with proven technology and reliable performance",
+      "brand": {
+        "@type": "Brand",
+        "name": "Cart Battery Nation"
+      },
+      "category": "Golf Cart Batteries",
+      "offers": {
+        "@type": "Offer",
+        "price": "168.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://www.cartbatterynation.com/#organization"
+        }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Voltage",
+          "value": "6V"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Capacity",
+          "value": "225Ah"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Technology",
+          "value": "Flooded Lead-Acid"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "8V 170Ah Golf Cart Battery - Flooded Lead-Acid",
+      "description": "Professional 8V 170Ah flooded lead-acid golf cart battery with proven technology and reliable performance",
+      "brand": {
+        "@type": "Brand",
+        "name": "Cart Battery Nation"
+      },
+      "category": "Golf Cart Batteries",
+      "offers": {
+        "@type": "Offer",
+        "price": "178.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://www.cartbatterynation.com/#organization"
+        }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Voltage",
+          "value": "8V"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Capacity",
+          "value": "170Ah"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Technology",
+          "value": "Flooded Lead-Acid"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "12V 105Ah Golf Cart Battery - Flooded Lead-Acid",
+      "description": "Professional 12V 105Ah flooded lead-acid golf cart battery with proven technology and reliable performance",
+      "brand": {
+        "@type": "Brand",
+        "name": "Cart Battery Nation"
+      },
+      "category": "Golf Cart Batteries",
+      "offers": {
+        "@type": "Offer",
+        "price": "265.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://www.cartbatterynation.com/#organization"
+        }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Voltage",
+          "value": "12V"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Capacity",
+          "value": "105Ah"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Technology",
+          "value": "Flooded Lead-Acid"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "Professional Battery Installation",
+      "description": "Expert battery installation service by Cart Battery Nation certified technicians",
+      "provider": {
+        "@id": "https://www.cartbatterynation.com/#organization"
+      },
+      "serviceType": "Battery Installation",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "200.00",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What battery do I need for my golf cart?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cart Battery Nation offers golf cart batteries in 6V, 8V, and 12V configurations. The most popular is our 6V 225Ah system. Call 1-844-888-7732 for personalized recommendations based on your specific cart model and usage needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between battery technologies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cart Battery Nation offers four technologies: Flooded Lead-Acid (traditional, proven), AGM (maintenance-free, vibration resistant), Gel (deep cycle optimized), and Lithium (lightweight, fast charging). Each has specific advantages for different applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do Cart Battery Nation batteries last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Battery lifespan varies by technology and usage. Flooded batteries typically last 4-6 years, AGM and Gel 5-7 years, and Lithium 8-10 years with proper maintenance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer installation services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Cart Battery Nation offers professional installation services for $200. We also provide detailed installation guides and phone support during self-installation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are core charges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core charges are refundable deposits: $29 for 6V/8V batteries, $57 for 12V batteries. You receive the refund when returning old batteries for recycling."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.cartbatterynation.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.cartbatterynation.com/products"
+        }
+      ]
+    }
+  ]
+}

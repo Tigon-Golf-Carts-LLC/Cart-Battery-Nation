@@ -1,18 +1,19 @@
-# EV Battery Direct - Website Team Information
+# Cart Battery Nation - Website Team Information
 # Website transparency and development team credits
+# https://www.cartbatterynation.com
 
 ## WEBSITE DEVELOPMENT TEAM
 
 ### Project Overview
-Website: evbatterydirect.com
-Industry: Electric Vehicle Battery Solutions
+Website: https://www.cartbatterynation.com
+Industry: Cart Battery Solutions
 Specialization: Golf Cart, LSV, NEV, MSV Batteries
 Launch: 2024
 Platform: Modern React-based e-commerce solution
 
 ### Business Leadership
-Company: EV Battery Direct
-Focus: Premium electric vehicle battery solutions
+Company: Cart Battery Nation
+Focus: Premium cart battery solutions - Buy Direct
 Expertise: 96+ battery configurations across all technologies
 Customer Service: 1-844-888-7732
 Support Hours: Monday - Saturday, 8AM - 5PM EST
@@ -54,10 +55,14 @@ Forms: React Hook Form with Zod validation
 Build Tools: Vite, PostCSS, TypeScript compiler
 Database: PostgreSQL, Drizzle ORM
 Deployment: Modern cloud hosting
-Analytics: Google Analytics, performance monitoring
+Analytics: Google Analytics, Google Tag Manager
 
 ### Design System
-Color Palette: EV Battery Direct brand colors with accessibility focus
+Brand Colors:
+- Primary Blue: #1d3a6a (Trust, authority, headings)
+- Accent Red: #9c2020 (CTAs, urgency, conversion)
+- Success Green: #7bab4f (Success states, confirmation)
+- White: #ffffff (Clean backgrounds, readability)
 Typography: Inter font family for readability
 Components: Reusable component library
 Responsive: Mobile-first design approach
@@ -75,7 +80,7 @@ Mobile: Responsive design and mobile optimization
 ### Accessibility Features
 Screen Readers: Full screen reader compatibility
 Keyboard Navigation: Complete keyboard accessibility
-Color Contrast: WCAG AA compliant color schemes
+Color Contrast: WCAG AA compliant color schemes (5.2:1 light, 4.8:1 dark)
 Alt Text: Comprehensive image descriptions
 Semantic HTML: Proper heading hierarchy and landmarks
 Form Labels: Clear form labeling and validation
@@ -119,14 +124,14 @@ User Feedback: Continuous user experience improvements
 
 ## BUSINESS CONTACT INFORMATION
 Primary Phone: 1-844-888-7732
-Website: evbatterydirect.com
+Website: https://www.cartbatterynation.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Service Area: Nationwide United States
-Specialization: Electric Vehicle Battery Solutions
+Specialization: Cart Battery Solutions
 
 ## LAST UPDATED
 Website Launch: 2024
-Last Major Update: August 2024
+Last Major Update: November 2024
 Content Review: Regular monthly updates
 Product Catalog: Real-time inventory updates
 Technical Documentation: Quarterly review and updates
@@ -165,4 +170,4 @@ Website Issues: Customer service team coordination
 Accessibility Support: Full assistance for assistive technology users
 Mobile Support: Responsive design optimization
 
-This website is a product of careful planning, expert development, and ongoing commitment to providing the best possible experience for EV Battery Direct customers seeking to buy electric vehicle batteries direct.
+This website is a product of careful planning, expert development, and ongoing commitment to providing the best possible experience for Cart Battery Nation customers seeking to buy cart batteries direct.

@@ -1,29 +1,30 @@
-# TIGON Batteries - Advertising Authorization File
+# Cart Battery Nation - Advertising Authorization File
 # Authorized digital seller information and advertising network permissions
 # Publisher account verification and revenue sharing transparency
+# https://www.cartbatterynation.com
 
 ## ADVERTISING AUTHORIZATION STATEMENT
-TIGON Batteries (tigonbatteries.com) authorizes the following advertising networks and digital sellers to serve advertisements on our behalf. This ads.txt file ensures advertising revenue transparency and prevents unauthorized ad serving.
+Cart Battery Nation (www.cartbatterynation.com) authorizes the following advertising networks and digital sellers to serve advertisements on our behalf. This ads.txt file ensures advertising revenue transparency and prevents unauthorized ad serving.
 
 ## AUTHORIZED ADVERTISING PARTNERS
 
 ### Google Advertising Network - AUTHORIZED
-google.com, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
-googlesyndication.com, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
-doubleclick.net, pub-tigonbatteries, DIRECT, f08c47fec0942fa0
+google.com, pub-cartbatterynation, DIRECT, f08c47fec0942fa0
+googlesyndication.com, pub-cartbatterynation, DIRECT, f08c47fec0942fa0
+doubleclick.net, pub-cartbatterynation, DIRECT, f08c47fec0942fa0
 
 ### Microsoft Advertising - AUTHORIZED  
-bing.com, tigonbatteries, DIRECT, 5d62403b186f2ace
-adnxs.com, tigonbatteries, DIRECT, f5ab79cb980f11d1
+bing.com, cartbatterynation, DIRECT, 5d62403b186f2ace
+adnxs.com, cartbatterynation, DIRECT, f5ab79cb980f11d1
 
 ### Yahoo Advertising - AUTHORIZED
-yahoo.com, tigonbatteries, DIRECT, e1a5b5b6e3255540
+yahoo.com, cartbatterynation, DIRECT, e1a5b5b6e3255540
 
 ### Amazon Advertising - AUTHORIZED
-amazon.com, tigonbatteries, DIRECT, 3579
+amazon.com, cartbatterynation, DIRECT, 3579
 
 ### Facebook/Meta Advertising - AUTHORIZED
-facebook.com, tigonbatteries, DIRECT, c3e20eee3f780d68
+facebook.com, cartbatterynation, DIRECT, c3e20eee3f780d68
 
 ## ADVERTISING CONTENT GUIDELINES
 
@@ -66,14 +67,14 @@ Revenue from authorized advertising partners supports:
 ## PUBLISHER VERIFICATION
 
 ### Business Information Verification
-Legal Business Name: TIGON Batteries
-Website: tigonbatteries.com
+Legal Business Name: Cart Battery Nation
+Website: https://www.cartbatterynation.com
 Primary Contact: 1-844-888-7732
-Business Classification: Electric Vehicle Battery Retailer
+Business Classification: Cart Battery Retailer
 Primary Market: Golf Cart and Electric Vehicle Batteries
 
 ### Website Verification
-Domain Ownership: Verified tigonbatteries.com
+Domain Ownership: Verified www.cartbatterynation.com
 Content Quality: Professional battery education and sales
 Audience Demographics: Golf cart owners, electric vehicle enthusiasts
 Traffic Sources: Organic search, direct traffic, referrals
@@ -83,7 +84,7 @@ Geographic Focus: United States nationwide coverage
 
 ### Content Relevance Requirements
 All advertisements must be relevant to:
-- Electric vehicle battery solutions
+- Cart battery solutions
 - Golf cart maintenance and accessories
 - Recreational vehicle equipment
 - Renewable energy applications
@@ -106,7 +107,7 @@ All advertisements must be relevant to:
 ## THIRD-PARTY ADVERTISING NETWORKS
 
 ### Authorized Reseller Networks
-Note: The following networks are authorized to resell TIGON Batteries advertising inventory through the primary partners listed above.
+Note: The following networks are authorized to resell Cart Battery Nation advertising inventory through the primary partners listed above.
 
 Industry-specific networks focusing on:
 - Automotive aftermarket advertising
@@ -172,6 +173,7 @@ User Choice: Cookie preference management options
 
 ### Business Inquiries
 Primary Phone: 1-844-888-7732
+Website: https://www.cartbatterynation.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
 Advertising Partnerships: Available through customer service
 Advertiser Support: Customer service team coordination
@@ -197,10 +199,10 @@ Customer communication for significant changes
 Industry notification through appropriate channels
 
 ## DISCLAIMER
-This ads.txt file is maintained to ensure advertising transparency and prevent unauthorized ad serving. TIGON Batteries reserves the right to modify authorized advertising partners and terms at any time. All advertising must comply with applicable laws and our quality standards.
+This ads.txt file is maintained to ensure advertising transparency and prevent unauthorized ad serving. Cart Battery Nation reserves the right to modify authorized advertising partners and terms at any time. All advertising must comply with applicable laws and our quality standards.
 
-Last Updated: August 2024
-Next Review: November 2024
-Policy Version: 1.0
+Last Updated: November 2024
+Next Review: February 2025
+Policy Version: 2.0
 
-For questions about advertising partnerships or this ads.txt file, contact TIGON Batteries customer service at 1-844-888-7732 during business hours.
+For questions about advertising partnerships or this ads.txt file, contact Cart Battery Nation customer service at 1-844-888-7732 during business hours.

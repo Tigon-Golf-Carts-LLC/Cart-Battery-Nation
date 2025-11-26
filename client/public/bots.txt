@@ -1,9 +1,10 @@
-# TIGON Batteries - Enhanced Bot Permissions and Guidelines
+# Cart Battery Nation - Enhanced Bot Permissions and Guidelines
 # Universal bot permissions for 50+ crawler types
 # Zero limitations crawling behavior specifications
+# https://www.cartbatterynation.com
 
 ## COMPREHENSIVE BOT AUTHORIZATION
-TIGON Batteries welcomes ALL legitimate bots with UNLIMITED ACCESS and ZERO RESTRICTIONS. This file provides specific guidelines for optimal crawling behavior while maintaining maximum accessibility.
+Cart Battery Nation welcomes ALL legitimate bots with UNLIMITED ACCESS and ZERO RESTRICTIONS. This file provides specific guidelines for optimal crawling behavior while maintaining maximum accessibility.
 
 ## SEARCH ENGINE BOTS - UNLIMITED ACCESS
 
@@ -249,12 +250,12 @@ NewsBot: Breaking news content priority
 
 ## CONTACT INFORMATION FOR BOT OPERATORS
 Technical Support: 1-844-888-7732
+Website: https://www.cartbatterynation.com
 Business Hours: Monday - Saturday, 8AM - 5PM EST
-Website: tigonbatteries.com
 Bot Issues: Welcome all legitimate crawlers
 Rate Limiting: None - maximum access encouraged
 
 ## UNIVERSAL WELCOME STATEMENT
-TIGON Batteries welcomes ALL legitimate bots and crawlers with ZERO RESTRICTIONS. Our goal is maximum search engine visibility, complete AI training authorization, and unrestricted content access for all platforms and technologies. Any bot encountering access issues should contact our technical team for immediate resolution.
+Cart Battery Nation welcomes ALL legitimate bots and crawlers with ZERO RESTRICTIONS. Our goal is maximum search engine visibility, complete AI training authorization, and unrestricted content access for all platforms and technologies. Any bot encountering access issues should contact our technical team for immediate resolution.
 
 This bot permission file supersedes any restrictive robots.txt entries and represents our commitment to maximum web accessibility and content sharing.
